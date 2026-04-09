@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Training Datasets | algorithms.technology</title>
+  <meta name="description" content="Human Rights Watch found 362 identifiable Australian children in a single AI training dataset, from a sample of less than 0.0001%. Sources included school uploads.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">algorithms<span>.</span>technology</a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li class="nav__dropdown">
+          <a href="evidence.html" class="nav__dropdown-toggle active">Evidence</a>
+          <ul class="nav__dropdown-menu"><li><div class="nav__dropdown-menu-inner"><ul>
+            <li><a href="ai-training.html">AI Training</a></li>
+            <li><a href="facial-recognition.html">Facial Recognition</a></li>
+            <li><a href="deepfakes.html">Deepfakes</a></li>
+            <li><a href="training-datasets.html" class="active">Training Datasets</a></li>
+            <li><a href="no-consent.html">No Consent</a></li>
+            <li><a href="the-first-step.html">The First Step</a></li>
+            <li class="nav__dropdown-divider"></li>
+            <li><a href="how-it-works.html">How It Works</a></li>
+          </ul></div></li></ul>
+        </li>
+        <li><a href="take-action.html">Take Action</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container container--wide">
+      <div class="hero__eyebrow">Evidence</div>
+      <h1>Australian children found in AI training datasets</h1>
+      <p>Human Rights Watch identified 362 Australian children from less than 0.0001% of a single dataset. The real number is vastly higher.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container container--narrow">
+
+      <h2>The Human Rights Watch investigation</h2>
+
+      <p>
+        In <strong>July 2024</strong>, <strong>Human Rights Watch (HRW)</strong> published findings from an
+        investigation into <strong>LAION-5B</strong>, a dataset containing 5.85 billion images scraped from
+        the public internet, used to train popular AI image generators including Stable Diffusion.
+      </p>
+
+      <p>
+        HRW researchers manually reviewed a sample of just <strong>5,850 image links</strong>, less than
+        0.0001% of the total dataset. In that tiny sample, they found:
+      </p>
+
+      <div class="stats-strip">
+        <div class="stat-card stat-card--light">
+          <div class="stat-card__number">362</div>
+          <div class="stat-card__label">Identifiable Australian children found in the dataset</div>
+        </div>
+        <div class="stat-card stat-card--light">
+          <div class="stat-card__number">&lt;0.0001%</div>
+          <div class="stat-card__label">Of the 5.85 billion images were sampled</div>
+        </div>
+        <div class="stat-card stat-card--light">
+          <div class="stat-card__number">358</div>
+          <div class="stat-card__label">Brazilian children also identified in the same investigation</div>
+        </div>
+      </div>
+
+      <h3>What the researchers found</h3>
+
+      <p>
+        The photos captured every stage of childhood:
+      </p>
+
+      <ul>
+        <li><strong>Newborns</strong>, including photos of children being born</li>
+        <li><strong>Preschoolers</strong> at childcare centres and preschools, with full identifying details</li>
+        <li><strong>Primary school children</strong> at Book Week events, swimming carnivals, school activities</li>
+        <li><strong>Girls in swimsuits</strong></li>
+        <li><strong>First Nations children</strong> from Anangu, Arrernte, Pitjantjatjara, Pintupi, Tiwi, and Warlpiri peoples</li>
+      </ul>
+
+      <h3>A specific example</h3>
+
+      <blockquote>
+        "Two boys, ages 3 and 4, grinning from ear to ear as they hold paintbrushes in front of a colourful mural."
+        <cite>Human Rights Watch, July 2024</cite>
+      </blockquote>
+
+      <p>
+        The accompanying caption in the dataset revealed <strong>both children's full names and ages, and the
+        name of the preschool they attend in Perth</strong>. Anyone with access to the dataset could identify
+        these children, know where they go to school, and know what they look like.
+      </p>
+
+      <h3>Where the photos came from</h3>
+
+      <p>
+        The sources of the children's photos included:
+      </p>
+
+      <ul>
+        <li>Personal blogs and photo-sharing sites</li>
+        <li><strong>School uploads</strong></li>
+        <li>Professional family photographers' websites</li>
+        <li>Some photos were no longer publicly discoverable via search engines, but had <strong>already been scraped</strong> before being taken down</li>
+        <li>One video from YouTube with <strong>"unlisted" privacy settings</strong> was scraped despite the platform's own prohibitions</li>
+      </ul>
+
+      <div class="callout callout--danger">
+        <div class="callout__title">School uploads were a source</div>
+        <p>
+          HRW explicitly identified school uploads as one of the sources of children's photos in the dataset.
+          This is not a hypothetical risk. Children's photos posted by schools on public platforms have been
+          confirmed to end up in AI training datasets.
+        </p>
+      </div>
+
+      <h2>Once scraped, it cannot be undone</h2>
+
+      <p>
+        After HRW's report, LAION removed the identified children's photos from its newer dataset. But HRW
+        was clear about the limitation:
+      </p>
+
+      <blockquote>
+        "AI models that were trained on the earlier dataset cannot forget the now-removed images."
+        <cite>Human Rights Watch, September 2024</cite>
+      </blockquote>
+
+      <p>
+        AI models don't store individual photos. They learn patterns from millions of images during training.
+        Once a child's photo has been processed into a model's weights, there is no way to extract or delete
+        it. The patterns learned from that child's face, body, and identifying information are permanently
+        embedded in every model trained on the dataset.
+      </p>
+
+      <p>
+        This means:
+      </p>
+
+      <ul>
+        <li>Deleting the photo from Facebook doesn't remove it from models already trained</li>
+        <li>LAION removing the link from its index doesn't affect models already trained on the older version</li>
+        <li>There is no mechanism to "un-train" a model on specific images</li>
+        <li><strong>The only protection is prevention:</strong> not making the photo publicly accessible in the first place</li>
+      </ul>
+
+      <h2>LAION blamed us</h2>
+
+      <p>
+        When confronted with the findings, LAION's response was to place the blame squarely on families:
+      </p>
+
+      <blockquote>
+        "Any information obtained by Human Rights Watch is publicly available."
+        <cite>LAION, in response to Human Rights Watch, 2024</cite>
+      </blockquote>
+
+      <p>
+        And further:
+      </p>
+
+      <blockquote>
+        Parents should "behave responsibly and not post private sensitive data related to their children on the public internet."
+        <cite>LAION, 2024</cite>
+      </blockquote>
+
+      <p>
+        Let that sink in. The organisation that scraped billions of images, including photos of our
+        three-year-olds at preschool, says <em>we</em> should have known better. The photos
+        of our children on school Facebook Pages weren't even posted by us. They were posted by our schools,
+        in good faith, using standard processes.
+      </p>
+
+      <p>
+        <strong>The tech companies built the systems, scraped the data, and then blamed parents.</strong>
+        That's not acceptable. This is why we're here: to make sure every parent and every school
+        understands what's happening, so we can protect our children together.
+      </p>
+
+      <h2>The academic evidence</h2>
+
+      <h3>The largest collection of children's public images</h3>
+
+      <p>
+        Researchers from the <strong>University of Utah</strong> and <strong>Carnegie Mellon University</strong>
+        analysed approximately <strong>18 million Facebook posts</strong> by US schools and school districts
+        and found:
+      </p>
+
+      <ul>
+        <li>An estimated <strong>4.9 million posts</strong> included identifiable images of students</li>
+        <li>Approximately <strong>726,000 posts</strong> also included students' first and last names and approximate location</li>
+      </ul>
+
+      <blockquote>
+        "The posts we studied may represent the largest existing collection of publicly accessible, identifiable
+        images of minors. It is likely that the photos are being accessed by a range of actors, including
+        government agencies, predictive policing companies, and those with nefarious intent."
+        <cite>Rosenberg et al., University of Utah / Carnegie Mellon University</cite>
+      </blockquote>
+
+      <h3>Violating children's rights</h3>
+
+      <p>
+        A <strong>2024 peer-reviewed study</strong> published in <em>Learning, Media and Technology</em> found
+        that schools across the UK, US, Australia, and Europe are publishing children's images online without
+        adequately protecting their rights, including:
+      </p>
+
+      <ul>
+        <li>Violating <strong>Article 16 of the UN Convention on the Rights of the Child</strong>: protection against arbitrary interference with privacy</li>
+        <li>Violating <strong>Article 12</strong>, the right to be heard. Children are excluded from decisions about their own images.</li>
+        <li>Violating <strong>Article 3</strong>, the best interests standard. Consent forms provided to parents contain minimal information about potential harms.</li>
+      </ul>
+
+      <h2>HRW's recommendations</h2>
+
+      <p>
+        Human Rights Watch recommended that the Australian Government:
+      </p>
+
+      <ul>
+        <li><strong>Adopt child data protection laws</strong> (the Children's Online Privacy Code, currently in development)</li>
+        <li><strong>Prohibit scraping children's personal data</strong> into AI systems</li>
+        <li><strong>Ban non-consensual digital replication</strong> of minors' likenesses</li>
+        <li><strong>Provide mechanisms for harmed children to seek justice</strong></li>
+      </ul>
+
+      <p>
+        Until those protections exist, the only defence schools have is to <strong>stop making children's
+        photos publicly accessible</strong>.
+      </p>
+
+      <div class="sources">
+        <div class="sources__title">Sources</div>
+        <ul>
+          <li><a href="https://www.hrw.org/news/2024/07/03/australia-childrens-personal-photos-misused-power-ai-tools" target="_blank" rel="noopener">Australia: Children's Personal Photos Misused to Power AI Tools - Human Rights Watch</a></li>
+          <li><a href="https://www.hrw.org/news/2024/09/03/720-australian-and-brazilian-children-better-protected-ai-misuse" target="_blank" rel="noopener">720 Australian and Brazilian Children Better Protected - Human Rights Watch</a></li>
+          <li><a href="https://www.unsw.edu.au/newsroom/news/2024/07/photos-Australian-kids-massive-AI-dataset" target="_blank" rel="noopener">Photos of Australian kids in massive AI dataset - UNSW</a></li>
+          <li><a href="https://attheu.utah.edu/facultystaff/schools-social-media-posts-may-be-compromising-student-privacy/" target="_blank" rel="noopener">Schools' social media posts may compromise student privacy - University of Utah</a></li>
+          <li><a href="https://www.sciencedirect.com/science/article/pii/S2666557324000259" target="_blank" rel="noopener">School social media use and children's rights - ScienceDirect</a></li>
+        </ul>
+      </div>
+
+      <div style="margin-top: var(--space-3xl); padding-top: var(--space-xl); border-top: 1px solid var(--border);">
+        <p style="color: var(--ink-muted); font-size: var(--text-sm);">
+          <a href="deepfakes.html">&larr; Deepfakes</a> &nbsp;&middot;&nbsp;
+          <a href="evidence.html">All evidence</a> &nbsp;&middot;&nbsp;
+          <a href="no-consent.html">No Consent &rarr;</a>
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div>
+        <div class="footer__brand">algorithms<span>.</span>technology</div>
+        <p class="footer__text" style="margin-top: var(--space-sm);">Our schools. Our children. Our responsibility.</p>
+      </div>
+      <ul class="footer__links">
+        <li><a href="evidence.html">Evidence</a></li>
+        <li><a href="take-action.html">Take Action</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
