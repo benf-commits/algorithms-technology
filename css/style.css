@@ -7,25 +7,29 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  /* Palette */
-  --ink: #0f1419;
-  --ink-light: #2c3e50;
-  --ink-muted: #5a6a7a;
+  /* Palette - institutional credibility meets parental urgency */
+  --ink: #111827;
+  --ink-light: #374151;
+  --ink-muted: #6b7280;
   --surface: #ffffff;
-  --surface-alt: #f7f8fa;
-  --surface-dark: #0f1419;
-  --surface-dark-alt: #1a2332;
-  --accent: #e74c3c;
-  --accent-dark: #c0392b;
+  --surface-alt: #f9fafb;
+  --surface-dark: #0c1222;
+  --surface-dark-alt: #141d30;
+  --accent: #dc4a3a;
+  --accent-dark: #b93a2d;
   --accent-warm: #e67e22;
-  --blue: #2980b9;
-  --blue-dark: #1a5276;
-  --teal: #16a085;
-  --border: #e1e5eb;
-  --border-light: #f0f2f5;
+  --blue: #3061ff;
+  --blue-dark: #1e40af;
+  --blue-muted: #93a8f5;
+  --teal: #10b981;
+  --border: #e5e7eb;
+  --border-light: #f3f4f6;
+
+  /* Hero gradient */
+  --gradient-hero: linear-gradient(135deg, #0c1222 0%, #1a2744 40%, #253551 70%, #2d3a5c 100%);
 
   /* Type Scale */
-  --font-display: 'DM Serif Display', Georgia, 'Times New Roman', serif;
+  --font-display: 'Cormorant Garamond', 'Georgia', 'Times New Roman', serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace;
 
@@ -78,11 +82,11 @@ body {
 }
 
 /* --- Typography --- */
-h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.2; letter-spacing: -0.01em; }
-h1 { font-size: var(--text-4xl); font-weight: 400; }
-h2 { font-size: var(--text-3xl); font-weight: 400; }
-h3 { font-size: var(--text-2xl); font-weight: 400; }
-h4 { font-size: var(--text-xl); font-weight: 400; }
+h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.15; letter-spacing: -0.02em; }
+h1 { font-size: var(--text-4xl); font-weight: 600; }
+h2 { font-size: var(--text-3xl); font-weight: 600; }
+h3 { font-size: var(--text-2xl); font-weight: 600; }
+h4 { font-size: var(--text-xl); font-weight: 600; }
 
 p { margin-bottom: var(--space-lg); }
 p:last-child { margin-bottom: 0; }
@@ -93,14 +97,17 @@ a:hover { color: var(--blue-dark); text-decoration: underline; }
 strong { font-weight: 600; }
 
 blockquote {
-  border-left: 3px solid var(--accent);
-  padding: var(--space-lg) var(--space-xl);
+  border-left: 3px solid var(--blue);
+  padding: var(--space-xl) var(--space-2xl);
   margin: var(--space-2xl) 0;
   background: var(--surface-alt);
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
-  font-size: var(--text-lg);
-  color: var(--ink-light);
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 500;
+  color: var(--ink);
   font-style: italic;
+  line-height: 1.5;
 }
 
 blockquote cite {
@@ -142,8 +149,9 @@ blockquote cite {
 }
 
 .section--accent {
-  background: var(--accent);
+  background: var(--gradient-hero);
   color: var(--surface);
+  position: relative;
 }
 
 .section--accent h2,
@@ -429,11 +437,14 @@ blockquote cite {
 
 /* --- Hero --- */
 .hero {
-  padding: calc(var(--space-5xl) + 60px) 0 var(--space-5xl);
-  background: var(--surface-dark);
+  padding: calc(var(--space-5xl) + 80px) 0 var(--space-5xl);
+  background: var(--gradient-hero);
   color: var(--surface);
   position: relative;
   overflow: hidden;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
 }
 
 .hero::before {
@@ -441,8 +452,9 @@ blockquote cite {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
   background:
-    radial-gradient(ellipse at 20% 50%, rgba(231, 76, 60, 0.08) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 20%, rgba(41, 128, 185, 0.06) 0%, transparent 50%);
+    radial-gradient(ellipse at 20% 80%, rgba(48, 97, 255, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(6, 182, 212, 0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(220, 74, 58, 0.04) 0%, transparent 60%);
   pointer-events: none;
 }
 
@@ -454,41 +466,48 @@ blockquote cite {
 }
 
 .hero__eyebrow {
-  font-family: var(--font-mono);
-  font-size: var(--text-xs);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: var(--accent);
-  margin-bottom: var(--space-lg);
+  letter-spacing: 0.12em;
+  color: var(--blue-muted);
+  margin-bottom: var(--space-xl);
   display: flex;
   align-items: center;
-  gap: var(--space-sm);
+  gap: var(--space-md);
 }
 
 .hero__eyebrow::before {
   content: '';
   display: inline-block;
-  width: 24px;
+  width: 32px;
   height: 2px;
-  background: var(--accent);
+  background: var(--blue);
 }
 
 .hero h1 {
   font-size: var(--text-5xl);
+  font-weight: 700;
   margin-bottom: var(--space-xl);
-  max-width: 800px;
+  max-width: 820px;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
 }
 
 .hero h1 em {
   font-style: normal;
-  color: var(--accent);
+  background: linear-gradient(135deg, var(--blue-muted), #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .hero__subtitle {
-  font-size: var(--text-xl);
-  color: #8899aa;
-  max-width: 640px;
-  line-height: 1.6;
+  font-size: var(--text-lg);
+  color: rgba(255,255,255,0.65);
+  max-width: 600px;
+  line-height: 1.7;
   margin-bottom: var(--space-2xl);
 }
 
@@ -501,11 +520,17 @@ blockquote cite {
 }
 
 .stat-card {
-  background: var(--surface-dark-alt);
-  border: 1px solid rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
   border-radius: var(--radius-lg);
-  padding: var(--space-xl);
+  padding: var(--space-xl) var(--space-lg);
   text-align: center;
+  transition: border-color 0.3s, background 0.3s;
+}
+
+.stat-card:hover {
+  border-color: rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.05);
 }
 
 .stat-card--light {
@@ -513,21 +538,27 @@ blockquote cite {
   border: 1px solid var(--border);
 }
 
+.stat-card--light:hover {
+  border-color: var(--blue);
+  box-shadow: 0 0 0 1px var(--blue);
+}
+
 .stat-card__number {
   font-family: var(--font-display);
   font-size: var(--text-4xl);
-  color: var(--accent);
+  font-weight: 700;
+  color: var(--surface);
   line-height: 1;
   margin-bottom: var(--space-sm);
 }
 
 .stat-card--light .stat-card__number {
-  color: var(--accent);
+  color: var(--blue);
 }
 
 .stat-card__label {
   font-size: var(--text-sm);
-  color: #8899aa;
+  color: rgba(255,255,255,0.5);
   line-height: 1.4;
 }
 
@@ -547,11 +578,12 @@ blockquote cite {
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   padding: var(--space-2xl);
-  transition: box-shadow 0.3s, transform 0.2s;
+  transition: box-shadow 0.3s, border-color 0.3s, transform 0.2s;
 }
 
 .card:hover {
   box-shadow: var(--shadow-lg);
+  border-color: var(--blue);
   transform: translateY(-2px);
 }
 
@@ -794,14 +826,14 @@ blockquote cite {
 .btn:hover { text-decoration: none; }
 
 .btn--primary {
-  background: var(--accent);
+  background: var(--blue);
   color: var(--surface);
 }
 .btn--primary:hover {
-  background: var(--accent-dark);
+  background: var(--blue-dark);
   color: var(--surface);
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(231, 76, 60, 0.3);
+  box-shadow: 0 4px 16px rgba(48, 97, 255, 0.35);
 }
 
 .btn--outline {
@@ -1062,20 +1094,34 @@ blockquote cite {
 
 /* --- Page Header (sub-pages) --- */
 .page-header {
-  padding: calc(60px + var(--space-3xl)) 0 var(--space-3xl);
-  background: var(--surface-dark);
+  padding: calc(64px + var(--space-4xl)) 0 var(--space-3xl);
+  background: var(--gradient-hero);
   color: var(--surface);
+  position: relative;
 }
+
+.page-header::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: radial-gradient(ellipse at 30% 100%, rgba(48, 97, 255, 0.08) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.page-header .container { position: relative; }
 
 .page-header h1 {
   font-size: var(--text-3xl);
+  font-weight: 700;
   margin-bottom: var(--space-md);
+  letter-spacing: -0.02em;
 }
 
 .page-header p {
   font-size: var(--text-lg);
-  color: #8899aa;
+  color: rgba(255,255,255,0.6);
   max-width: 640px;
+  line-height: 1.6;
 }
 
 /* --- Responsive --- */
