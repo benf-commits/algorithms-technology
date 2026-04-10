@@ -12,13 +12,13 @@
 </head>
 <body>
 
-  <nav class="nav">
+  <nav class="nav" id="nav">
     <div class="nav__inner">
       <a href="index.html" class="nav__brand">algorithms<span>.</span>technology</a>
       <ul class="nav__links">
         <li><a href="index.html">Home</a></li>
         <li class="nav__dropdown">
-          <a href="evidence.html" class="nav__dropdown-toggle active">Evidence</a>
+          <a href="evidence.html" class="nav__dropdown-toggle active">Evidence <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></a>
           <ul class="nav__dropdown-menu"><li><div class="nav__dropdown-menu-inner"><ul>
             <li><a href="ai-training.html">AI Training</a></li>
             <li><a href="facial-recognition.html">Facial Recognition</a></li>
@@ -27,8 +27,31 @@
             <li><a href="no-consent.html" class="active">No Consent</a></li>
           </ul></div></li></ul>
         </li>
+        <li><div class="nav__separator"></div></li>
         <li><a href="the-first-step.html">The First Step</a></li>
         <li><a href="facebook-in-schools.html">Schools</a></li>
+        <li><a href="what-you-can-do.html">What You Can Do</a></li>
+        <li><a href="what-government-can-do.html">What Government Can Do</a></li>
+      </ul>
+      <button class="nav__toggle" onclick="document.getElementById('mobile-nav').classList.toggle('is-open')" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobile-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <span class="nav__mobile-label active">Evidence</span>
+          <ul class="nav__mobile-sub">
+            <li><a href="ai-training.html">AI Training</a></li>
+            <li><a href="facial-recognition.html">Facial Recognition</a></li>
+            <li><a href="deepfakes.html">Deepfakes</a></li>
+            <li><a href="training-datasets.html">Training Datasets</a></li>
+            <li><a href="no-consent.html" class="active">No Consent</a></li>
+          </ul>
+        </li>
+        <li><a href="the-first-step.html">The First Step</a></li>
+        <li><a href="facebook-in-schools.html">Facebook in Australian Schools</a></li>
         <li><a href="what-you-can-do.html">What You Can Do</a></li>
         <li><a href="what-government-can-do.html">What Government Can Do</a></li>
       </ul>
