@@ -204,15 +204,56 @@
   <!-- CTA -->
   <section class="section section--accent">
     <div class="container" style="text-align: center;">
-      <h2>We can't undo what's done. But we can start protecting our kids now.</h2>
-      <p style="font-size: var(--text-lg); max-width: 600px; margin: var(--space-lg) auto var(--space-2xl);">
-        Photos already scraped can't be unscraped. But together, we can stop it getting worse.
-        The first step: stop publicly publishing our children's photos on Facebook. Then keep going.
+      <h2>Stay informed. Help protect our children.</h2>
+      <p style="font-size: var(--text-lg); max-width: 520px; margin: var(--space-lg) auto var(--space-2xl);">
+        Sign up for updates on how algorithms affect our schools and what we can do about it.
       </p>
-      <div class="btn-group" style="justify-content: center;">
-        <a href="evidence.html" class="btn btn--outline">Read what we found</a>
-        <a href="what-you-can-do.html" class="btn btn--outline">See how we can help</a>
-      </div>
+      <form id="contact-form" class="contact-form">
+        <div class="form-row-half">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name">
+          </div>
+          <div>
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+        </div>
+        <div class="form-row-half">
+          <div>
+            <label for="role">I am a</label>
+            <select id="role" name="role">
+              <option value="">Select...</option>
+              <option value="parent">Parent</option>
+              <option value="teacher">Teacher</option>
+              <option value="pc_member">P&C member</option>
+              <option value="principal">Principal</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div>
+            <label for="state">State</label>
+            <select id="state" name="state">
+              <option value="">Select...</option>
+              <option value="NSW">NSW</option>
+              <option value="VIC">VIC</option>
+              <option value="QLD">QLD</option>
+              <option value="SA">SA</option>
+              <option value="WA">WA</option>
+              <option value="TAS">TAS</option>
+              <option value="NT">NT</option>
+              <option value="ACT">ACT</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="school">School (optional)</label>
+          <input type="text" id="school" name="school" placeholder="Your school's name">
+        </div>
+        <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off">
+        <button type="submit" class="btn btn--primary">Sign up for updates</button>
+        <div id="form-message"></div>
+      </form>
     </div>
   </section>
 
@@ -231,5 +272,6 @@
     </div>
   </footer>
 
+  <script src="js/contact.js"></script>
 </body>
 </html>
