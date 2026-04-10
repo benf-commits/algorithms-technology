@@ -1,7 +1,6 @@
 // algorithms.technology contact form handler
 (function() {
-  const SUPABASE_URL = 'https://nmfzcozvatcjmznuslst.supabase.co';
-  const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5tZnpjb3p2YXRjam16bnVzbHN0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU4MTYyNTUsImV4cCI6MjA5MTM5MjI1NX0.Uq7YOyE14IkpknVOMThXDAtC9xGLIhnOnwbesTJgidU';
+  var ENDPOINT = 'https://nmfzcozvatcjmznuslst.supabase.co/functions/v1/contact-welcome';
 
   document.addEventListener('DOMContentLoaded', function() {
     var form = document.getElementById('contact-form');
@@ -10,7 +9,7 @@
     form.addEventListener('submit', function(e) {
       e.preventDefault();
 
-      // Honeypot check
+      // Honeypot
       var hp = form.querySelector('[name="website"]');
       if (hp && hp.value) return;
 
@@ -38,31 +37,19 @@
         return;
       }
 
-      fetch(SUPABASE_URL + '/rest/v1/contacts', {
+      fetch(ENDPOINT, {
         method: 'POST',
-        headers: {
-          'apikey': SUPABASE_ANON_KEY,
-          'Authorization': 'Bearer ' + SUPABASE_ANON_KEY,
-          'Content-Type': 'application/json',
-          'Prefer': 'return=minimal'
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data)
       })
       .then(function(response) {
-        if (response.ok || response.status === 201) {
+        if (response.ok) {
           form.reset();
           btn.textContent = 'Signed up';
           btn.style.background = '#10b981';
           if (msg) {
             msg.style.color = '#10b981';
-            msg.textContent = 'Thank you. We will be in touch.';
-          }
-        } else if (response.status === 409) {
-          btn.disabled = false;
-          btn.textContent = originalText;
-          if (msg) {
-            msg.style.color = '#10b981';
-            msg.textContent = 'You are already signed up. Thank you.';
+            msg.textContent = 'Thank you. Check your email.';
           }
         } else {
           throw new Error('Server error');
@@ -72,7 +59,7 @@
         btn.disabled = false;
         btn.textContent = originalText;
         if (msg) {
-          msg.style.color = 'var(--accent)';
+          msg.style.color = '#dc4a3a';
           msg.textContent = 'Something went wrong. Please try again.';
         }
       });
