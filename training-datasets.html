@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Training Datasets | algorithms.technology</title>
-  <meta name="description" content="Human Rights Watch found 362 identifiable Australian children in a single AI training dataset, from a sample of less than 0.0001%. Sources included school uploads.">
+  <meta name="description" content="Human Rights Watch found 190 identifiable Australian children in a single AI training dataset from a sample of less than 0.0001%, later rising to 362. Sources included school uploads.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -62,7 +62,7 @@
     <div class="container container--wide">
       <div class="hero__eyebrow">Evidence</div>
       <h1>Australian children found in AI training datasets</h1>
-      <p>Human Rights Watch identified 362 Australian children from less than 0.0001% of a single dataset. The real number is vastly higher.</p>
+      <p>Human Rights Watch identified 190 Australian children from less than 0.0001% of a single dataset. Further investigation raised the total to 362. The real number is vastly higher.</p>
     </div>
   </header>
 
@@ -72,20 +72,22 @@
       <h2>The Human Rights Watch investigation</h2>
 
       <p>
-        In <strong>July 2024</strong>, <strong>Human Rights Watch (HRW)</strong> published findings from an
-        investigation into <strong>LAION-5B</strong>, a dataset containing 5.85 billion images scraped from
-        the public internet, used to train popular AI image generators including Stable Diffusion.
+        In <strong>June and July 2024</strong>, <strong>Human Rights Watch (HRW)</strong> published findings from
+        investigations into <strong>LAION-5B</strong>, a dataset containing 5.85 billion image-caption pairs
+        scraped from the public internet and used to train popular AI image generators including Stable Diffusion.
       </p>
 
       <p>
         HRW researchers manually reviewed a sample of just <strong>5,850 image links</strong>, less than
-        0.0001% of the total dataset. In that tiny sample, they found:
+        0.0001% of the total dataset. In that tiny sample, they initially found <strong>170 Brazilian children</strong>
+        (June 2024) and <strong>190 Australian children</strong> (July 2024). By September 2024, continued
+        investigation had raised the confirmed totals:
       </p>
 
       <div class="stats-strip">
         <div class="stat-card stat-card--light">
           <div class="stat-card__number">362</div>
-          <div class="stat-card__label">Identifiable Australian children found in the dataset</div>
+          <div class="stat-card__label">Identifiable Australian children confirmed by September 2024</div>
         </div>
         <div class="stat-card stat-card--light">
           <div class="stat-card__number">&lt;0.0001%</div>
@@ -93,7 +95,7 @@
         </div>
         <div class="stat-card stat-card--light">
           <div class="stat-card__number">358</div>
-          <div class="stat-card__label">Brazilian children also identified in the same investigation</div>
+          <div class="stat-card__label">Brazilian children also confirmed in the same period</div>
         </div>
       </div>
 
@@ -150,8 +152,10 @@
       <h2>Once scraped, it cannot be undone</h2>
 
       <p>
-        After HRW's report, LAION removed the identified children's photos from its newer dataset. But HRW
-        was clear about the limitation:
+        In December 2023, after the Stanford Internet Observatory found over 1,000 verified instances of child
+        sexual abuse material in LAION-5B, the dataset was taken offline. LAION released a cleaned version
+        called Re-LAION-5B in August 2024, which removed CSAM links and the children's photos identified by
+        HRW. But HRW was clear about the limitation:
       </p>
 
       <blockquote>
@@ -177,14 +181,14 @@
         <li><strong>The only protection is prevention:</strong> not making the photo publicly accessible in the first place</li>
       </ul>
 
-      <h2>LAION blamed us</h2>
+      <h2>LAION blamed parents</h2>
 
       <p>
-        When confronted with the findings, LAION's response was to place the blame squarely on families:
+        When confronted with the findings, LAION's response was to shift blame to families:
       </p>
 
       <blockquote>
-        "Any information obtained by Human Rights Watch is publicly available."
+        "Any information obtained by Human Rights Watch is publicly available, though for some reason unknown to us, they would like to pretend it is not."
         <cite>LAION, in response to Human Rights Watch, 2024</cite>
       </blockquote>
 
@@ -193,21 +197,20 @@
       </p>
 
       <blockquote>
-        Parents should "behave responsibly and not post private sensitive data related to their children on the public internet."
+        Parents should "behave responsibly and not post private sensitive data related to their children on [the] public internet, where it can be easily collected."
         <cite>LAION, 2024</cite>
       </blockquote>
 
       <p>
-        Let that sink in. The organisation that scraped billions of images, including photos of our
-        three-year-olds at preschool, says <em>we</em> should have known better. The photos
-        of our children on school Facebook Pages weren't even posted by us. They were posted by our schools,
-        in good faith, using standard processes.
+        The organisation that scraped billions of images, including photos of three-year-olds at preschool,
+        says parents should have known better. Many of these photos were not even posted by parents. They
+        were posted by schools, in good faith, using standard processes.
       </p>
 
       <p>
-        <strong>The tech companies built the systems, scraped the data, and then blamed parents.</strong>
-        That's not acceptable. This is why we're here: to make sure every parent and every school
-        understands what's happening, so we can protect our children together.
+        <strong>The tech companies built the systems, scraped the data, and then blamed families.</strong>
+        That is why every parent and every school needs to understand what is happening, so we can protect
+        our children together.
       </p>
 
       <h2>The academic evidence</h2>
@@ -235,7 +238,7 @@
       <h3>Violating children's rights</h3>
 
       <p>
-        A <strong>2024 peer-reviewed study</strong> published in <em>Learning, Media and Technology</em> found
+        A <strong>2024 peer-reviewed study</strong> published in <em>Computers and Education Open</em> found
         that schools across the UK, US, Australia, and Europe are publishing children's images online without
         adequately protecting their rights, including:
       </p>
@@ -246,6 +249,35 @@
         <li>Violating <strong>Article 3</strong>, the best interests standard. Consent forms provided to parents contain minimal information about potential harms.</li>
       </ul>
 
+      <h2>What has happened since</h2>
+
+      <p>
+        The problem has not slowed down. If anything, the evidence of harm has escalated:
+      </p>
+
+      <ul>
+        <li>
+          <strong>Amazon found child sexual abuse material in its AI training data</strong> (January 2026).
+          Amazon reported hundreds of thousands of suspected CSAM items found in external data gathered for
+          AI model development, but refused to disclose the source.
+        </li>
+        <li>
+          <strong>Tennessee teenagers sued xAI over AI-generated CSAM</strong> (March 2026). Three high school
+          students filed a class action alleging that xAI's Grok tool was used to generate sexually explicit
+          images of them from ordinary school photos.
+        </li>
+        <li>
+          <strong>Brazil passed a landmark child protection law</strong> (September 2025). The ECA Digital
+          requires technology companies to design products with children's best interests in mind and provide
+          the highest levels of privacy by default, with fines up to 10% of Brazilian revenue.
+        </li>
+        <li>
+          <strong>Australia's Children's Online Privacy Code is in progress</strong>. The OAIC released an
+          exposure draft on 31 March 2026 for public consultation, with the Code due by 10 December 2026.
+          HRW has called for the Code to prohibit scraping children's personal data for AI.
+        </li>
+      </ul>
+
       <h2>HRW's recommendations</h2>
 
       <p>
@@ -253,7 +285,7 @@
       </p>
 
       <ul>
-        <li><strong>Adopt child data protection laws</strong> (the Children's Online Privacy Code, currently in development)</li>
+        <li><strong>Adopt child data protection laws</strong> (the Children's Online Privacy Code, now in exposure draft)</li>
         <li><strong>Prohibit scraping children's personal data</strong> into AI systems</li>
         <li><strong>Ban non-consensual digital replication</strong> of minors' likenesses</li>
         <li><strong>Provide mechanisms for harmed children to seek justice</strong></li>
@@ -267,11 +299,16 @@
       <div class="sources">
         <div class="sources__title">Sources</div>
         <ul>
-          <li><a href="https://www.hrw.org/news/2024/07/03/australia-childrens-personal-photos-misused-power-ai-tools" target="_blank" rel="noopener">Australia: Children's Personal Photos Misused to Power AI Tools - Human Rights Watch</a></li>
-          <li><a href="https://www.hrw.org/news/2024/09/03/720-australian-and-brazilian-children-better-protected-ai-misuse" target="_blank" rel="noopener">720 Australian and Brazilian Children Better Protected - Human Rights Watch</a></li>
+          <li><a href="https://www.hrw.org/news/2024/07/03/australia-childrens-personal-photos-misused-power-ai-tools" target="_blank" rel="noopener">Australia: Children's Personal Photos Misused to Power AI Tools - Human Rights Watch, July 2024</a></li>
+          <li><a href="https://www.hrw.org/news/2024/06/10/brazil-childrens-personal-photos-misused-power-ai-tools" target="_blank" rel="noopener">Brazil: Children's Personal Photos Misused to Power AI Tools - Human Rights Watch, June 2024</a></li>
+          <li><a href="https://www.hrw.org/news/2024/09/03/720-australian-and-brazilian-children-better-protected-ai-misuse" target="_blank" rel="noopener">720 Australian and Brazilian Children Better Protected - Human Rights Watch, September 2024</a></li>
           <li><a href="https://www.unsw.edu.au/newsroom/news/2024/07/photos-Australian-kids-massive-AI-dataset" target="_blank" rel="noopener">Photos of Australian kids in massive AI dataset - UNSW</a></li>
-          <li><a href="https://attheu.utah.edu/facultystaff/schools-social-media-posts-may-be-compromising-student-privacy/" target="_blank" rel="noopener">Schools' social media posts may compromise student privacy - University of Utah</a></li>
-          <li><a href="https://www.sciencedirect.com/science/article/pii/S2666557324000259" target="_blank" rel="noopener">School social media use and children's rights - ScienceDirect</a></li>
+          <li><a href="https://journals.sagepub.com/doi/10.3102/0013189X221120538" target="_blank" rel="noopener">Posts About Students on Facebook: A Data Ethics Perspective - Educational Researcher, 2022</a></li>
+          <li><a href="https://www.sciencedirect.com/science/article/pii/S2666557324000259" target="_blank" rel="noopener">School social media use and children's rights to privacy and autonomy - Computers and Education Open, 2024</a></li>
+          <li><a href="https://cyber.fsi.stanford.edu/news/investigation-finds-ai-image-generation-models-trained-child-abuse" target="_blank" rel="noopener">Investigation Finds AI Image Generation Models Trained on Child Abuse - Stanford Internet Observatory</a></li>
+          <li><a href="https://laion.ai/blog/relaion-5b/" target="_blank" rel="noopener">Releasing Re-LAION-5B - LAION, August 2024</a></li>
+          <li><a href="https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code" target="_blank" rel="noopener">Children's Online Privacy Code - OAIC</a></li>
+          <li><a href="https://www.hrw.org/news/2025/09/17/brazil-passes-landmark-law-to-protect-children-online" target="_blank" rel="noopener">Brazil Passes Landmark Law to Protect Children Online - Human Rights Watch, September 2025</a></li>
         </ul>
       </div>
 
