@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://schools.algorithms.technology/sitemap.xml
