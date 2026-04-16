@@ -33,7 +33,7 @@
     "headline": "What Government Must Do: Policy Recommendations",
     "description": "Three actions: update NSW school social media policy, pass the Children's Online Privacy Code, reform the Privacy Act.",
     "datePublished": "2026-04-10",
-    "dateModified": "2026-04-16",
+    "dateModified": "2026-04-17",
     "author": {"@type": "Person", "name": "Ben Fitzpatrick", "url": "https://www.linkedin.com/in/ben-fitz/"},
     "publisher": {"@type": "Organization", "name": "algorithms.technology", "url": "https://schools.algorithms.technology/"},
     "mainEntityOfPage": {"@type": "WebPage", "@id": "https://schools.algorithms.technology/for-government.html"}
@@ -55,6 +55,8 @@
         <li class="nav__dropdown">
           <a href="evidence.html" class="nav__dropdown-toggle">Evidence<svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></a>
           <ul class="nav__dropdown-menu"><li><div class="nav__dropdown-menu-inner"><ul>
+            <li><a href="the-audit.html">The Audit</a></li>
+            <li class="nav__dropdown-divider"></li>
             <li><a href="ai-training.html">AI Training</a></li>
             <li><a href="facial-recognition.html">Facial Recognition</a></li>
             <li><a href="deepfakes.html">Deepfakes</a></li>
@@ -80,6 +82,7 @@
       <li>
         <span class="nav__mobile-label">Evidence</span>
         <ul class="nav__mobile-sub">
+          <li><a href="the-audit.html">The Audit</a></li>
           <li><a href="ai-training.html">AI Training</a></li>
           <li><a href="facial-recognition.html">Facial Recognition</a></li>
           <li><a href="deepfakes.html">Deepfakes</a></li>
@@ -110,6 +113,11 @@
         Australia has already demonstrated it can act on children's online safety. The under-16 social
         media ban passed in November 2024 and took effect December 2025, removing 4.7 million accounts.
         The Children's Online Privacy Code is in development. The capacity to act is not in question.
+      </p>
+      <p>
+        <a href="the-audit.html">An audit of every NSW government school</a> found that 1,780 (82%)
+        operate public Facebook Pages. 637,818 students attend these schools. Every federal electorate
+        and every state electorate in NSW is affected.
       </p>
       <p>
         What follows are specific, numbered recommendations directed at the NSW Department of Education,
@@ -194,8 +202,58 @@
     </div>
   </section>
 
-  <!-- States -->
+  <!-- Electorate Data -->
   <section class="section">
+    <div class="container container--wide">
+      <h2>The data for every electorate</h2>
+      <p class="text-lg text-muted max-w-prose mt-lg">
+        <a href="the-audit.html">An audit of every NSW government school</a> found public Facebook
+        Pages in <strong>every federal electorate</strong> and <strong>every state electorate</strong>
+        in NSW. No electorate is unaffected. The question is not whether this affects your constituents.
+        It is how many.
+      </p>
+
+      <h3 class="mt-2xl">Top 10 federal electorates by student exposure</h3>
+      <table class="comparison-table mt-lg">
+        <thead>
+          <tr>
+            <th scope="col">Federal electorate</th>
+            <th scope="col">Schools with public Pages</th>
+            <th scope="col">Students</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Fowler</td><td>37</td><td>20,332</td></tr>
+          <tr><td>McMahon</td><td>29</td><td>17,369</td></tr>
+          <tr><td>Greenway</td><td>26</td><td>17,285</td></tr>
+          <tr><td>Parkes</td><td>102</td><td>17,041</td></tr>
+          <tr><td>Chifley</td><td>34</td><td>16,822</td></tr>
+          <tr><td>Berowra</td><td>35</td><td>16,517</td></tr>
+          <tr><td>Hughes</td><td>40</td><td>16,495</td></tr>
+          <tr><td>Parramatta</td><td>30</td><td>16,455</td></tr>
+          <tr><td>Hume</td><td>30</td><td>16,382</td></tr>
+          <tr><td>Bennelong</td><td>24</td><td>16,035</td></tr>
+        </tbody>
+      </table>
+      <p class="text-muted mt-lg" style="font-size: 0.9rem;">
+        All 46 NSW federal electorates contain schools operating public Facebook Pages.
+        Data: NSW Public Schools Master Dataset (Data.NSW), cross-referenced with
+        <a href="the-audit.html">audit results</a>. April 2026.
+      </p>
+
+      <div class="callout callout--info mt-xl">
+        <div class="callout__title">What this means for policy</div>
+        <p>
+          Every NSW member of federal parliament represents families affected by this gap.
+          The data for each electorate is available. The question is whether the policy will be
+          updated before the Children's Online Privacy Code takes effect in December 2026.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- States -->
+  <section class="section section--alt">
     <div class="container container--wide">
       <div class="evidence-block" style="padding-top: 0; border-bottom: none;">
         <div class="evidence-block__label">Recommendation 04</div>
@@ -219,7 +277,7 @@
   </section>
 
   <!-- Federal -->
-  <section class="section section--alt">
+  <section class="section">
     <div class="container container--wide">
       <h2>Federal Government</h2>
       <p class="text-lg text-muted max-w-prose mt-lg">
@@ -292,7 +350,7 @@
   </section>
 
   <!-- Timeline -->
-  <section class="section">
+  <section class="section section--alt">
     <div class="container container--wide">
       <h2>What's already in motion</h2>
 
@@ -366,12 +424,14 @@
       <div>
         <div class="footer__brand">algorithms<span>.</span>technology</div>
         <p class="footer__text mt-sm">Our schools. Our children. Our responsibility.</p>
-        <p class="footer__credit mt-sm">An investigation by parents at an Australian public school. Every claim is sourced.</p>
+        <p class="footer__credit mt-sm">An investigation by Ben Fitzpatrick, a parent at an Australian public school. Built with <a href="https://claude.ai/code" style="color: inherit; text-decoration: underline;">Claude Code</a>.</p>
+        <p class="footer__credit mt-sm"><a href="about.html" style="color: inherit;">About</a> · <a href="privacy.html" style="color: inherit;">Privacy</a> · <a href="mailto:hello@algorithms.technology" style="color: inherit;">Contact</a></p>
       </div>
       <div class="footer__nav">
         <div class="footer__col">
           <div class="footer__col-title">Evidence</div>
           <ul class="footer__links footer__links--vertical">
+            <li><a href="the-audit.html">The Audit</a></li>
             <li><a href="ai-training.html">AI Training</a></li>
             <li><a href="facial-recognition.html">Facial Recognition</a></li>
             <li><a href="deepfakes.html">Deepfakes</a></li>

@@ -33,7 +33,7 @@
     "headline": "School Consent Forms Don't Cover AI Risks",
     "description": "NSW Permission to Publish forms offer a binary choice. Zero mention AI training, facial recognition, or deepfake risks.",
     "datePublished": "2026-04-10",
-    "dateModified": "2026-04-16",
+    "dateModified": "2026-04-17",
     "author": {"@type": "Person", "name": "Ben Fitzpatrick", "url": "https://www.linkedin.com/in/ben-fitz/"},
     "publisher": {"@type": "Organization", "name": "algorithms.technology", "url": "https://schools.algorithms.technology/"},
     "mainEntityOfPage": {"@type": "WebPage", "@id": "https://schools.algorithms.technology/no-consent.html"}
@@ -56,6 +56,8 @@
         <li class="nav__dropdown">
           <a href="evidence.html" class="nav__dropdown-toggle active">Evidence<svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></a>
           <ul class="nav__dropdown-menu"><li><div class="nav__dropdown-menu-inner"><ul>
+            <li><a href="the-audit.html">The Audit</a></li>
+            <li class="nav__dropdown-divider"></li>
             <li><a href="ai-training.html">AI Training</a></li>
             <li><a href="facial-recognition.html">Facial Recognition</a></li>
             <li><a href="deepfakes.html">Deepfakes</a></li>
@@ -82,6 +84,7 @@
       <li>
         <span class="nav__mobile-label">Evidence</span>
         <ul class="nav__mobile-sub">
+          <li><a href="the-audit.html">The Audit</a></li>
           <li><a href="ai-training.html">AI Training</a></li>
           <li><a href="facial-recognition.html">Facial Recognition</a></li>
           <li><a href="deepfakes.html">Deepfakes</a></li>
@@ -124,6 +127,49 @@
         channels but not public ones. It is a single binary decision that governs every form of
         publication the school undertakes.
       </p>
+
+      <div class="callout callout--danger mt-xl">
+        <div class="callout__title">The scale of the gap</div>
+        <p>
+          <a href="the-audit.html">An audit of all 2,160 NSW government schools</a> found that
+          <strong>82% operate public Facebook Pages</strong> under this consent framework.
+          That is 1,780 schools and 637,818 students. The Permission to Publish form predates
+          every risk documented on this site.
+        </p>
+      </div>
+
+      <h2>What the form covers vs what actually happens</h2>
+
+      <table class="comparison-table mt-xl" style="margin-bottom: var(--space-3xl);">
+        <thead>
+          <tr>
+            <th scope="col">What the consent form covers</th>
+            <th scope="col">What actually happens to public photos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>School website and newsletter</td>
+            <td>AI model training by Meta (confirmed under oath, September 2024)</td>
+          </tr>
+          <tr>
+            <td>May be "discoverable online"</td>
+            <td>Scraped into 50B+ photo facial recognition database (Clearview AI)</td>
+          </tr>
+          <tr>
+            <td>May be "cached by search engines"</td>
+            <td>Included in AI training datasets (362 AU children found in one dataset)</td>
+          </tr>
+          <tr>
+            <td>Facebook, newspapers, external media</td>
+            <td>Used as source material for deepfake generation (Melbourne, 2024)</td>
+          </tr>
+          <tr>
+            <td><em>No mention of AI</em></td>
+            <td>Patterns learned from faces persist permanently in trained models</td>
+          </tr>
+        </tbody>
+      </table>
 
       <h2>The binary trap</h2>
 
@@ -265,7 +311,7 @@
           The NSW Department of Education can revise the Permission to Publish form administratively.
           No new law is required. No parliamentary process. An administrative decision to update the
           form to reflect current risks and offer granular consent. This is one of the
-          <a href="for-government.html">three changes we are recommending</a>.
+          <a href="for-government.html">three changes this investigation recommends</a>.
         </p>
       </div>
 
@@ -314,12 +360,14 @@
       <div>
         <div class="footer__brand">algorithms<span>.</span>technology</div>
         <p class="footer__text mt-sm">Our schools. Our children. Our responsibility.</p>
-        <p class="footer__credit mt-sm">An investigation by parents at an Australian public school. Every claim is sourced.</p>
+        <p class="footer__credit mt-sm">An investigation by Ben Fitzpatrick, a parent at an Australian public school. Built with <a href="https://claude.ai/code" style="color: inherit; text-decoration: underline;">Claude Code</a>.</p>
+        <p class="footer__credit mt-sm"><a href="about.html" style="color: inherit;">About</a> · <a href="privacy.html" style="color: inherit;">Privacy</a> · <a href="mailto:hello@algorithms.technology" style="color: inherit;">Contact</a></p>
       </div>
       <div class="footer__nav">
         <div class="footer__col">
           <div class="footer__col-title">Evidence</div>
           <ul class="footer__links footer__links--vertical">
+            <li><a href="the-audit.html">The Audit</a></li>
             <li><a href="ai-training.html">AI Training</a></li>
             <li><a href="facial-recognition.html">Facial Recognition</a></li>
             <li><a href="deepfakes.html">Deepfakes</a></li>
