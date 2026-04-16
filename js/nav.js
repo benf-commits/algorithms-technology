@@ -1,21 +1,34 @@
-// Mobile navigation enhancements
+// Mobile navigation toggle
 (function () {
   var btn = document.querySelector('.nav__toggle');
-  var mobileNav = document.getElementById('mobile-nav');
-  if (!btn || !mobileNav) return;
+  var mobile = document.getElementById('mobile-nav');
+  if (!btn || !mobile) return;
+
+  btn.addEventListener('click', function () {
+    var open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!open));
+    mobile.classList.toggle('is-open');
+    document.body.style.overflow = open ? '' : 'hidden';
+  });
 
   // Close on Escape
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && mobileNav.classList.contains('is-open')) {
-      mobileNav.classList.remove('is-open');
+    if (e.key === 'Escape' && mobile.classList.contains('is-open')) {
+      btn.setAttribute('aria-expanded', 'false');
+      mobile.classList.remove('is-open');
+      document.body.style.overflow = '';
       btn.focus();
     }
   });
 
   // Close when clicking a link (mobile)
-  mobileNav.querySelectorAll('a').forEach(function (a) {
+  mobile.querySelectorAll('a').forEach(function (a) {
     a.addEventListener('click', function () {
-      mobileNav.classList.remove('is-open');
+      if (mobile.classList.contains('is-open')) {
+        btn.setAttribute('aria-expanded', 'false');
+        mobile.classList.remove('is-open');
+        document.body.style.overflow = '';
+      }
     });
   });
 })();

@@ -11,20 +11,42 @@
   <!-- End Google Tag Manager -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>algorithms.technology | Protecting Children in the Age of AI</title>
-  <meta name="description" content="Australian schools are posting children's photos on public Facebook pages. Those photos are being scraped to train AI, build facial recognition databases, and generate deepfakes. Here's the evidence.">
+  <meta name="description" content="Australian schools post children's photos on public Facebook Pages. Those photos train AI, build facial recognition databases, and fuel deepfakes. Here's the evidence. Here's what needs to change.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <meta property="og:title" content="algorithms.technology | Protecting Children in the Age of AI">
-  <meta property="og:description" content="Australian schools are posting children's photos on public Facebook pages. Those photos are being scraped to train AI, build facial recognition databases, and generate deepfakes. Here's the evidence.">
+  <meta property="og:title" content="Our children's photos are training AI. Here's the evidence.">
+  <meta property="og:description" content="Australian schools post children's photos on public Facebook Pages. Meta scrapes them for AI training. Clearview AI harvests them for facial recognition. None of us consented to this.">
   <meta property="og:image" content="https://schools.algorithms.technology/images/og-default.png">
   <meta property="og:url" content="https://schools.algorithms.technology/">
-  <meta property="og:type" content="article">
+  <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://schools.algorithms.technology/">
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "algorithms.technology",
+    "url": "https://schools.algorithms.technology/",
+    "description": "An investigation into how children's school photos are used to train AI systems in Australia"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "algorithms.technology",
+    "url": "https://schools.algorithms.technology/",
+    "description": "An investigation by parents at an Australian public school",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "hello@algorithms.technology",
+      "contactType": "general"
+    }
+  }]
+  </script>
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -34,67 +56,70 @@
   <a href="#main-content" class="skip-nav">Skip to content</a>
 
   <!-- Navigation -->
-  <nav class="nav" id="nav">
+  <nav class="nav">
     <div class="nav__inner">
       <a href="index.html" class="nav__brand">algorithms<span>.</span>technology</a>
       <ul class="nav__links">
         <li><a href="index.html" class="active">Home</a></li>
         <li class="nav__dropdown">
-          <a href="evidence.html" class="nav__dropdown-toggle">Evidence <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M1 1l4 4 4-4"/></svg></a>
+          <a href="evidence.html" class="nav__dropdown-toggle">Evidence<svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></a>
           <ul class="nav__dropdown-menu"><li><div class="nav__dropdown-menu-inner"><ul>
             <li><a href="ai-training.html">AI Training</a></li>
             <li><a href="facial-recognition.html">Facial Recognition</a></li>
             <li><a href="deepfakes.html">Deepfakes</a></li>
             <li><a href="training-datasets.html">Training Datasets</a></li>
             <li><a href="no-consent.html">No Consent</a></li>
+            <li class="nav__dropdown-divider"></li>
+            <li><a href="the-system.html">The System</a></li>
           </ul></div></li></ul>
         </li>
-        <li><div class="nav__separator"></div></li>
-        <li><a href="the-first-step.html">The First Step</a></li>
-        <li><a href="facebook-in-schools.html">Schools</a></li>
-        <li><a href="what-you-can-do.html">What You Can Do</a></li>
-        <li><a href="what-government-can-do.html">What Government Can Do</a></li>
+        <li><a href="for-your-school.html">For Your School</a></li>
+        <li><a href="for-government.html">For Government</a></li>
+        <li><a href="the-story.html">The Story</a></li>
       </ul>
-      <button class="nav__toggle" onclick="document.getElementById('mobile-nav').classList.toggle('is-open')" aria-label="Menu">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
       </button>
     </div>
-    <div class="nav__mobile" id="mobile-nav">
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li>
-          <span class="nav__mobile-label">Evidence</span>
-          <ul class="nav__mobile-sub">
-            <li><a href="ai-training.html">AI Training</a></li>
-            <li><a href="facial-recognition.html">Facial Recognition</a></li>
-            <li><a href="deepfakes.html">Deepfakes</a></li>
-            <li><a href="training-datasets.html">Training Datasets</a></li>
-            <li><a href="no-consent.html">No Consent</a></li>
-          </ul>
-        </li>
-        <li><a href="the-first-step.html">The First Step</a></li>
-        <li><a href="facebook-in-schools.html">Facebook in Australian Schools</a></li>
-        <li><a href="what-you-can-do.html">What You Can Do</a></li>
-        <li><a href="what-government-can-do.html">What Government Can Do</a></li>
-      </ul>
-    </div>
   </nav>
+
+  <!-- Mobile Nav -->
+  <div class="nav__mobile" id="mobile-nav">
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li>
+        <span class="nav__mobile-label">Evidence</span>
+        <ul class="nav__mobile-sub">
+          <li><a href="ai-training.html">AI Training</a></li>
+          <li><a href="facial-recognition.html">Facial Recognition</a></li>
+          <li><a href="deepfakes.html">Deepfakes</a></li>
+          <li><a href="training-datasets.html">Training Datasets</a></li>
+          <li><a href="no-consent.html">No Consent</a></li>
+          <li><a href="the-system.html">The System</a></li>
+        </ul>
+      </li>
+      <li><a href="for-your-school.html">For Your School</a></li>
+      <li><a href="for-government.html">For Government</a></li>
+      <li><a href="the-story.html">The Story</a></li>
+    </ul>
+  </div>
 
   <main id="main-content">
 
   <!-- Hero -->
   <section class="hero">
     <div class="hero__content">
-      <div class="hero__eyebrow">Our Schools. Our Children.</div>
+      <div class="hero__eyebrow">An Investigation by Australian Parents</div>
       <h1>Our children's photos are training <em>AI</em></h1>
       <p class="hero__subtitle">
-        Our schools post our kids' photos on public Facebook pages. Meta confirmed under oath that
-        those photos are scraped to train artificial intelligence. None of us consented to this.
-        Here's the evidence, and what we can do about it together.
+        We banned children from social media. Schools are still publishing their photos on it.
+        Those photos are scraped to train AI, harvested for facial recognition databases, and
+        turned into explicit deepfakes of children that are shared publicly online.
+        None of us consented to this. All of it is confirmed.
       </p>
       <div class="btn-group">
-        <a href="evidence.html" class="btn btn--primary">See what we found</a>
-        <a href="what-you-can-do.html" class="btn btn--outline">What we can do together</a>
+        <a href="evidence.html" class="btn btn--primary">Read the evidence</a>
+        <a href="for-your-school.html" class="btn btn--outline">Act at your school</a>
       </div>
     </div>
   </section>
@@ -104,8 +129,8 @@
     <div class="container">
       <div class="stats-strip">
         <div class="stat-card">
-          <div class="stat-card__number">30B+</div>
-          <div class="stat-card__label">Photos scraped from Facebook by Clearview AI alone for facial recognition</div>
+          <div class="stat-card__number">50B+</div>
+          <div class="stat-card__label">Photos scraped from Facebook by Clearview AI for facial recognition</div>
         </div>
         <div class="stat-card">
           <div class="stat-card__number">2007</div>
@@ -113,151 +138,247 @@
         </div>
         <div class="stat-card">
           <div class="stat-card__number">362</div>
-          <div class="stat-card__label">Australian children identified in a single AI training dataset (from &lt;0.0001% sample)</div>
+          <div class="stat-card__label">Australian children identified in one AI dataset, from &lt;0.0001% of the data</div>
         </div>
         <div class="stat-card">
           <div class="stat-card__number">0</div>
-          <div class="stat-card__label">Opt-out options available to Australian users for Meta's AI training</div>
+          <div class="stat-card__label">Opt-out options available to Australians for Meta's AI training</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- The Problem -->
+  <!-- What We're Recommending -->
   <section class="section">
     <div class="container container--wide">
-      <h2>This is what's happening to our children's photos.</h2>
-      <p style="font-size: var(--text-lg); color: var(--ink-muted); max-width: 640px; margin-top: var(--space-lg);">
-        Schools post photos on Facebook the same way they always have. But the things that happen to a
-        photo on a <strong>public</strong> Facebook Page in 2026 are very different from what happened in 2016.
-      </p>
+      <div class="hero__eyebrow" style="color: var(--accent);">What we're recommending</div>
+      <h2>Three changes that protect children right now</h2>
 
-      <div class="card-grid" style="margin-top: var(--space-3xl);">
-        <a href="ai-training.html" class="card" style="text-decoration: none; color: inherit;">
-          <div class="card__icon card__icon--red">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+      <div class="recommendation-grid mt-2xl">
+
+        <!-- Goal 1: Primary, full width -->
+        <div class="recommendation-grid--full">
+          <div class="callout callout--danger" style="margin: 0;">
+            <div style="display: flex; align-items: center; gap: var(--space-md); margin-bottom: var(--space-lg);">
+              <span class="evidence-block__label" style="margin: 0;">Most urgent</span>
+            </div>
+            <h3 style="margin-bottom: var(--space-md);">NSW must update its school social media policy</h3>
+            <p>
+              NSW Department of Education policy PD-2011-0418 requires every public school's Facebook account
+              to be public. The policy states accounts "must not restrict access or be set as 'private' or 'closed'."
+              This means children's photos are visible to anyone on the internet, by design.
+            </p>
+            <p>
+              The policy was written before Meta confirmed under oath that it scrapes every public post for AI training.
+              Before Clearview AI built a 50 billion photo facial recognition database from Facebook. Before AI-generated
+              explicit images of Australian schoolgirls were created from their publicly accessible photos.
+            </p>
+            <p>
+              <strong>One administrative policy update, no legislation required, protects every public school child in NSW.</strong>
+              Update PD-2011-0418 to allow or require private settings. Update the Permission to Publish form to disclose
+              AI risks and offer granular consent. Issue guidance to schools on the current threat landscape.
+            </p>
+            <p>
+              <a href="for-government.html">Read the full policy recommendations &rarr;</a>
+            </p>
           </div>
-          <h3>AI Training</h3>
-          <p>Meta confirmed to the Australian Senate that every public post since 2007 is used to train its AI models, including photos of children on adult accounts. Australian users have no opt-out.</p>
-        </a>
+        </div>
 
-        <a href="facial-recognition.html" class="card" style="text-decoration: none; color: inherit;">
+        <!-- Goal 2 -->
+        <div class="card" style="margin: 0;">
+          <div class="evidence-block__label">While policy catches up</div>
+          <h3 style="margin-top: var(--space-sm);">P&Cs recommend their schools act now</h3>
+          <p>
+            P&C associations can't direct schools, but they can make formal recommendations. Any P&C can
+            pass a motion recommending their school move to a private Facebook Group and remove children's
+            photos from public access. It's free, immediate, and within the P&C's role.
+          </p>
+          <p>
+            <a href="for-your-school.html">Motion template and implementation guide &rarr;</a>
+          </p>
+        </div>
+
+        <!-- Goal 3 -->
+        <div class="card" style="margin: 0;">
+          <div class="evidence-block__label">The bigger picture</div>
+          <h3 style="margin-top: var(--space-sm);">Australia closes the gaps in children's protections</h3>
+          <p>
+            The Children's Online Privacy Code is due December 2026. The Privacy Act is being reformed. These
+            need to explicitly address children's images in AI training datasets and establish that public
+            availability does not equal consent to AI training.
+          </p>
+          <p>
+            <a href="for-government.html">See all federal recommendations &rarr;</a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Entry Points -->
+  <section class="section section--alt">
+    <div class="container container--wide">
+      <h2 class="text-center">Whatever brought you here, there's something for you</h2>
+
+      <div class="card-grid mt-2xl">
+        <a href="why-it-matters.html" class="card">
           <div class="card__icon card__icon--orange">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
           </div>
-          <h3>Facial Recognition</h3>
-          <p>Clearview AI scraped 30 billion+ photos from Facebook to build a facial recognition database used by law enforcement nearly a million times. Children's faces are included.</p>
+          <h3>I'm not sure this is real</h3>
+          <p>Straight answers to honest questions. What we thought before we looked into it, and what changed our minds.</p>
         </a>
 
-        <a href="deepfakes.html" class="card" style="text-decoration: none; color: inherit;">
-          <div class="card__icon card__icon--red">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-          </div>
-          <h3>Deepfakes</h3>
-          <p>In June 2024, AI-generated nude images of 50+ schoolgirls from a Melbourne school were created using their social media photos and circulated online.</p>
-        </a>
-
-        <a href="training-datasets.html" class="card" style="text-decoration: none; color: inherit;">
-          <div class="card__icon card__icon--blue">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-          </div>
-          <h3>Training Datasets</h3>
-          <p>Human Rights Watch found 362 identifiable Australian children in the LAION-5B dataset, from a sample of less than 0.0001%. The real number is vastly higher.</p>
-        </a>
-
-        <a href="no-consent.html" class="card" style="text-decoration: none; color: inherit;">
-          <div class="card__icon card__icon--orange">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-          </div>
-          <h3>No Consent</h3>
-          <p>The NSW consent form is binary: all public publishing or nothing. No parent was told their child's photos would train AI systems. The consent is fundamentally stale.</p>
-        </a>
-
-        <a href="the-first-step.html" class="card" style="text-decoration: none; color: inherit;">
+        <a href="for-your-school.html" class="card">
           <div class="card__icon card__icon--teal">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
           </div>
-          <h3>The First Step</h3>
-          <p>Moving to a private Group stops the worst of the harm. But it doesn't stop Meta. Getting off Facebook does. Here's the honest picture of what each level of action actually protects.</p>
+          <h3>I want to act at my school</h3>
+          <p>Motion template, step-by-step process, and how to handle every objection you'll hear in the room.</p>
+        </a>
+
+        <a href="the-story.html" class="card">
+          <div class="card__icon card__icon--blue">
+            <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          </div>
+          <h3>I need to explain this to someone</h3>
+          <p>The full story in one page. Sourced, shareable, written so anyone can understand it.</p>
+        </a>
+
+        <a href="evidence.html" class="card">
+          <div class="card__icon card__icon--red">
+            <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <h3>Show me the evidence</h3>
+          <p>Senate testimony, Human Rights Watch reports, regulatory findings. Every claim sourced. Judge for yourself.</p>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- The Quote -->
+  <!-- The Evidence -->
+  <section class="section">
+    <div class="container container--wide">
+      <h2>What we found</h2>
+      <p class="text-lg text-muted max-w-prose mt-lg">
+        Five confirmed threats to children from public school Facebook Pages. None of this is
+        theoretical. All of it is documented, sourced, and verifiable.
+      </p>
+
+      <div class="card-grid mt-2xl">
+        <a href="ai-training.html" class="card">
+          <div class="card__icon card__icon--red">
+            <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+          </div>
+          <h3>AI Training</h3>
+          <p>Meta confirmed under oath to the Australian Senate that it scrapes every public post since 2007 to train AI. Children's photos are included. Australians have no opt-out.</p>
+        </a>
+
+        <a href="facial-recognition.html" class="card">
+          <div class="card__icon card__icon--red">
+            <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>Facial Recognition</h3>
+          <p>Clearview AI scraped 50 billion+ photos from Facebook. The Australian Information Commissioner found it breached the Privacy Act. The database grew after the order to delete.</p>
+        </a>
+
+        <a href="deepfakes.html" class="card">
+          <div class="card__icon card__icon--red">
+            <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3>Deepfakes</h3>
+          <p>AI-generated explicit images of 50+ schoolgirls at a Melbourne school. Created from their social media photos. Deepfake reports to the eSafety Commissioner are doubling year on year.</p>
+        </a>
+
+        <a href="training-datasets.html" class="card">
+          <div class="card__icon card__icon--orange">
+            <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3>Training Datasets</h3>
+          <p>Human Rights Watch found 362 identifiable Australian children in a single AI dataset, from less than 0.0001% of the data. Some photos came from school uploads.</p>
+        </a>
+
+        <a href="no-consent.html" class="card">
+          <div class="card__icon card__icon--orange">
+            <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          </div>
+          <h3>No Consent</h3>
+          <p>The NSW consent form is binary: all public publishing or nothing. It makes no mention of AI training, facial recognition, or deepfakes. It was written before any of this existed.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Irony -->
   <section class="section section--alt">
     <div class="container container--narrow">
+      <h2>We banned children from social media. We're still publishing their photos on it.</h2>
+      <p class="text-lg text-muted mt-xl">
+        In December 2025, Australia's Online Safety Amendment (Social Media Minimum Age) Act took effect.
+        Platforms must prevent under-16s from holding accounts. 4.7 million accounts were removed. As a
+        country, we decided social media is not safe for children.
+      </p>
+      <p>
+        Schools are still posting identifiable photos of those same children on those same platforms. Every week.
+        On pages that are public by policy. Accessible to anyone on the internet. Scraped by the systems we just
+        decided children need protection from.
+      </p>
+      <p>
+        The law protects children from being <em>on</em> social media. Nothing yet protects them from being
+        <em>published</em> on it.
+      </p>
+    </div>
+  </section>
+
+  <!-- Quote -->
+  <section class="section">
+    <div class="container container--narrow">
       <blockquote>
-        "Meta has just decided that you will scrape all of the photos and all of the text from every public post on Instagram or Facebook that Australians have shared since 2007, unless there was a conscious decision to set them on private."
+        "Meta has just decided that you will scrape all of the photos and all of the text from every
+        public post on Instagram or Facebook that Australians have shared since 2007, unless there was
+        a conscious decision to set them on private."
         <cite>Senator David Shoebridge, Australian Senate Select Committee on Adopting AI, September 2024</cite>
       </blockquote>
     </div>
   </section>
 
-  <!-- The Irony -->
-  <section class="section">
-    <div class="container container--narrow">
-      <h2>We banned our kids from social media. We're still posting their photos on it.</h2>
-      <p style="margin-top: var(--space-xl); font-size: var(--text-lg); color: var(--ink-muted);">
-        In December 2025, Australia's <strong>Online Safety Amendment (Social Media Minimum Age) Act</strong>
-        took effect, requiring platforms to prevent under-16s from having accounts. 4.7 million accounts were removed.
-        As a country, we decided social media isn't safe for our children.
-      </p>
-      <p style="font-size: var(--text-lg); color: var(--ink-muted);">
-        But our schools, through no fault of their own, are still posting identifiable photos of our children
-        on those same platforms. This isn't anyone's failure. It's a gap that nobody noticed until the technology
-        changed beneath our feet. Now we need to catch up.
-      </p>
-      <p style="font-size: var(--text-lg); color: var(--ink-muted);">
-        The law protects our children from being <em>on</em> social media. Nothing yet protects them from being <em>published</em> on it.
+  <!-- Newsletter -->
+  <section class="section section--dark">
+    <div class="container text-center">
+      <h2>Stay informed. Help this spread.</h2>
+      <p class="text-lg mt-lg" style="color: #c8d0da; max-width: 540px; margin-left: auto; margin-right: auto;">
+        Schools are starting to act. Regulation is moving. Sign up to follow the investigation
+        and get notified when new evidence or tools are published.
       </p>
 
-      <div class="callout callout--danger" style="margin-top: var(--space-2xl);">
-        <div class="callout__title">The consent gap</div>
-        <p>
-          The NSW Department of Education's "Permission to Publish" form offers parents a single binary choice:
-          consent to <strong>all</strong> public publishing (website, newsletter, Facebook, newspapers) or <strong>none</strong> of it.
-          There is no option to say "yes to the school newsletter, no to public social media."
-          The form makes no mention of AI training, facial recognition, or data scraping.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="section section--accent">
-    <div class="container" style="text-align: center;">
-      <h2>Stay informed. Help protect our children.</h2>
-      <p style="font-size: var(--text-lg); max-width: 520px; margin: var(--space-lg) auto var(--space-2xl);">
-        Sign up for updates on how algorithms affect our schools and what we can do about it.
-      </p>
-      <form id="contact-form" class="contact-form">
+      <form class="contact-form mt-2xl" id="newsletter-form">
         <div class="form-row-half">
           <div>
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your name">
+            <input type="text" id="name" name="name" placeholder="Your name" required>
           </div>
           <div>
-            <label for="email">Email *</label>
-            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@email.com" required>
           </div>
         </div>
         <div class="form-row-half">
           <div>
-            <label for="role">I am a</label>
-            <select id="role" name="role">
-              <option value="">Select...</option>
+            <label for="role">Your role</label>
+            <select id="role" name="role" required>
+              <option value="" disabled selected>Select</option>
               <option value="parent">Parent</option>
               <option value="teacher">Teacher</option>
-              <option value="pc_member">P&C member</option>
+              <option value="pc-member">P&C member</option>
               <option value="principal">Principal</option>
               <option value="other">Other</option>
             </select>
           </div>
           <div>
             <label for="state">State</label>
-            <select id="state" name="state">
-              <option value="">Select...</option>
+            <select id="state" name="state" required>
+              <option value="" disabled selected>Select</option>
               <option value="NSW">NSW</option>
               <option value="VIC">VIC</option>
               <option value="QLD">QLD</option>
@@ -270,13 +391,29 @@
           </div>
         </div>
         <div class="form-row">
-          <label for="school">School (optional)</label>
+          <label for="school">School name <span style="font-weight: 400; color: rgba(255,255,255,0.4);">(optional)</span></label>
           <input type="text" id="school" name="school" placeholder="Your school's name">
         </div>
         <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off">
-        <button type="submit" class="btn btn--primary">Sign up for updates</button>
+        <button type="submit" class="btn btn--primary">Follow the investigation</button>
         <div id="form-message"></div>
       </form>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--accent">
+    <div class="container text-center">
+      <h2>Photos already scraped can't be unscraped. But we can stop it getting worse.</h2>
+      <p class="text-lg mt-lg" style="color: rgba(255,255,255,0.65); max-width: 600px; margin-left: auto; margin-right: auto;">
+        Every school that moves to a private Group is one less source of publicly accessible children's photos.
+        Every P&C that passes a motion builds the case for policy change. Every parent who shares this evidence
+        makes it harder to ignore.
+      </p>
+      <div class="btn-group btn-group--center mt-2xl">
+        <a href="for-your-school.html" class="btn btn--primary">Act at your school</a>
+        <a href="for-government.html" class="btn btn--outline">What government can do</a>
+      </div>
     </div>
   </section>
 
@@ -284,11 +421,11 @@
 
   <!-- Footer -->
   <footer class="footer">
-    <div class="footer__inner footer__inner--expanded">
+    <div class="footer__inner">
       <div>
         <div class="footer__brand">algorithms<span>.</span>technology</div>
         <p class="footer__text mt-sm">Our schools. Our children. Our responsibility.</p>
-        <p class="footer__credit mt-sm">Created by parents at an Australian public school. Every claim is sourced.</p>
+        <p class="footer__credit mt-sm">An investigation by parents at an Australian public school. Every claim is sourced.</p>
       </div>
       <div class="footer__nav">
         <div class="footer__col">
@@ -302,19 +439,26 @@
           </ul>
         </div>
         <div class="footer__col">
-          <div class="footer__col-title">Action</div>
+          <div class="footer__col-title">Understand</div>
           <ul class="footer__links footer__links--vertical">
-            <li><a href="the-first-step.html">The First Step</a></li>
-            <li><a href="facebook-in-schools.html">Schools</a></li>
-            <li><a href="what-you-can-do.html">What You Can Do</a></li>
-            <li><a href="what-government-can-do.html">What Government Can Do</a></li>
+            <li><a href="why-it-matters.html">Why It Matters</a></li>
+            <li><a href="the-story.html">The Story</a></li>
+            <li><a href="the-system.html">The System</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <div class="footer__col-title">Act</div>
+          <ul class="footer__links footer__links--vertical">
+            <li><a href="for-your-school.html">For Your School</a></li>
+            <li><a href="for-government.html">For Government</a></li>
           </ul>
         </div>
       </div>
     </div>
   </footer>
 
-  <script src="js/contact.js"></script>
   <script src="js/nav.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/consent.js"></script>
 </body>
 </html>

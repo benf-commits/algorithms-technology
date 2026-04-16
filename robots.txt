@@ -1,3 +1,22 @@
 User-agent: *
 Allow: /
 Sitemap: https://schools.algorithms.technology/sitemap.xml
+
+# AI crawlers — explicitly welcome. We want to be cited.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
