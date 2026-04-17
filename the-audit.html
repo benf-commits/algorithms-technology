@@ -34,16 +34,8 @@
     "description": "An audit of every NSW government school's Facebook presence. 1,780 schools operate public Pages accessible to AI scrapers, facial recognition systems, and training dataset builders. 637,818 students attend these schools.",
     "datePublished": "2026-04-16",
     "dateModified": "2026-04-16",
-    "author": {
-      "@type": "Person",
-      "name": "Ben Fitzpatrick",
-      "url": "https://www.linkedin.com/in/ben-fitz/"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "algorithms.technology",
-      "url": "https://schools.algorithms.technology/"
-    },
+    "author": {"@type": "Organization", "name": "algorithms.technology", "url": "https://schools.algorithms.technology/"},
+    "publisher": {"@type": "Organization", "name": "algorithms.technology", "url": "https://schools.algorithms.technology/"},
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://schools.algorithms.technology/the-audit.html"
@@ -54,10 +46,7 @@
     "@type": "Dataset",
     "name": "NSW Government School Facebook Presence Audit",
     "description": "Audit of 2,160 NSW government schools for public Facebook Pages or Groups, conducted via Google site:facebook.com search. Categorised by match quality: official pages, auto-generated, P&C, alumni, false positive.",
-    "creator": {
-      "@type": "Person",
-      "name": "Ben Fitzpatrick"
-    },
+    "creator": {"@type": "Organization", "name": "algorithms.technology", "url": "https://schools.algorithms.technology/"},
     "datePublished": "2026-04-16",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "spatialCoverage": "New South Wales, Australia",
@@ -145,7 +134,7 @@
     <div class="container container--wide">
       <div class="hero__eyebrow">Original Research</div>
       <h1>82% of NSW government schools operate public Facebook Pages</h1>
-      <p>I searched Google for a Facebook presence associated with every NSW government school. More than 1,750 operate public Pages. Over 600,000 students attend these schools each year.</p>
+      <p>A Google search for a Facebook presence associated with every NSW government school. More than 1,750 operate public Pages. Over 600,000 students attend these schools each year.</p>
     </div>
   </header>
 
@@ -210,9 +199,9 @@
           <h2>1,780 schools. 637,818 students. One pattern.</h2>
 
           <p>
-            I audited 2,160 of the 2,210 NSW government schools listed in the
+            This audit covers 2,160 of the 2,210 NSW government schools listed in the
             <a href="https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset" target="_blank" rel="noopener">NSW
-            Department of Education's public schools master dataset</a>. For each school, I searched Google
+            Department of Education's public schools master dataset</a>. For each school, Google was searched
             for <code>site:facebook.com "[School Name]"</code>. Every result was categorised by match quality.
           </p>
 
@@ -574,7 +563,7 @@
 
           <h4>Search method</h4>
           <p>
-            For each school, I searched Google for <code>site:facebook.com "[School Name]"</code> using the
+            For each school, Google was searched for <code>site:facebook.com "[School Name]"</code> using the
             Apify Google Search Results Scraper. Schools were processed in 44 batches of 50. Top 5 Google
             results returned per query. Facebook page URLs extracted from results and classified as Page or Group.
           </p>
@@ -606,11 +595,11 @@
         <!-- What We Did Not Do -->
         <div class="evidence-block" id="ethics">
           <div class="evidence-block__label">Research ethics</div>
-          <h2>What I did not do</h2>
+          <h2>What this audit did not do</h2>
 
           <ul>
-            <li>I did not access, view, download, or scrape any content from any Facebook page.</li>
-            <li>I did not view or download any photos of children.</li>
+            <li>No content from any Facebook page was accessed, viewed, downloaded, or scraped.</li>
+            <li>No photos of children were viewed or downloaded.</li>
             <li>All data comes from Google's public search index.</li>
             <li>The search query <code>site:facebook.com</code> returns only pages that are publicly indexed, confirming public accessibility by definition.</li>
           </ul>
@@ -635,7 +624,7 @@
           </p>
 
           <p>
-            I intend to re-run this audit quarterly to track whether schools move from public Pages to
+            This audit will be re-run quarterly to track whether schools move from public Pages to
             private Groups over time.
           </p>
         </div>
@@ -707,7 +696,7 @@
       <div>
         <div class="footer__brand">algorithms<span>.</span>technology</div>
         <p class="footer__text mt-sm">Our schools. Our children. Our responsibility.</p>
-        <p class="footer__credit mt-sm">An investigation by Ben Fitzpatrick, a parent at an Australian public school. Built with <a href="https://claude.ai/code" style="color: inherit; text-decoration: underline;">Claude Code</a>.</p>
+        <p class="footer__credit mt-sm">Built with <a href="https://claude.ai/code" style="color: inherit; text-decoration: underline;">Claude Code</a>.</p>
         <p class="footer__credit mt-sm"><a href="about.html" style="color: inherit;">About</a> · <a href="privacy.html" style="color: inherit;">Privacy</a> · <a href="mailto:hello@algorithms.technology" style="color: inherit;">Contact</a></p>
       </div>
       <div class="footer__nav">
