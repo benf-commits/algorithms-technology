@@ -1,7 +1,14 @@
-// Lightweight cookie consent for GA4
+// Cookie consent + GA4 loader for algorithms.technology
+//
+// Basic consent mode: gtag.js is not requested at all until consent is granted.
+// privacy.html states that declining means no analytics data is collected, and that
+// the _ga cookies are "only set if you click Accept". Advanced consent mode would
+// still send cookieless pings on decline, so the script stays off the page instead.
 (function () {
+  var GA_MEASUREMENT_ID = 'G-1J5ZYGTE56';
+
   if (localStorage.getItem('consent') === 'granted') {
-    pushConsent('granted');
+    grantConsent();
     return;
   }
   if (localStorage.getItem('consent') === 'denied') return;
@@ -19,7 +26,7 @@
 
   document.getElementById('consent-accept').addEventListener('click', function () {
     localStorage.setItem('consent', 'granted');
-    pushConsent('granted');
+    grantConsent();
     bar.remove();
   });
 
@@ -28,11 +35,32 @@
     bar.remove();
   });
 
+  function grantConsent() {
+    pushConsent('granted');
+    loadAnalytics();
+  }
+
   function pushConsent(state) {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
       event: 'consent_update',
       analytics_storage: state
     });
+  }
+
+  function loadAnalytics() {
+    if (window.__ga4Loaded) return;
+    window.__ga4Loaded = true;
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { window.dataLayer.push(arguments); };
+
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_MEASUREMENT_ID;
+    document.head.appendChild(s);
+
+    window.gtag('js', new Date());
+    window.gtag('config', GA_MEASUREMENT_ID);
   }
 })();
