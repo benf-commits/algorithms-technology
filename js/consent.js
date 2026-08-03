@@ -1,5 +1,9 @@
 // Cookie consent + GA4 loader for algorithms.technology
 //
+// GA4 is loaded directly here. There is no Google Tag Manager on this site: the
+// container was published but empty, so it shipped ~320KB per page and collected
+// nothing. It was removed on 04/08/2026.
+//
 // Basic consent mode: gtag.js is not requested at all until consent is granted.
 // privacy.html states that declining means no analytics data is collected, and that
 // the _ga cookies are "only set if you click Accept". Advanced consent mode would
@@ -8,7 +12,7 @@
   var GA_MEASUREMENT_ID = 'G-1J5ZYGTE56';
 
   if (localStorage.getItem('consent') === 'granted') {
-    grantConsent();
+    loadAnalytics();
     return;
   }
   if (localStorage.getItem('consent') === 'denied') return;
@@ -26,7 +30,7 @@
 
   document.getElementById('consent-accept').addEventListener('click', function () {
     localStorage.setItem('consent', 'granted');
-    grantConsent();
+    loadAnalytics();
     bar.remove();
   });
 
@@ -34,19 +38,6 @@
     localStorage.setItem('consent', 'denied');
     bar.remove();
   });
-
-  function grantConsent() {
-    pushConsent('granted');
-    loadAnalytics();
-  }
-
-  function pushConsent(state) {
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-      event: 'consent_update',
-      analytics_storage: state
-    });
-  }
 
   function loadAnalytics() {
     if (window.__ga4Loaded) return;
