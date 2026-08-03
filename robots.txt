@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://schools.algorithms.technology/sitemap.xml
+Sitemap: https://algorithms.technology/sitemap.xml
 
 # AI crawlers — explicitly welcome. We want to be cited.
 User-agent: GPTBot
