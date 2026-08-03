@@ -1,8 +1,15 @@
 # algorithms.technology — Setup Steps
 
-**Google account:** `algorithms.technology1@gmail.com` — use this for ALL services below (GTM, GA4, GSC, Bing).
+**Google account:** `bfitz2@gmail.com` — account of record for GA4 and Search Console as at
+04/08/2026. `algorithms.technology1@gmail.com` holds only retired assets (the removed GTM
+container, the never-deployed G-HL0P3R4BR5 GA4 property, Bing) and the live site no longer
+references it.
 
 Everything Claude Code already did is marked ✅. Your steps are numbered.
+
+> **This file is the April 2026 build record.** Where it conflicts with the current site, the
+> planning repo's `CLAUDE.md` wins. Known drift: GTM was removed on 04/08/2026, and the site
+> now has 21 pages rather than 12.
 
 ---
 
@@ -11,13 +18,14 @@ Everything Claude Code already did is marked ✅. Your steps are numbered.
 - ✅ Orphaned pages deleted (how-it-works, take-action, the-first-step)
 - ✅ sitemap.xml updated — all 12 pages, dated 2026-04-16
 - ✅ robots.txt updated — explicit Allow for GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, CCBot
-- ✅ GTM snippets on all 12 pages (`GTM-KSTF45HK` — live)
+- ✅ GTM snippets on all 12 pages (`GTM-KSTF45HK`) — **removed 04/08/2026**, the container was empty
 - ✅ JSON-LD schema on all 12 pages (Article with Person author: Ben Fitzpatrick, WebSite + Organization on homepage)
 - ✅ 3 redirect stubs (facebook-in-schools → the-system, what-you-can-do → for-your-school, what-government-can-do → for-government)
 - ✅ Newsletter signup CTA on all 11 non-index pages ("Follow the investigation" + email field)
 - ✅ "Last reviewed: April 2026" on all content pages
 - ✅ `js/form.js` — handles newsletter form submission to Supabase edge function (both full form on index + compact forms on other pages)
-- ✅ `js/consent.js` — lightweight cookie consent banner (Accept/Decline, stores in localStorage, pushes consent_update to dataLayer for GTM)
+- ✅ `js/consent.js` — cookie consent banner (Accept/Decline, stores in localStorage) and the GA4
+  loader. Basic consent mode: gtag.js is not requested until the visitor accepts.
 - ✅ form.js + consent.js loaded on all 12 pages
 - ✅ `favicon.svg` created (dark background, "a." monogram)
 - ✅ SVG favicon reference added to all pages
