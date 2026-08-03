@@ -1,0 +1,2870 @@
+{
+ "_provenance": {
+  "generated_by": "scripts/build_electorates.py",
+  "audit": "research/nsw-audit/audit_results_qa.json",
+  "audit_category": "official_claimed",
+  "master_dataset": "NSW Public Schools Master Dataset, Data.NSW, dated 15 April 2026",
+  "electorate_column": "electorate_from_2023",
+  "members": "data/nsw-mps.json",
+  "note": "Students are a fractional FTE sum rounded once at the end. Per-electorate figures are rounded independently, so they may not add exactly to the statewide total."
+ },
+ "totals": {
+  "schools": 1780,
+  "students": 637818,
+  "electorates": 93,
+  "postcodes": 531,
+  "multi_electorate_postcodes": 89,
+  "schools_without_enrolment_data": 37
+ },
+ "electorates": {
+  "Albury": {
+   "member": "Justin Clancy",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2238&ref=1845",
+   "email": "albury@parliament.nsw.gov.au",
+   "schools": 33,
+   "students": 6044,
+   "lgas": [
+    "Albury",
+    "Federation",
+    "Greater Hume",
+    "Snowy Valleys"
+   ]
+  },
+  "Auburn": {
+   "member": "Lynda Voltz",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=42&ref=1845",
+   "email": "auburn@parliament.nsw.gov.au",
+   "schools": 12,
+   "students": 7122,
+   "lgas": [
+    "Canterbury-Bankstown",
+    "Cumberland"
+   ]
+  },
+  "Badgerys Creek": {
+   "member": "Tanya Davies",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=57&ref=1845",
+   "email": "badgeryscreek@parliament.nsw.gov.au",
+   "schools": 13,
+   "students": 8436,
+   "lgas": [
+    "Camden",
+    "Fairfield",
+    "Penrith"
+   ]
+  },
+  "Ballina": {
+   "member": "Tamara Smith",
+   "party": "The Greens",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=119&ref=1845",
+   "email": "ballina@parliament.nsw.gov.au",
+   "schools": 21,
+   "students": 5461,
+   "lgas": [
+    "Ballina",
+    "Byron"
+   ]
+  },
+  "Balmain": {
+   "member": "Kobi Shetty",
+   "party": "The Greens",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2270&ref=1845",
+   "email": "balmain@parliament.nsw.gov.au",
+   "schools": 11,
+   "students": 5169,
+   "lgas": [
+    "Inner West",
+    "Sydney"
+   ]
+  },
+  "Bankstown": {
+   "member": "Jihad Dib",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=110&ref=1845",
+   "email": "bankstown@parliament.nsw.gov.au",
+   "schools": 16,
+   "students": 6707,
+   "lgas": [
+    "Canterbury-Bankstown"
+   ]
+  },
+  "Barwon": {
+   "member": "Roy Butler",
+   "party": "Independent",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2239&ref=1845",
+   "email": "barwon@parliament.nsw.gov.au",
+   "schools": 56,
+   "students": 7563,
+   "lgas": [
+    "Bogan",
+    "Bourke",
+    "Brewarrina",
+    "Broken Hill",
+    "Central Darling",
+    "Cobar",
+    "Coonamble",
+    "Gilgandra",
+    "Lachlan",
+    "Narrabri",
+    "Walgett",
+    "Warren",
+    "Warrumbungle"
+   ]
+  },
+  "Bathurst": {
+   "member": "Paul Toole",
+   "party": "The Nationals",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=62&ref=1845",
+   "email": "bathurst@parliament.nsw.gov.au",
+   "schools": 33,
+   "students": 7284,
+   "lgas": [
+    "Bathurst",
+    "Blayney",
+    "Lithgow",
+    "Mid-Western",
+    "Oberon"
+   ]
+  },
+  "Bega": {
+   "member": "Michael Holland",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2264&ref=1845",
+   "email": "bega@parliament.nsw.gov.au",
+   "schools": 25,
+   "students": 5493,
+   "lgas": [
+    "Bega Valley",
+    "Eurobodalla"
+   ]
+  },
+  "Blacktown": {
+   "member": "Stephen Bali",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2233&ref=1845",
+   "email": "blacktown@parliament.nsw.gov.au",
+   "schools": 13,
+   "students": 7276,
+   "lgas": [
+    "Blacktown"
+   ]
+  },
+  "Blue Mountains": {
+   "member": "Trish Doyle",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=123&ref=1845",
+   "email": "bluemountains@parliament.nsw.gov.au",
+   "schools": 15,
+   "students": 5638,
+   "lgas": [
+    "Blue Mountains"
+   ]
+  },
+  "Cabramatta": {
+   "member": "Tri Vo",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2271&ref=1845",
+   "email": "cabramatta@parliament.nsw.gov.au",
+   "schools": 19,
+   "students": 12828,
+   "lgas": [
+    "Fairfield"
+   ]
+  },
+  "Camden": {
+   "member": "Sally Quinnell",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2284&ref=1845",
+   "email": "camden@parliament.nsw.gov.au",
+   "schools": 17,
+   "students": 11383,
+   "lgas": [
+    "Camden"
+   ]
+  },
+  "Campbelltown": {
+   "member": "Greg Warren",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=127&ref=1845",
+   "email": "campbelltown@parliament.nsw.gov.au",
+   "schools": 21,
+   "students": 8270,
+   "lgas": [
+    "Campbelltown (NSW)",
+    "Wollondilly"
+   ]
+  },
+  "Canterbury": {
+   "member": "Sophie Cotsis",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=53&ref=1845",
+   "email": "canterbury@parliament.nsw.gov.au",
+   "schools": 14,
+   "students": 6602,
+   "lgas": [
+    "Canterbury-Bankstown"
+   ]
+  },
+  "Castle Hill": {
+   "member": "Mark Hodges",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2280&ref=1845",
+   "email": "castlehill@parliament.nsw.gov.au",
+   "schools": 8,
+   "students": 6398,
+   "lgas": [
+    "Hornsby",
+    "The Hills"
+   ]
+  },
+  "Cessnock": {
+   "member": "Clayton Barr",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=60&ref=1845",
+   "email": "cessnock@parliament.nsw.gov.au",
+   "schools": 23,
+   "students": 6437,
+   "lgas": [
+    "Cessnock",
+    "Lake Macquarie"
+   ]
+  },
+  "Charlestown": {
+   "member": "Jodie Harrison",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=102&ref=1845",
+   "email": "charlestown@parliament.nsw.gov.au",
+   "schools": 26,
+   "students": 10131,
+   "lgas": [
+    "Lake Macquarie",
+    "Newcastle"
+   ]
+  },
+  "Clarence": {
+   "member": "Richie Williamson",
+   "party": "The Nationals",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2292&ref=1845",
+   "email": "clarence@parliament.nsw.gov.au",
+   "schools": 22,
+   "students": 5459,
+   "lgas": [
+    "Clarence Valley",
+    "Richmond Valley"
+   ]
+  },
+  "Coffs Harbour": {
+   "member": "Gurmesh Singh",
+   "party": "The Nationals",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2244&ref=1845",
+   "email": "coffsharbour@parliament.nsw.gov.au",
+   "schools": 16,
+   "students": 5539,
+   "lgas": [
+    "Coffs Harbour"
+   ]
+  },
+  "Coogee": {
+   "member": "Marjorie O'Neill",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2246&ref=1845",
+   "email": "coogee@parliament.nsw.gov.au",
+   "schools": 10,
+   "students": 3511,
+   "lgas": [
+    "Randwick",
+    "Waverley"
+   ]
+  },
+  "Cootamundra": {
+   "member": "Steph Cooke",
+   "party": "The Nationals",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2235&ref=1845",
+   "email": "cootamundra@parliament.nsw.gov.au",
+   "schools": 49,
+   "students": 6730,
+   "lgas": [
+    "Bland",
+    "Coolamon",
+    "Cootamundra-Gundagai",
+    "Cowra",
+    "Hilltops",
+    "Junee",
+    "Narrandera",
+    "Temora",
+    "Weddin"
+   ]
+  },
+  "Cronulla": {
+   "member": "Mark Speakman",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=63&ref=1845",
+   "email": "cronulla@parliament.nsw.gov.au",
+   "schools": 15,
+   "students": 8267,
+   "lgas": [
+    "Sutherland"
+   ]
+  },
+  "Davidson": {
+   "member": "Matt Cross",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2275&ref=1845",
+   "email": "davidson@parliament.nsw.gov.au",
+   "schools": 17,
+   "students": 9061,
+   "lgas": [
+    "Ku-ring-gai",
+    "Northern Beaches"
+   ]
+  },
+  "Drummoyne": {
+   "member": "Stephanie Di Pasqua",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2277&ref=1845",
+   "email": "drummoyne@parliament.nsw.gov.au",
+   "schools": 10,
+   "students": 3930,
+   "lgas": [
+    "Canada Bay"
+   ]
+  },
+  "Dubbo": {
+   "member": "Dugald Saunders",
+   "party": "The Nationals",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2242&ref=1845",
+   "email": "dubbo@parliament.nsw.gov.au",
+   "schools": 26,
+   "students": 7969,
+   "lgas": [
+    "Dubbo",
+    "Mid-Western",
+    "Narromine"
+   ]
+  },
+  "East Hills": {
+   "member": "Kylie Wilkinson",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2291&ref=1845",
+   "email": "easthills@parliament.nsw.gov.au",
+   "schools": 19,
+   "students": 7877,
+   "lgas": [
+    "Canterbury-Bankstown"
+   ]
+  },
+  "Epping": {
+   "member": "Monica Tudehope",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2307&ref=1845",
+   "email": "epping@parliament.nsw.gov.au",
+   "schools": 13,
+   "students": 9716,
+   "lgas": [
+    "Hornsby",
+    "Parramatta"
+   ]
+  },
+  "Fairfield": {
+   "member": "David Saliba",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2287&ref=1845",
+   "email": "fairfield@parliament.nsw.gov.au",
+   "schools": 19,
+   "students": 10596,
+   "lgas": [
+    "Canterbury-Bankstown",
+    "Fairfield"
+   ]
+  },
+  "Gosford": {
+   "member": "Liesl Tesch",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2228&ref=1845",
+   "email": "gosford@parliament.nsw.gov.au",
+   "schools": 17,
+   "students": 6806,
+   "lgas": [
+    "Central Coast (NSW)"
+   ]
+  },
+  "Goulburn": {
+   "member": "Wendy Tuckerman",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2240&ref=1845",
+   "email": "goulburn@parliament.nsw.gov.au",
+   "schools": 38,
+   "students": 7150,
+   "lgas": [
+    "Goulburn Mulwaree",
+    "Upper Lachlan",
+    "Wingecarribee",
+    "Yass Valley"
+   ]
+  },
+  "Granville": {
+   "member": "Julia Finn",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=126&ref=1845",
+   "email": "granville@parliament.nsw.gov.au",
+   "schools": 11,
+   "students": 6534,
+   "lgas": [
+    "Cumberland"
+   ]
+  },
+  "Hawkesbury": {
+   "member": "Robyn Preston",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2249&ref=1845",
+   "email": "hawkesbury@parliament.nsw.gov.au",
+   "schools": 29,
+   "students": 6418,
+   "lgas": [
+    "Hawkesbury",
+    "The Hills"
+   ]
+  },
+  "Heathcote": {
+   "member": "Maryanne Stuart",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2289&ref=1845",
+   "email": "heathcote@parliament.nsw.gov.au",
+   "schools": 22,
+   "students": 6463,
+   "lgas": [
+    "Sutherland",
+    "Wollongong"
+   ]
+  },
+  "Heffron": {
+   "member": "Ron Hoenig",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=97&ref=1845",
+   "email": "heffron@parliament.nsw.gov.au",
+   "schools": 9,
+   "students": 3781,
+   "lgas": [
+    "Bayside (NSW)",
+    "Inner West",
+    "Sydney"
+   ]
+  },
+  "Holsworthy": {
+   "member": "Tina Ayyad",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2273&ref=1845",
+   "email": "holsworthy@parliament.nsw.gov.au",
+   "schools": 16,
+   "students": 7739,
+   "lgas": [
+    "Liverpool",
+    "Sutherland"
+   ]
+  },
+  "Hornsby": {
+   "member": "James Wallace",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2308&ref=1845",
+   "email": "hornsby@parliament.nsw.gov.au",
+   "schools": 18,
+   "students": 8284,
+   "lgas": [
+    "Hornsby"
+   ]
+  },
+  "Keira": {
+   "member": "Ryan Park",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=58&ref=1845",
+   "email": "keira@parliament.nsw.gov.au",
+   "schools": 16,
+   "students": 5406,
+   "lgas": [
+    "Wollongong"
+   ]
+  },
+  "Kellyville": {
+   "member": "Ray Williams",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=39&ref=1845",
+   "email": "kellyville@parliament.nsw.gov.au",
+   "schools": 10,
+   "students": 8818,
+   "lgas": [
+    "The Hills"
+   ]
+  },
+  "Kiama": {
+   "member": "Katelin McInerney",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2311&ref=1845",
+   "email": "kiama@parliament.nsw.gov.au",
+   "schools": 18,
+   "students": 6651,
+   "lgas": [
+    "Kiama",
+    "Shellharbour",
+    "Shoalhaven"
+   ]
+  },
+  "Kogarah": {
+   "member": "Chris Minns",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=108&ref=1845",
+   "email": null,
+   "schools": 15,
+   "students": 7792,
+   "lgas": [
+    "Bayside (NSW)",
+    "Georges River"
+   ]
+  },
+  "Lake Macquarie": {
+   "member": "Greg Piper",
+   "party": "Independent",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=41&ref=1845",
+   "email": "lakemacquarie@parliament.nsw.gov.au",
+   "schools": 19,
+   "students": 5069,
+   "lgas": [
+    "Lake Macquarie"
+   ]
+  },
+  "Lane Cove": {
+   "member": "Anthony Roberts",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=20&ref=1845",
+   "email": "lanecove@parliament.nsw.gov.au",
+   "schools": 12,
+   "students": 5572,
+   "lgas": [
+    "Hunters Hill",
+    "Lane Cove",
+    "Ryde"
+   ]
+  },
+  "Leppington": {
+   "member": "Nathan Hagarty",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2278&ref=1845",
+   "email": "leppington@parliament.nsw.gov.au",
+   "schools": 14,
+   "students": 7789,
+   "lgas": [
+    "Camden",
+    "Campbelltown (NSW)",
+    "Liverpool"
+   ]
+  },
+  "Lismore": {
+   "member": "Janelle Saffin",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2085&ref=1845",
+   "email": "lismore@parliament.nsw.gov.au",
+   "schools": 48,
+   "students": 5666,
+   "lgas": [
+    "Byron",
+    "Kyogle",
+    "Lismore",
+    "Tenterfield",
+    "Tweed"
+   ]
+  },
+  "Liverpool": {
+   "member": "Charishma Kaliyanda",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2281&ref=1845",
+   "email": "liverpool@parliament.nsw.gov.au",
+   "schools": 23,
+   "students": 10878,
+   "lgas": [
+    "Fairfield",
+    "Liverpool"
+   ]
+  },
+  "Londonderry": {
+   "member": "Prue Car",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=105&ref=1845",
+   "email": "londonderry@parliament.nsw.gov.au",
+   "schools": 13,
+   "students": 9431,
+   "lgas": [
+    "Blacktown",
+    "Penrith"
+   ]
+  },
+  "Macquarie Fields": {
+   "member": "Anoulack Chanthivong",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=117&ref=1845",
+   "email": "macquariefields@parliament.nsw.gov.au",
+   "schools": 22,
+   "students": 11708,
+   "lgas": [
+    "Campbelltown (NSW)",
+    "Liverpool"
+   ]
+  },
+  "Maitland": {
+   "member": "Jenny Aitchison",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=120&ref=1845",
+   "email": "maitland@parliament.nsw.gov.au",
+   "schools": 14,
+   "students": 7460,
+   "lgas": [
+    "Maitland"
+   ]
+  },
+  "Manly": {
+   "member": "James Griffin",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2229&ref=1845",
+   "email": "manly@parliament.nsw.gov.au",
+   "schools": 11,
+   "students": 5868,
+   "lgas": [
+    "Northern Beaches"
+   ]
+  },
+  "Maroubra": {
+   "member": "Michael Daley",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=27&ref=1845",
+   "email": "maroubra@parliament.nsw.gov.au",
+   "schools": 10,
+   "students": 2435,
+   "lgas": [
+    "Bayside (NSW)",
+    "Randwick"
+   ]
+  },
+  "Miranda": {
+   "member": "Eleni Petinos",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=109&ref=1845",
+   "email": "miranda@parliament.nsw.gov.au",
+   "schools": 20,
+   "students": 8505,
+   "lgas": [
+    "Sutherland"
+   ]
+  },
+  "Monaro": {
+   "member": "Steve Whan",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2176&ref=1845",
+   "email": "monaro@parliament.nsw.gov.au",
+   "schools": 24,
+   "students": 6230,
+   "lgas": [
+    "Queanbeyan-Palerang",
+    "Snowy Monaro"
+   ]
+  },
+  "Mount Druitt": {
+   "member": "Edmond Atalla",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=104&ref=1845",
+   "email": "mountdruitt@parliament.nsw.gov.au",
+   "schools": 23,
+   "students": 9932,
+   "lgas": [
+    "Blacktown"
+   ]
+  },
+  "Murray": {
+   "member": "Helen Dalton",
+   "party": "Independent",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2245&ref=1845",
+   "email": "murray@parliament.nsw.gov.au",
+   "schools": 52,
+   "students": 7664,
+   "lgas": [
+    "Balranald",
+    "Berrigan",
+    "Carrathool",
+    "Edward River",
+    "Griffith",
+    "Hay",
+    "Leeton",
+    "Murray River",
+    "Murrumbidgee",
+    "Wentworth"
+   ]
+  },
+  "Myall Lakes": {
+   "member": "Tanya Thompson",
+   "party": "The Nationals",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2290&ref=1845",
+   "email": "myalllakes@parliament.nsw.gov.au",
+   "schools": 23,
+   "students": 5784,
+   "lgas": [
+    "Mid-Coast"
+   ]
+  },
+  "Newcastle": {
+   "member": "Tim Crakanthorp",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=103&ref=1845",
+   "email": "newcastle@parliament.nsw.gov.au",
+   "schools": 16,
+   "students": 6586,
+   "lgas": [
+    "Newcastle",
+    "Port Stephens"
+   ]
+  },
+  "Newtown": {
+   "member": "Jenny Leong",
+   "party": "The Greens",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=107&ref=1845",
+   "email": "newtown@parliament.nsw.gov.au",
+   "schools": 13,
+   "students": 4271,
+   "lgas": [
+    "Inner West",
+    "Sydney"
+   ]
+  },
+  "North Shore": {
+   "member": "Felicity Wilson",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2230&ref=1845",
+   "email": "northshore@parliament.nsw.gov.au",
+   "schools": 7,
+   "students": 5219,
+   "lgas": [
+    "Mosman",
+    "North Sydney"
+   ]
+  },
+  "Northern Tablelands": {
+   "member": "Brendan Moylan",
+   "party": "The Nationals",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2306&ref=1845",
+   "email": "northerntablelands@parliament.nsw.gov.au",
+   "schools": 49,
+   "students": 7420,
+   "lgas": [
+    "Armidale",
+    "Glen Innes Severn",
+    "Gwydir",
+    "Inverell",
+    "Moree Plains",
+    "Uralla",
+    "Walcha"
+   ]
+  },
+  "Oatley": {
+   "member": "Mark Coure",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=83&ref=1845",
+   "email": "oatley@parliament.nsw.gov.au",
+   "schools": 20,
+   "students": 7663,
+   "lgas": [
+    "Canterbury-Bankstown",
+    "Georges River"
+   ]
+  },
+  "Orange": {
+   "member": "Philip Donato",
+   "party": "Independent",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2226&ref=1845",
+   "email": "orange@parliament.nsw.gov.au",
+   "schools": 30,
+   "students": 7006,
+   "lgas": [
+    "Cabonne",
+    "Forbes",
+    "Orange",
+    "Parkes"
+   ]
+  },
+  "Oxley": {
+   "member": "Michael Kemp",
+   "party": "The Nationals",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2282&ref=1845",
+   "email": "oxley@parliament.nsw.gov.au",
+   "schools": 36,
+   "students": 6448,
+   "lgas": [
+    "Bellingen",
+    "Kempsey",
+    "Nambucca Valley",
+    "Port Macquarie-Hastings"
+   ]
+  },
+  "Parramatta": {
+   "member": "Donna Davis",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2276&ref=1845",
+   "email": "parramatta@parliament.nsw.gov.au",
+   "schools": 17,
+   "students": 7546,
+   "lgas": [
+    "Parramatta"
+   ]
+  },
+  "Penrith": {
+   "member": "Karen McKeown",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2285&ref=1845",
+   "email": "penrith@parliament.nsw.gov.au",
+   "schools": 15,
+   "students": 7660,
+   "lgas": [
+    "Penrith"
+   ]
+  },
+  "Pittwater": {
+   "member": "Jacqui Scruby",
+   "party": "Independent",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2309&ref=1845",
+   "email": "pittwater@parliament.nsw.gov.au",
+   "schools": 9,
+   "students": 5265,
+   "lgas": [
+    "Northern Beaches"
+   ]
+  },
+  "Port Macquarie": {
+   "member": "Robert Dwyer",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2310&ref=1845",
+   "email": "portmacquarie@parliament.nsw.gov.au",
+   "schools": 13,
+   "students": 3955,
+   "lgas": [
+    "Mid-Coast",
+    "Port Macquarie-Hastings",
+    "Unincorporated NSW"
+   ]
+  },
+  "Port Stephens": {
+   "member": "Kate Washington",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=106&ref=1845",
+   "email": "portstephens@parliament.nsw.gov.au",
+   "schools": 14,
+   "students": 4822,
+   "lgas": [
+    "Mid-Coast",
+    "Port Stephens"
+   ]
+  },
+  "Prospect": {
+   "member": "Hugh McDermott",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=129&ref=1845",
+   "email": "prospect@parliament.nsw.gov.au",
+   "schools": 14,
+   "students": 7888,
+   "lgas": [
+    "Blacktown",
+    "Cumberland",
+    "Fairfield"
+   ]
+  },
+  "Riverstone": {
+   "member": "Warren Kirby",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2293&ref=1845",
+   "email": "riverstone@parliament.nsw.gov.au",
+   "schools": 15,
+   "students": 11006,
+   "lgas": [
+    "Blacktown"
+   ]
+  },
+  "Rockdale": {
+   "member": "Stephen Kamper",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=124&ref=1845",
+   "email": "rockdale@parliament.nsw.gov.au",
+   "schools": 13,
+   "students": 3076,
+   "lgas": [
+    "Bayside (NSW)",
+    "Georges River"
+   ]
+  },
+  "Ryde": {
+   "member": "Jordan Lane",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2283&ref=1845",
+   "email": "ryde@parliament.nsw.gov.au",
+   "schools": 10,
+   "students": 6900,
+   "lgas": [
+    "Parramatta",
+    "Ryde"
+   ]
+  },
+  "Shellharbour": {
+   "member": "Anna Watson",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=72&ref=1845",
+   "email": "shellharbour@parliament.nsw.gov.au",
+   "schools": 18,
+   "students": 7524,
+   "lgas": [
+    "Shellharbour",
+    "Wollongong"
+   ]
+  },
+  "South Coast": {
+   "member": "Liza Butler",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2274&ref=1845",
+   "email": "southcoast@parliament.nsw.gov.au",
+   "schools": 15,
+   "students": 7342,
+   "lgas": [
+    "Shoalhaven"
+   ]
+  },
+  "Strathfield": {
+   "member": "Jason Li",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2263&ref=1845",
+   "email": "strathfield@parliament.nsw.gov.au",
+   "schools": 14,
+   "students": 7249,
+   "lgas": [
+    "Burwood",
+    "Canterbury-Bankstown",
+    "Strathfield"
+   ]
+  },
+  "Summer Hill": {
+   "member": "Jo Haylen",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=111&ref=1845",
+   "email": "summerhill@parliament.nsw.gov.au",
+   "schools": 6,
+   "students": 2216,
+   "lgas": [
+    "Inner West"
+   ]
+  },
+  "Swansea": {
+   "member": "Yasmin Catley",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=128&ref=1845",
+   "email": "swansea@parliament.nsw.gov.au",
+   "schools": 19,
+   "students": 7271,
+   "lgas": [
+    "Central Coast (NSW)",
+    "Lake Macquarie"
+   ]
+  },
+  "Sydney": {
+   "member": "Alex Greenwich",
+   "party": "Independent",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=98&ref=1845",
+   "email": "sydney@parliament.nsw.gov.au",
+   "schools": 10,
+   "students": 4728,
+   "lgas": [
+    "Sydney",
+    "Woollahra"
+   ]
+  },
+  "Tamworth": {
+   "member": "Kevin Anderson",
+   "party": "The Nationals",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=81&ref=1845",
+   "email": "tamworth@parliament.nsw.gov.au",
+   "schools": 36,
+   "students": 8586,
+   "lgas": [
+    "Gunnedah",
+    "Liverpool Plains",
+    "Tamworth"
+   ]
+  },
+  "Terrigal": {
+   "member": "Adam Crouch",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=112&ref=1845",
+   "email": "terrigal@parliament.nsw.gov.au",
+   "schools": 12,
+   "students": 5968,
+   "lgas": [
+    "Central Coast (NSW)"
+   ]
+  },
+  "The Entrance": {
+   "member": "David Mehan",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=113&ref=1845",
+   "email": "TheEntrance@parliament.nsw.gov.au",
+   "schools": 13,
+   "students": 5864,
+   "lgas": [
+    "Central Coast (NSW)"
+   ]
+  },
+  "Tweed": {
+   "member": "Geoff Provest",
+   "party": "The Nationals",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=36&ref=1845",
+   "email": "tweed@parliament.nsw.gov.au",
+   "schools": 15,
+   "students": 4994,
+   "lgas": [
+    "Tweed"
+   ]
+  },
+  "Upper Hunter": {
+   "member": "Dave Layzell",
+   "party": "The Nationals",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2261&ref=1845",
+   "email": "upperhunter@parliament.nsw.gov.au",
+   "schools": 36,
+   "students": 7283,
+   "lgas": [
+    "Cessnock",
+    "Dungog",
+    "Maitland",
+    "Mid-Coast",
+    "Muswellbrook",
+    "Singleton",
+    "Upper Hunter"
+   ]
+  },
+  "Vaucluse": {
+   "member": "Kellie Sloane",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2288&ref=1845",
+   "email": "vaucluse@parliament.nsw.gov.au",
+   "schools": 7,
+   "students": 3469,
+   "lgas": [
+    "Waverley",
+    "Woollahra"
+   ]
+  },
+  "Wagga Wagga": {
+   "member": "Joe McGirr",
+   "party": "Independent",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2237&ref=1845",
+   "email": "waggawagga@parliament.nsw.gov.au",
+   "schools": 30,
+   "students": 6708,
+   "lgas": [
+    "Lockhart",
+    "Snowy Valleys",
+    "Wagga Wagga"
+   ]
+  },
+  "Wahroonga": {
+   "member": "Alister Henskens",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=118&ref=1845",
+   "email": "wahroonga@parliament.nsw.gov.au",
+   "schools": 11,
+   "students": 6498,
+   "lgas": [
+    "Hornsby",
+    "Ku-ring-gai"
+   ]
+  },
+  "Wakehurst": {
+   "member": "Michael Regan",
+   "party": "Independent",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2286&ref=1845",
+   "email": "wakehurst@parliament.nsw.gov.au",
+   "schools": 13,
+   "students": 5764,
+   "lgas": [
+    "Northern Beaches"
+   ]
+  },
+  "Wallsend": {
+   "member": "Sonia Hornery",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=33&ref=1845",
+   "email": "wallsend@parliament.nsw.gov.au",
+   "schools": 22,
+   "students": 7717,
+   "lgas": [
+    "Lake Macquarie",
+    "Newcastle"
+   ]
+  },
+  "Willoughby": {
+   "member": "Tim James",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2265&ref=1845",
+   "email": "willoughby@parliament.nsw.gov.au",
+   "schools": 9,
+   "students": 7417,
+   "lgas": [
+    "North Sydney",
+    "Willoughby"
+   ]
+  },
+  "Winston Hills": {
+   "member": "Mark Taylor",
+   "party": "Liberal Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=116&ref=1845",
+   "email": "winstonhills@parliament.nsw.gov.au",
+   "schools": 13,
+   "students": 6274,
+   "lgas": [
+    "Blacktown",
+    "Parramatta"
+   ]
+  },
+  "Wollondilly": {
+   "member": "Judy Hannan",
+   "party": "Independent",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2279&ref=1845",
+   "email": "wollondilly@parliament.nsw.gov.au",
+   "schools": 17,
+   "students": 4693,
+   "lgas": [
+    "Wingecarribee",
+    "Wollondilly"
+   ]
+  },
+  "Wollongong": {
+   "member": "Paul Scully",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2225&ref=1845",
+   "email": "wollongong@parliament.nsw.gov.au",
+   "schools": 18,
+   "students": 5333,
+   "lgas": [
+    "Wollongong"
+   ]
+  },
+  "Wyong": {
+   "member": "David Harris",
+   "party": "Australian Labor Party",
+   "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=31&ref=1845",
+   "email": "wyong@parliament.nsw.gov.au",
+   "schools": 16,
+   "students": 7461,
+   "lgas": [
+    "Central Coast (NSW)"
+   ]
+  }
+ },
+ "postcodes": {
+  "2000": [
+   "Sydney"
+  ],
+  "2008": [
+   "Newtown"
+  ],
+  "2010": [
+   "Sydney"
+  ],
+  "2011": [
+   "Sydney"
+  ],
+  "2015": [
+   "Heffron",
+   "Newtown"
+  ],
+  "2017": [
+   "Heffron"
+  ],
+  "2018": [
+   "Heffron"
+  ],
+  "2019": [
+   "Maroubra"
+  ],
+  "2020": [
+   "Heffron"
+  ],
+  "2021": [
+   "Sydney"
+  ],
+  "2023": [
+   "Vaucluse"
+  ],
+  "2024": [
+   "Coogee"
+  ],
+  "2025": [
+   "Vaucluse"
+  ],
+  "2026": [
+   "Vaucluse"
+  ],
+  "2030": [
+   "Vaucluse"
+  ],
+  "2031": [
+   "Coogee"
+  ],
+  "2032": [
+   "Maroubra"
+  ],
+  "2033": [
+   "Coogee"
+  ],
+  "2034": [
+   "Coogee"
+  ],
+  "2035": [
+   "Maroubra"
+  ],
+  "2036": [
+   "Maroubra"
+  ],
+  "2037": [
+   "Balmain"
+  ],
+  "2038": [
+   "Balmain"
+  ],
+  "2039": [
+   "Balmain"
+  ],
+  "2040": [
+   "Balmain"
+  ],
+  "2041": [
+   "Balmain"
+  ],
+  "2042": [
+   "Newtown"
+  ],
+  "2043": [
+   "Newtown"
+  ],
+  "2044": [
+   "Heffron"
+  ],
+  "2045": [
+   "Summer Hill"
+  ],
+  "2046": [
+   "Drummoyne"
+  ],
+  "2047": [
+   "Drummoyne"
+  ],
+  "2048": [
+   "Newtown"
+  ],
+  "2049": [
+   "Newtown"
+  ],
+  "2050": [
+   "Newtown"
+  ],
+  "2060": [
+   "North Shore"
+  ],
+  "2062": [
+   "Willoughby"
+  ],
+  "2063": [
+   "Willoughby"
+  ],
+  "2064": [
+   "Willoughby"
+  ],
+  "2065": [
+   "Lane Cove",
+   "North Shore",
+   "Willoughby"
+  ],
+  "2066": [
+   "Lane Cove",
+   "Willoughby"
+  ],
+  "2067": [
+   "Willoughby"
+  ],
+  "2068": [
+   "Willoughby"
+  ],
+  "2069": [
+   "Davidson"
+  ],
+  "2070": [
+   "Davidson"
+  ],
+  "2071": [
+   "Davidson"
+  ],
+  "2072": [
+   "Davidson"
+  ],
+  "2073": [
+   "Wahroonga"
+  ],
+  "2074": [
+   "Davidson",
+   "Hornsby",
+   "Wahroonga"
+  ],
+  "2075": [
+   "Davidson"
+  ],
+  "2076": [
+   "Wahroonga"
+  ],
+  "2077": [
+   "Hornsby",
+   "Wahroonga"
+  ],
+  "2079": [
+   "Hornsby"
+  ],
+  "2080": [
+   "Hornsby"
+  ],
+  "2081": [
+   "Hornsby"
+  ],
+  "2083": [
+   "Hornsby"
+  ],
+  "2084": [
+   "Pittwater"
+  ],
+  "2085": [
+   "Davidson"
+  ],
+  "2086": [
+   "Davidson",
+   "Wakehurst"
+  ],
+  "2087": [
+   "Wakehurst"
+  ],
+  "2088": [
+   "North Shore"
+  ],
+  "2092": [
+   "Manly"
+  ],
+  "2093": [
+   "Manly"
+  ],
+  "2095": [
+   "Manly"
+  ],
+  "2096": [
+   "Manly"
+  ],
+  "2097": [
+   "Wakehurst"
+  ],
+  "2099": [
+   "Manly",
+   "Wakehurst"
+  ],
+  "2100": [
+   "Wakehurst"
+  ],
+  "2101": [
+   "Pittwater"
+  ],
+  "2103": [
+   "Pittwater"
+  ],
+  "2106": [
+   "Pittwater"
+  ],
+  "2107": [
+   "Pittwater"
+  ],
+  "2110": [
+   "Lane Cove"
+  ],
+  "2111": [
+   "Lane Cove"
+  ],
+  "2112": [
+   "Lane Cove",
+   "Ryde"
+  ],
+  "2113": [
+   "Lane Cove"
+  ],
+  "2114": [
+   "Parramatta",
+   "Ryde"
+  ],
+  "2115": [
+   "Parramatta"
+  ],
+  "2116": [
+   "Parramatta"
+  ],
+  "2117": [
+   "Epping",
+   "Parramatta"
+  ],
+  "2118": [
+   "Epping"
+  ],
+  "2119": [
+   "Epping"
+  ],
+  "2120": [
+   "Wahroonga"
+  ],
+  "2121": [
+   "Epping",
+   "Ryde"
+  ],
+  "2122": [
+   "Ryde"
+  ],
+  "2126": [
+   "Hornsby"
+  ],
+  "2127": [
+   "Parramatta"
+  ],
+  "2131": [
+   "Summer Hill"
+  ],
+  "2132": [
+   "Strathfield"
+  ],
+  "2133": [
+   "Strathfield"
+  ],
+  "2134": [
+   "Strathfield"
+  ],
+  "2135": [
+   "Strathfield"
+  ],
+  "2136": [
+   "Strathfield"
+  ],
+  "2137": [
+   "Drummoyne"
+  ],
+  "2138": [
+   "Drummoyne"
+  ],
+  "2140": [
+   "Strathfield"
+  ],
+  "2141": [
+   "Auburn"
+  ],
+  "2142": [
+   "Granville"
+  ],
+  "2143": [
+   "Auburn"
+  ],
+  "2144": [
+   "Auburn"
+  ],
+  "2145": [
+   "Parramatta",
+   "Prospect",
+   "Winston Hills"
+  ],
+  "2146": [
+   "Prospect",
+   "Winston Hills"
+  ],
+  "2147": [
+   "Prospect",
+   "Winston Hills"
+  ],
+  "2148": [
+   "Blacktown"
+  ],
+  "2150": [
+   "Parramatta"
+  ],
+  "2151": [
+   "Epping",
+   "Parramatta"
+  ],
+  "2152": [
+   "Winston Hills"
+  ],
+  "2153": [
+   "Castle Hill",
+   "Kellyville",
+   "Winston Hills"
+  ],
+  "2154": [
+   "Castle Hill"
+  ],
+  "2155": [
+   "Kellyville",
+   "Riverstone"
+  ],
+  "2156": [
+   "Castle Hill"
+  ],
+  "2157": [
+   "Hawkesbury",
+   "Hornsby"
+  ],
+  "2158": [
+   "Castle Hill"
+  ],
+  "2159": [
+   "Hornsby"
+  ],
+  "2160": [
+   "Granville"
+  ],
+  "2161": [
+   "Fairfield",
+   "Granville"
+  ],
+  "2162": [
+   "Auburn",
+   "Fairfield"
+  ],
+  "2163": [
+   "Fairfield"
+  ],
+  "2164": [
+   "Prospect"
+  ],
+  "2165": [
+   "Fairfield"
+  ],
+  "2166": [
+   "Cabramatta",
+   "Fairfield"
+  ],
+  "2167": [
+   "Macquarie Fields"
+  ],
+  "2168": [
+   "Liverpool"
+  ],
+  "2170": [
+   "Cabramatta",
+   "Holsworthy",
+   "Leppington",
+   "Liverpool",
+   "Macquarie Fields"
+  ],
+  "2171": [
+   "Leppington",
+   "Liverpool"
+  ],
+  "2173": [
+   "Holsworthy"
+  ],
+  "2174": [
+   "Macquarie Fields"
+  ],
+  "2175": [
+   "Badgerys Creek"
+  ],
+  "2176": [
+   "Cabramatta",
+   "Fairfield"
+  ],
+  "2177": [
+   "Cabramatta",
+   "Liverpool"
+  ],
+  "2178": [
+   "Leppington"
+  ],
+  "2179": [
+   "Leppington"
+  ],
+  "2190": [
+   "Bankstown"
+  ],
+  "2192": [
+   "Canterbury"
+  ],
+  "2193": [
+   "Canterbury"
+  ],
+  "2194": [
+   "Canterbury",
+   "Strathfield"
+  ],
+  "2195": [
+   "Bankstown",
+   "Canterbury"
+  ],
+  "2196": [
+   "Bankstown",
+   "Canterbury"
+  ],
+  "2197": [
+   "East Hills",
+   "Fairfield"
+  ],
+  "2199": [
+   "Bankstown"
+  ],
+  "2200": [
+   "Bankstown",
+   "East Hills"
+  ],
+  "2203": [
+   "Summer Hill"
+  ],
+  "2204": [
+   "Summer Hill"
+  ],
+  "2205": [
+   "Rockdale"
+  ],
+  "2206": [
+   "Canterbury"
+  ],
+  "2207": [
+   "Kogarah",
+   "Rockdale"
+  ],
+  "2208": [
+   "Canterbury",
+   "Kogarah"
+  ],
+  "2209": [
+   "Bankstown",
+   "Kogarah",
+   "Oatley"
+  ],
+  "2210": [
+   "Oatley"
+  ],
+  "2211": [
+   "East Hills"
+  ],
+  "2212": [
+   "East Hills"
+  ],
+  "2213": [
+   "East Hills"
+  ],
+  "2214": [
+   "East Hills"
+  ],
+  "2216": [
+   "Rockdale"
+  ],
+  "2217": [
+   "Kogarah",
+   "Rockdale"
+  ],
+  "2219": [
+   "Rockdale"
+  ],
+  "2220": [
+   "Kogarah",
+   "Oatley"
+  ],
+  "2221": [
+   "Kogarah",
+   "Oatley"
+  ],
+  "2222": [
+   "Oatley"
+  ],
+  "2223": [
+   "Oatley"
+  ],
+  "2224": [
+   "Miranda"
+  ],
+  "2225": [
+   "Miranda"
+  ],
+  "2226": [
+   "Miranda"
+  ],
+  "2227": [
+   "Miranda"
+  ],
+  "2228": [
+   "Cronulla",
+   "Miranda"
+  ],
+  "2229": [
+   "Cronulla",
+   "Miranda"
+  ],
+  "2230": [
+   "Cronulla",
+   "Heathcote"
+  ],
+  "2231": [
+   "Cronulla"
+  ],
+  "2232": [
+   "Cronulla",
+   "Heathcote",
+   "Miranda"
+  ],
+  "2233": [
+   "Heathcote"
+  ],
+  "2234": [
+   "Holsworthy",
+   "Miranda"
+  ],
+  "2250": [
+   "Gosford",
+   "Terrigal",
+   "The Entrance"
+  ],
+  "2251": [
+   "Terrigal"
+  ],
+  "2256": [
+   "Gosford"
+  ],
+  "2257": [
+   "Gosford"
+  ],
+  "2258": [
+   "The Entrance"
+  ],
+  "2259": [
+   "Lake Macquarie",
+   "Swansea",
+   "The Entrance",
+   "Wyong"
+  ],
+  "2260": [
+   "Terrigal"
+  ],
+  "2261": [
+   "The Entrance",
+   "Wyong"
+  ],
+  "2262": [
+   "Swansea",
+   "Wyong"
+  ],
+  "2263": [
+   "Swansea",
+   "Wyong"
+  ],
+  "2264": [
+   "Lake Macquarie"
+  ],
+  "2267": [
+   "Lake Macquarie"
+  ],
+  "2278": [
+   "Cessnock",
+   "Lake Macquarie"
+  ],
+  "2280": [
+   "Swansea"
+  ],
+  "2281": [
+   "Swansea"
+  ],
+  "2282": [
+   "Charlestown",
+   "Lake Macquarie"
+  ],
+  "2283": [
+   "Lake Macquarie"
+  ],
+  "2284": [
+   "Lake Macquarie"
+  ],
+  "2285": [
+   "Cessnock",
+   "Charlestown",
+   "Wallsend"
+  ],
+  "2286": [
+   "Cessnock"
+  ],
+  "2287": [
+   "Wallsend"
+  ],
+  "2289": [
+   "Charlestown",
+   "Newcastle"
+  ],
+  "2290": [
+   "Charlestown",
+   "Swansea"
+  ],
+  "2291": [
+   "Charlestown",
+   "Newcastle"
+  ],
+  "2292": [
+   "Newcastle"
+  ],
+  "2294": [
+   "Newcastle"
+  ],
+  "2295": [
+   "Newcastle"
+  ],
+  "2296": [
+   "Newcastle"
+  ],
+  "2297": [
+   "Newcastle"
+  ],
+  "2298": [
+   "Newcastle",
+   "Wallsend"
+  ],
+  "2299": [
+   "Wallsend"
+  ],
+  "2300": [
+   "Newcastle"
+  ],
+  "2303": [
+   "Newcastle"
+  ],
+  "2304": [
+   "Newcastle"
+  ],
+  "2305": [
+   "Charlestown",
+   "Wallsend"
+  ],
+  "2306": [
+   "Charlestown"
+  ],
+  "2307": [
+   "Wallsend"
+  ],
+  "2312": [
+   "Myall Lakes"
+  ],
+  "2316": [
+   "Port Stephens"
+  ],
+  "2317": [
+   "Port Stephens"
+  ],
+  "2318": [
+   "Port Stephens"
+  ],
+  "2320": [
+   "Maitland",
+   "Upper Hunter"
+  ],
+  "2321": [
+   "Maitland",
+   "Port Stephens",
+   "Upper Hunter"
+  ],
+  "2322": [
+   "Cessnock",
+   "Maitland",
+   "Wallsend"
+  ],
+  "2323": [
+   "Cessnock",
+   "Maitland"
+  ],
+  "2324": [
+   "Maitland",
+   "Port Stephens"
+  ],
+  "2325": [
+   "Cessnock"
+  ],
+  "2326": [
+   "Cessnock"
+  ],
+  "2327": [
+   "Cessnock"
+  ],
+  "2328": [
+   "Upper Hunter"
+  ],
+  "2329": [
+   "Upper Hunter"
+  ],
+  "2330": [
+   "Upper Hunter"
+  ],
+  "2333": [
+   "Upper Hunter"
+  ],
+  "2334": [
+   "Cessnock"
+  ],
+  "2335": [
+   "Upper Hunter"
+  ],
+  "2337": [
+   "Upper Hunter"
+  ],
+  "2338": [
+   "Upper Hunter"
+  ],
+  "2340": [
+   "Tamworth"
+  ],
+  "2341": [
+   "Tamworth"
+  ],
+  "2342": [
+   "Tamworth"
+  ],
+  "2343": [
+   "Tamworth"
+  ],
+  "2344": [
+   "Tamworth"
+  ],
+  "2346": [
+   "Tamworth"
+  ],
+  "2350": [
+   "Northern Tablelands"
+  ],
+  "2352": [
+   "Tamworth"
+  ],
+  "2353": [
+   "Tamworth"
+  ],
+  "2354": [
+   "Northern Tablelands",
+   "Tamworth"
+  ],
+  "2355": [
+   "Tamworth"
+  ],
+  "2356": [
+   "Barwon"
+  ],
+  "2357": [
+   "Barwon"
+  ],
+  "2358": [
+   "Northern Tablelands"
+  ],
+  "2359": [
+   "Northern Tablelands"
+  ],
+  "2360": [
+   "Northern Tablelands"
+  ],
+  "2361": [
+   "Northern Tablelands"
+  ],
+  "2365": [
+   "Northern Tablelands"
+  ],
+  "2370": [
+   "Northern Tablelands"
+  ],
+  "2371": [
+   "Northern Tablelands"
+  ],
+  "2372": [
+   "Lismore"
+  ],
+  "2379": [
+   "Tamworth"
+  ],
+  "2380": [
+   "Tamworth"
+  ],
+  "2381": [
+   "Tamworth"
+  ],
+  "2382": [
+   "Barwon"
+  ],
+  "2386": [
+   "Barwon"
+  ],
+  "2388": [
+   "Barwon"
+  ],
+  "2390": [
+   "Barwon"
+  ],
+  "2395": [
+   "Barwon"
+  ],
+  "2396": [
+   "Barwon"
+  ],
+  "2400": [
+   "Northern Tablelands"
+  ],
+  "2401": [
+   "Northern Tablelands"
+  ],
+  "2402": [
+   "Northern Tablelands"
+  ],
+  "2403": [
+   "Northern Tablelands"
+  ],
+  "2404": [
+   "Northern Tablelands"
+  ],
+  "2405": [
+   "Northern Tablelands"
+  ],
+  "2406": [
+   "Northern Tablelands"
+  ],
+  "2408": [
+   "Northern Tablelands"
+  ],
+  "2409": [
+   "Northern Tablelands"
+  ],
+  "2410": [
+   "Northern Tablelands"
+  ],
+  "2411": [
+   "Northern Tablelands"
+  ],
+  "2415": [
+   "Upper Hunter"
+  ],
+  "2420": [
+   "Upper Hunter"
+  ],
+  "2421": [
+   "Upper Hunter"
+  ],
+  "2422": [
+   "Upper Hunter"
+  ],
+  "2423": [
+   "Myall Lakes"
+  ],
+  "2424": [
+   "Myall Lakes"
+  ],
+  "2425": [
+   "Upper Hunter"
+  ],
+  "2427": [
+   "Port Macquarie"
+  ],
+  "2428": [
+   "Myall Lakes"
+  ],
+  "2429": [
+   "Myall Lakes"
+  ],
+  "2430": [
+   "Myall Lakes"
+  ],
+  "2439": [
+   "Port Macquarie"
+  ],
+  "2440": [
+   "Oxley"
+  ],
+  "2441": [
+   "Oxley"
+  ],
+  "2443": [
+   "Port Macquarie"
+  ],
+  "2444": [
+   "Port Macquarie"
+  ],
+  "2445": [
+   "Port Macquarie"
+  ],
+  "2446": [
+   "Oxley"
+  ],
+  "2447": [
+   "Oxley"
+  ],
+  "2448": [
+   "Oxley"
+  ],
+  "2449": [
+   "Oxley"
+  ],
+  "2450": [
+   "Clarence",
+   "Coffs Harbour"
+  ],
+  "2452": [
+   "Coffs Harbour"
+  ],
+  "2453": [
+   "Clarence",
+   "Northern Tablelands",
+   "Oxley"
+  ],
+  "2454": [
+   "Oxley"
+  ],
+  "2455": [
+   "Oxley"
+  ],
+  "2456": [
+   "Coffs Harbour"
+  ],
+  "2460": [
+   "Clarence"
+  ],
+  "2462": [
+   "Clarence"
+  ],
+  "2463": [
+   "Clarence"
+  ],
+  "2464": [
+   "Clarence"
+  ],
+  "2466": [
+   "Clarence"
+  ],
+  "2469": [
+   "Clarence",
+   "Lismore"
+  ],
+  "2470": [
+   "Clarence"
+  ],
+  "2472": [
+   "Clarence"
+  ],
+  "2473": [
+   "Clarence"
+  ],
+  "2474": [
+   "Lismore"
+  ],
+  "2475": [
+   "Lismore"
+  ],
+  "2476": [
+   "Lismore"
+  ],
+  "2477": [
+   "Ballina"
+  ],
+  "2478": [
+   "Ballina"
+  ],
+  "2479": [
+   "Ballina"
+  ],
+  "2480": [
+   "Clarence",
+   "Lismore"
+  ],
+  "2481": [
+   "Ballina"
+  ],
+  "2482": [
+   "Ballina",
+   "Lismore"
+  ],
+  "2483": [
+   "Ballina",
+   "Tweed"
+  ],
+  "2484": [
+   "Lismore"
+  ],
+  "2485": [
+   "Tweed"
+  ],
+  "2486": [
+   "Tweed"
+  ],
+  "2487": [
+   "Tweed"
+  ],
+  "2489": [
+   "Tweed"
+  ],
+  "2490": [
+   "Tweed"
+  ],
+  "2500": [
+   "Keira",
+   "Wollongong"
+  ],
+  "2502": [
+   "Wollongong"
+  ],
+  "2505": [
+   "Wollongong"
+  ],
+  "2508": [
+   "Heathcote"
+  ],
+  "2515": [
+   "Heathcote"
+  ],
+  "2516": [
+   "Heathcote"
+  ],
+  "2517": [
+   "Keira"
+  ],
+  "2518": [
+   "Keira",
+   "Wollongong"
+  ],
+  "2519": [
+   "Keira"
+  ],
+  "2525": [
+   "Keira"
+  ],
+  "2526": [
+   "Keira"
+  ],
+  "2527": [
+   "Kiama"
+  ],
+  "2528": [
+   "Shellharbour",
+   "Wollongong"
+  ],
+  "2529": [
+   "Shellharbour"
+  ],
+  "2530": [
+   "Shellharbour",
+   "Wollongong"
+  ],
+  "2533": [
+   "Kiama"
+  ],
+  "2534": [
+   "Kiama"
+  ],
+  "2535": [
+   "Kiama"
+  ],
+  "2536": [
+   "Bega"
+  ],
+  "2537": [
+   "Bega"
+  ],
+  "2538": [
+   "South Coast"
+  ],
+  "2539": [
+   "South Coast"
+  ],
+  "2540": [
+   "Kiama",
+   "South Coast"
+  ],
+  "2541": [
+   "Kiama",
+   "South Coast"
+  ],
+  "2545": [
+   "Bega"
+  ],
+  "2546": [
+   "Bega"
+  ],
+  "2548": [
+   "Bega"
+  ],
+  "2549": [
+   "Bega"
+  ],
+  "2550": [
+   "Bega"
+  ],
+  "2551": [
+   "Bega"
+  ],
+  "2557": [
+   "Camden",
+   "Leppington"
+  ],
+  "2558": [
+   "Leppington"
+  ],
+  "2559": [
+   "Campbelltown"
+  ],
+  "2560": [
+   "Campbelltown"
+  ],
+  "2564": [
+   "Macquarie Fields"
+  ],
+  "2565": [
+   "Leppington",
+   "Macquarie Fields"
+  ],
+  "2566": [
+   "Leppington",
+   "Macquarie Fields"
+  ],
+  "2567": [
+   "Camden"
+  ],
+  "2568": [
+   "Wollondilly"
+  ],
+  "2569": [
+   "Wollondilly"
+  ],
+  "2570": [
+   "Badgerys Creek",
+   "Camden",
+   "Wollondilly"
+  ],
+  "2571": [
+   "Wollondilly"
+  ],
+  "2572": [
+   "Wollondilly"
+  ],
+  "2573": [
+   "Wollondilly"
+  ],
+  "2574": [
+   "Wollondilly"
+  ],
+  "2575": [
+   "Wollondilly"
+  ],
+  "2576": [
+   "Goulburn",
+   "Wollondilly"
+  ],
+  "2577": [
+   "Goulburn",
+   "Kiama"
+  ],
+  "2578": [
+   "Goulburn"
+  ],
+  "2579": [
+   "Goulburn"
+  ],
+  "2580": [
+   "Goulburn"
+  ],
+  "2581": [
+   "Goulburn"
+  ],
+  "2582": [
+   "Goulburn"
+  ],
+  "2583": [
+   "Goulburn"
+  ],
+  "2584": [
+   "Goulburn"
+  ],
+  "2586": [
+   "Cootamundra"
+  ],
+  "2587": [
+   "Cootamundra"
+  ],
+  "2590": [
+   "Cootamundra"
+  ],
+  "2594": [
+   "Cootamundra"
+  ],
+  "2619": [
+   "Monaro"
+  ],
+  "2620": [
+   "Goulburn",
+   "Monaro"
+  ],
+  "2621": [
+   "Monaro"
+  ],
+  "2622": [
+   "Monaro"
+  ],
+  "2623": [
+   "Monaro"
+  ],
+  "2626": [
+   "Monaro"
+  ],
+  "2627": [
+   "Monaro"
+  ],
+  "2628": [
+   "Monaro"
+  ],
+  "2629": [
+   "Monaro"
+  ],
+  "2630": [
+   "Monaro"
+  ],
+  "2631": [
+   "Monaro"
+  ],
+  "2632": [
+   "Monaro"
+  ],
+  "2633": [
+   "Monaro"
+  ],
+  "2640": [
+   "Albury"
+  ],
+  "2641": [
+   "Albury"
+  ],
+  "2642": [
+   "Albury"
+  ],
+  "2643": [
+   "Albury"
+  ],
+  "2644": [
+   "Albury"
+  ],
+  "2645": [
+   "Albury"
+  ],
+  "2646": [
+   "Albury"
+  ],
+  "2647": [
+   "Albury"
+  ],
+  "2648": [
+   "Murray"
+  ],
+  "2650": [
+   "Wagga Wagga"
+  ],
+  "2651": [
+   "Wagga Wagga"
+  ],
+  "2652": [
+   "Albury",
+   "Cootamundra",
+   "Murray",
+   "Wagga Wagga"
+  ],
+  "2653": [
+   "Albury"
+  ],
+  "2655": [
+   "Wagga Wagga"
+  ],
+  "2656": [
+   "Wagga Wagga"
+  ],
+  "2658": [
+   "Albury",
+   "Wagga Wagga"
+  ],
+  "2660": [
+   "Albury"
+  ],
+  "2661": [
+   "Wagga Wagga"
+  ],
+  "2663": [
+   "Cootamundra"
+  ],
+  "2665": [
+   "Cootamundra"
+  ],
+  "2666": [
+   "Cootamundra"
+  ],
+  "2669": [
+   "Barwon",
+   "Cootamundra",
+   "Murray"
+  ],
+  "2671": [
+   "Cootamundra"
+  ],
+  "2672": [
+   "Barwon"
+  ],
+  "2675": [
+   "Murray"
+  ],
+  "2678": [
+   "Wagga Wagga"
+  ],
+  "2680": [
+   "Murray"
+  ],
+  "2681": [
+   "Murray"
+  ],
+  "2700": [
+   "Cootamundra"
+  ],
+  "2701": [
+   "Cootamundra"
+  ],
+  "2702": [
+   "Cootamundra"
+  ],
+  "2703": [
+   "Murray"
+  ],
+  "2705": [
+   "Murray"
+  ],
+  "2707": [
+   "Murray"
+  ],
+  "2710": [
+   "Murray"
+  ],
+  "2711": [
+   "Murray"
+  ],
+  "2712": [
+   "Murray"
+  ],
+  "2713": [
+   "Murray"
+  ],
+  "2714": [
+   "Murray"
+  ],
+  "2715": [
+   "Murray"
+  ],
+  "2716": [
+   "Murray"
+  ],
+  "2717": [
+   "Murray"
+  ],
+  "2720": [
+   "Wagga Wagga"
+  ],
+  "2721": [
+   "Cootamundra"
+  ],
+  "2722": [
+   "Cootamundra",
+   "Wagga Wagga"
+  ],
+  "2725": [
+   "Cootamundra"
+  ],
+  "2726": [
+   "Cootamundra"
+  ],
+  "2729": [
+   "Wagga Wagga"
+  ],
+  "2730": [
+   "Wagga Wagga"
+  ],
+  "2731": [
+   "Murray"
+  ],
+  "2732": [
+   "Murray"
+  ],
+  "2733": [
+   "Murray"
+  ],
+  "2737": [
+   "Murray"
+  ],
+  "2739": [
+   "Murray"
+  ],
+  "2745": [
+   "Badgerys Creek"
+  ],
+  "2747": [
+   "Londonderry",
+   "Penrith"
+  ],
+  "2749": [
+   "Penrith"
+  ],
+  "2750": [
+   "Penrith"
+  ],
+  "2752": [
+   "Wollondilly"
+  ],
+  "2753": [
+   "Hawkesbury"
+  ],
+  "2754": [
+   "Hawkesbury"
+  ],
+  "2756": [
+   "Hawkesbury"
+  ],
+  "2757": [
+   "Hawkesbury"
+  ],
+  "2758": [
+   "Hawkesbury"
+  ],
+  "2759": [
+   "Badgerys Creek"
+  ],
+  "2760": [
+   "Londonderry"
+  ],
+  "2761": [
+   "Blacktown",
+   "Mount Druitt"
+  ],
+  "2762": [
+   "Riverstone"
+  ],
+  "2763": [
+   "Riverstone"
+  ],
+  "2765": [
+   "Hawkesbury",
+   "Londonderry",
+   "Riverstone"
+  ],
+  "2766": [
+   "Mount Druitt"
+  ],
+  "2767": [
+   "Blacktown"
+  ],
+  "2768": [
+   "Winston Hills"
+  ],
+  "2769": [
+   "Riverstone"
+  ],
+  "2770": [
+   "Mount Druitt"
+  ],
+  "2773": [
+   "Blue Mountains"
+  ],
+  "2774": [
+   "Blue Mountains"
+  ],
+  "2775": [
+   "Hawkesbury"
+  ],
+  "2776": [
+   "Blue Mountains"
+  ],
+  "2777": [
+   "Blue Mountains"
+  ],
+  "2779": [
+   "Blue Mountains"
+  ],
+  "2780": [
+   "Blue Mountains"
+  ],
+  "2785": [
+   "Blue Mountains"
+  ],
+  "2787": [
+   "Bathurst"
+  ],
+  "2790": [
+   "Bathurst"
+  ],
+  "2791": [
+   "Bathurst"
+  ],
+  "2793": [
+   "Cootamundra"
+  ],
+  "2794": [
+   "Cootamundra"
+  ],
+  "2795": [
+   "Bathurst"
+  ],
+  "2798": [
+   "Bathurst",
+   "Orange"
+  ],
+  "2799": [
+   "Bathurst"
+  ],
+  "2800": [
+   "Orange"
+  ],
+  "2804": [
+   "Orange"
+  ],
+  "2805": [
+   "Cootamundra"
+  ],
+  "2806": [
+   "Orange"
+  ],
+  "2809": [
+   "Cootamundra"
+  ],
+  "2810": [
+   "Cootamundra"
+  ],
+  "2817": [
+   "Barwon"
+  ],
+  "2818": [
+   "Dubbo"
+  ],
+  "2820": [
+   "Dubbo"
+  ],
+  "2821": [
+   "Dubbo"
+  ],
+  "2823": [
+   "Dubbo"
+  ],
+  "2824": [
+   "Barwon"
+  ],
+  "2827": [
+   "Barwon"
+  ],
+  "2829": [
+   "Barwon"
+  ],
+  "2830": [
+   "Dubbo"
+  ],
+  "2831": [
+   "Barwon",
+   "Dubbo"
+  ],
+  "2832": [
+   "Barwon"
+  ],
+  "2833": [
+   "Barwon"
+  ],
+  "2834": [
+   "Barwon"
+  ],
+  "2835": [
+   "Barwon"
+  ],
+  "2836": [
+   "Barwon"
+  ],
+  "2838": [
+   "Barwon"
+  ],
+  "2839": [
+   "Barwon"
+  ],
+  "2840": [
+   "Barwon"
+  ],
+  "2842": [
+   "Barwon"
+  ],
+  "2843": [
+   "Barwon"
+  ],
+  "2844": [
+   "Barwon"
+  ],
+  "2847": [
+   "Bathurst"
+  ],
+  "2848": [
+   "Bathurst"
+  ],
+  "2850": [
+   "Bathurst",
+   "Dubbo"
+  ],
+  "2852": [
+   "Dubbo"
+  ],
+  "2864": [
+   "Orange"
+  ],
+  "2865": [
+   "Orange"
+  ],
+  "2866": [
+   "Orange"
+  ],
+  "2867": [
+   "Orange"
+  ],
+  "2869": [
+   "Orange"
+  ],
+  "2870": [
+   "Orange"
+  ],
+  "2871": [
+   "Orange"
+  ],
+  "2874": [
+   "Orange"
+  ],
+  "2875": [
+   "Orange"
+  ],
+  "2877": [
+   "Barwon"
+  ],
+  "2878": [
+   "Barwon"
+  ],
+  "2879": [
+   "Barwon"
+  ],
+  "2880": [
+   "Barwon"
+  ],
+  "2898": [
+   "Port Macquarie"
+  ],
+  "3644": [
+   "Murray"
+  ],
+  "4383": [
+   "Lismore"
+  ]
+ }
+}

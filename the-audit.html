@@ -33,7 +33,7 @@
     "headline": "82% of NSW Government Schools Operate Public Facebook Pages",
     "description": "An audit of every NSW government school's Facebook presence. 1,780 schools operate public Pages accessible to AI scrapers, facial recognition systems, and training dataset builders. 637,818 students attend these schools.",
     "datePublished": "2026-04-16",
-    "dateModified": "2026-04-16",
+    "dateModified": "2026-08-04",
     "author": {"@type": "Organization", "name": "algorithms.technology", "url": "https://schools.algorithms.technology/"},
     "publisher": {"@type": "Organization", "name": "algorithms.technology", "url": "https://schools.algorithms.technology/"},
     "mainEntityOfPage": {
@@ -53,8 +53,9 @@
     "temporalCoverage": "2026-04-15/2026-04-16",
     "distribution": {
       "@type": "DataDownload",
+      "name": "Audit results aggregated by NSW state electorate",
       "encodingFormat": "application/json",
-      "contentUrl": "https://schools.algorithms.technology/data/audit_results_qa.json"
+      "contentUrl": "https://schools.algorithms.technology/data/electorates.json"
     },
     "isBasedOn": {
       "@type": "Dataset",
@@ -81,11 +82,11 @@
       <a href="index.html" class="nav__brand">algorithms<span>.</span>technology</a>
       <ul class="nav__links">
         <li><a href="index.html">Home</a></li>
+        <li><a href="esafety-advisory.html">The Advisory</a></li>
+        <li><a href="the-audit.html" class="active">The Audit</a></li>
         <li class="nav__dropdown">
-          <a href="evidence.html" class="nav__dropdown-toggle active">Evidence<svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></a>
+          <a href="evidence.html" class="nav__dropdown-toggle">Evidence<svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></a>
           <ul class="nav__dropdown-menu"><li><div class="nav__dropdown-menu-inner"><ul>
-            <li><a href="the-audit.html" class="active">The Audit</a></li>
-            <li class="nav__dropdown-divider"></li>
             <li><a href="ai-training.html">AI Training</a></li>
             <li><a href="facial-recognition.html">Facial Recognition</a></li>
             <li><a href="deepfakes.html">Deepfakes</a></li>
@@ -93,11 +94,11 @@
             <li><a href="no-consent.html">No Consent</a></li>
             <li class="nav__dropdown-divider"></li>
             <li><a href="the-system.html">The System</a></li>
+            <li><a href="why-it-matters.html">Objections</a></li>
           </ul></div></li></ul>
         </li>
-        <li><a href="for-your-school.html">For Your School</a></li>
-        <li><a href="for-government.html">For Government</a></li>
-        <li><a href="the-story.html">The Story</a></li>
+        <li><a href="for-government.html">The Asks</a></li>
+        <li><a href="take-action.html">Take Action</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
       <button class="nav__toggle" aria-label="Open menu" aria-expanded="false">
@@ -110,21 +111,23 @@
   <div class="nav__mobile" id="mobile-nav">
     <ul>
       <li><a href="index.html">Home</a></li>
+      <li><a href="esafety-advisory.html">The Advisory</a></li>
+      <li><a href="the-audit.html">The Audit</a></li>
       <li>
         <span class="nav__mobile-label">Evidence</span>
         <ul class="nav__mobile-sub">
-          <li><a href="the-audit.html" class="active">The Audit</a></li>
+          <li><a href="evidence.html">All evidence</a></li>
           <li><a href="ai-training.html">AI Training</a></li>
           <li><a href="facial-recognition.html">Facial Recognition</a></li>
           <li><a href="deepfakes.html">Deepfakes</a></li>
           <li><a href="training-datasets.html">Training Datasets</a></li>
           <li><a href="no-consent.html">No Consent</a></li>
           <li><a href="the-system.html">The System</a></li>
+          <li><a href="why-it-matters.html">Objections</a></li>
         </ul>
       </li>
-      <li><a href="for-your-school.html">For Your School</a></li>
-      <li><a href="for-government.html">For Government</a></li>
-      <li><a href="the-story.html">The Story</a></li>
+      <li><a href="for-government.html">The Asks</a></li>
+      <li><a href="take-action.html">Take Action</a></li>
       <li><a href="about.html">About</a></li>
     </ul>
   </div>
@@ -136,7 +139,7 @@
     <div class="container container--wide">
       <div class="hero__eyebrow">Original Research</div>
       <h1>82% of NSW government schools operate public Facebook Pages</h1>
-      <p>A Google search for a Facebook presence associated with every NSW government school. More than 1,750 operate public Pages. Over 600,000 students attend these schools each year.</p>
+      <p>A Google search for a Facebook presence associated with every NSW government school. 1,780 operate public Pages, covering 637,818 students, in all 93 NSW state electorates.</p>
     </div>
   </header>
 
@@ -452,6 +455,63 @@
           </table>
         </div>
 
+        <!-- State electorates -->
+        <div class="evidence-block" id="electorates">
+          <div class="evidence-block__label">By state electorate</div>
+          <h2>All 93 NSW state electorates. Not one is unaffected.</h2>
+          <p>
+            The audit was joined to current NSW state electorates, in force since the 2023
+            redistribution, using the electorate recorded for each school in the NSW Public Schools
+            Master Dataset. All 1,780 of the 1,780 schools joined.
+          </p>
+          <p>
+            Every one of the 93 seats in the NSW Legislative Assembly contains government schools
+            operating public Facebook Pages. This matters because the policy is a state departmental
+            instruction, so the accountable representatives are state members, not federal ones.
+          </p>
+
+          <table class="comparison-table mt-lg">
+            <thead>
+              <tr>
+                <th scope="col">State electorate</th>
+                <th scope="col">Member</th>
+                <th scope="col">Schools</th>
+                <th scope="col">Students</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Cabramatta</td><td>Tri Vo</td><td>19</td><td>12,828</td></tr>
+              <tr><td>Macquarie Fields</td><td>Anoulack Chanthivong</td><td>22</td><td>11,708</td></tr>
+              <tr><td>Camden</td><td>Sally Quinnell</td><td>17</td><td>11,383</td></tr>
+              <tr><td>Riverstone</td><td>Warren Kirby</td><td>15</td><td>11,006</td></tr>
+              <tr><td>Liverpool</td><td>Charishma Kaliyanda</td><td>23</td><td>10,878</td></tr>
+              <tr><td>Fairfield</td><td>David Saliba</td><td>19</td><td>10,596</td></tr>
+              <tr><td>Charlestown</td><td>Jodie Harrison</td><td>26</td><td>10,131</td></tr>
+              <tr><td>Mount Druitt</td><td>Edmond Atalla</td><td>23</td><td>9,932</td></tr>
+              <tr><td>Epping</td><td>Monica Tudehope</td><td>13</td><td>9,716</td></tr>
+              <tr><td>Londonderry</td><td>Prue Car</td><td>13</td><td>9,431</td></tr>
+            </tbody>
+          </table>
+
+          <p class="text-muted mt-lg" style="font-size: 0.9rem;">
+            Top 10 of 93 by student count. Londonderry, tenth on this list, is the electorate of the
+            Deputy Premier and Minister for Education and Early Learning. Student counts are
+            fractional FTE enrolment rounded per electorate, so they may not sum exactly to the
+            statewide total of 637,818. Members and electorate office addresses from
+            parliament.nsw.gov.au, retrieved 4 August 2026 and cross-checked against a second source.
+          </p>
+
+          <div class="callout callout--info mt-xl">
+            <div class="callout__title">The figures for your own electorate</div>
+            <p>
+              <a href="take-action.html">Enter a postcode on the Take Action page</a> to get the
+              school count, student count and sitting member for that electorate, along with a
+              letter you can send. 89 of the 531 postcodes containing a government school span more
+              than one electorate, so where yours does you will be asked to choose.
+            </p>
+          </div>
+        </div>
+
         <!-- Why This Matters -->
         <div class="evidence-block" id="why-it-matters">
           <div class="evidence-block__label">What this means</div>
@@ -545,7 +605,7 @@
           </div>
 
           <p>
-            <a href="for-your-school.html" class="btn btn--outline-dark">How to act at your school &rarr;</a>
+            <a href="take-action.html" class="btn btn--outline-dark">Write to your MP &rarr;</a>
           </p>
         </div>
 
@@ -649,6 +709,7 @@
           <li><a href="#scale">The scale</a></li>
           <li><a href="#school-types">By school type</a></li>
           <li><a href="#geography">By region</a></li>
+          <li><a href="#electorates">By state electorate</a></li>
           <li><a href="#why-it-matters">What this means</a></li>
           <li><a href="#the-system">The system</a></li>
           <li><a href="#alternative">The alternative</a></li>
@@ -663,13 +724,13 @@
   <!-- CTA -->
   <section class="section section--accent">
     <div class="container text-center">
-      <h2>The data is clear. The policy can be updated. Schools can act now.</h2>
+      <h2>The data is clear. The policy can be updated. One department can do it.</h2>
       <p class="text-lg mt-lg" style="color: rgba(255,255,255,0.65); max-width: 600px; margin-left: auto; margin-right: auto;">
         Every school that moves to a private Group is one less source of publicly accessible children's photos.
         Every P&amp;C that passes a motion builds the case for policy change.
       </p>
       <div class="btn-group btn-group--center mt-2xl">
-        <a href="for-your-school.html" class="btn btn--primary">Act at your school</a>
+        <a href="take-action.html" class="btn btn--primary">Write to your MP</a>
         <a href="for-government.html" class="btn btn--outline">What government can do</a>
       </div>
     </div>
@@ -703,9 +764,17 @@
       </div>
       <div class="footer__nav">
         <div class="footer__col">
+          <div class="footer__col-title">The case</div>
+          <ul class="footer__links footer__links--vertical">
+            <li><a href="esafety-advisory.html">The Advisory</a></li>
+            <li><a href="the-audit.html">The Audit</a></li>
+            <li><a href="the-system.html">The System</a></li>
+            <li><a href="why-it-matters.html">Objections</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
           <div class="footer__col-title">Evidence</div>
           <ul class="footer__links footer__links--vertical">
-            <li><a href="the-audit.html">The Audit</a></li>
             <li><a href="ai-training.html">AI Training</a></li>
             <li><a href="facial-recognition.html">Facial Recognition</a></li>
             <li><a href="deepfakes.html">Deepfakes</a></li>
@@ -714,18 +783,11 @@
           </ul>
         </div>
         <div class="footer__col">
-          <div class="footer__col-title">Understand</div>
-          <ul class="footer__links footer__links--vertical">
-            <li><a href="why-it-matters.html">Why It Matters</a></li>
-            <li><a href="the-story.html">The Story</a></li>
-            <li><a href="the-system.html">The System</a></li>
-          </ul>
-        </div>
-        <div class="footer__col">
           <div class="footer__col-title">Act</div>
           <ul class="footer__links footer__links--vertical">
-            <li><a href="for-your-school.html">For Your School</a></li>
-            <li><a href="for-government.html">For Government</a></li>
+            <li><a href="take-action.html">Take Action</a></li>
+            <li><a href="for-government.html">The Asks</a></li>
+            <li><a href="media.html">For Media</a></li>
           </ul>
         </div>
       </div>

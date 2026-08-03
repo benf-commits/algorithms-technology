@@ -22,22 +22,23 @@ function welcomeHtml(name: string | null): string {
 
 <p>${hi},</p>
 
-<p>Thank you for signing up. We are building an evidence base to help Australian schools protect children's photos from AI scraping, facial recognition, and deepfakes.</p>
+<p>Thank you for signing up. Here is the short version of why this site exists.</p>
 
-<p>Here is what we know:</p>
+<p>On <strong>28 July 2026</strong> the eSafety Commissioner published an advisory telling Australian schools to post fewer identifiable photos of students and staff, and that some imagery is "better shared in a closed or restricted space".</p>
 
-<ul style="padding-left:20px;">
-  <li style="margin-bottom:8px;"><strong>Meta confirmed under oath</strong> that it scrapes every public Facebook post from Australians since 2007 to train AI, including children's photos. <a href="https://schools.algorithms.technology/ai-training.html" style="color:#3061ff;">Read more</a></li>
-  <li style="margin-bottom:8px;"><strong>Clearview AI scraped 50 billion+ photos</strong> from Facebook for facial recognition. Children are included. <a href="https://schools.algorithms.technology/facial-recognition.html" style="color:#3061ff;">Read more</a></li>
-  <li style="margin-bottom:8px;"><strong>362 Australian children were identified</strong> in a single AI training dataset from less than 0.0001% of the data. <a href="https://schools.algorithms.technology/training-datasets.html" style="color:#3061ff;">Read more</a></li>
-  <li style="margin-bottom:8px;"><strong>AI-generated explicit images of 50+ schoolgirls</strong> were created using their social media photos. <a href="https://schools.algorithms.technology/deepfakes.html" style="color:#3061ff;">Read more</a></li>
-</ul>
+<p>NSW Department of Education policy requires the opposite. Its procedures state that school social media accounts "must not restrict access or be set as 'private' or 'closed.'"</p>
 
-<p>The first step: ask your school to move from a public Facebook Page to a private Group. It costs nothing and immediately removes children's photos from public access.</p>
+<p>An audit of every NSW government school found <strong>1,780 running public Facebook Pages</strong> under that instruction, covering <strong>637,818 students</strong>, in <strong>all 93 NSW state electorates</strong>.</p>
 
-<p><a href="https://schools.algorithms.technology/what-you-can-do.html" style="color:#3061ff;font-weight:600;">How to do it, including a P&C motion template &rarr;</a></p>
+<p><a href="https://schools.algorithms.technology/esafety-advisory.html" style="color:#3061ff;font-weight:600;">Both documents, quoted side by side &rarr;</a></p>
 
-<p>We will be in touch as this develops.</p>
+<p>The most useful thing you can do takes about two minutes. Enter your postcode, see how many schools in your state electorate run public Pages, and send your local member a letter asking the department to change the policy.</p>
+
+<p><a href="https://schools.algorithms.technology/take-action.html" style="color:#3061ff;font-weight:600;">Write to your MP &rarr;</a></p>
+
+<p>This is not a campaign against schools. A principal following departmental policy is not the problem, and one school changing its settings fixes one page out of 1,780. The instruction is written centrally and can be changed centrally, without legislation.</p>
+
+<p>We will be in touch when the department responds, or when the policy changes.</p>
 
 <p style="font-size:14px;color:#6b7280;margin-top:32px;padding-top:16px;border-top:1px solid #e5e7eb;">
 algorithms.technology<br>Our schools. Our children. Our responsibility.<br>
