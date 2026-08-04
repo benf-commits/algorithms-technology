@@ -71,11 +71,10 @@
       <a href="index.html" class="nav__brand">algorithms<span>.</span>technology</a>
       <ul class="nav__links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="esafety-advisory.html">The Advisory</a></li>
-        <li><a href="the-audit.html" class="active">The Audit</a></li>
         <li class="nav__dropdown">
           <a href="evidence.html" class="nav__dropdown-toggle">Evidence<svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></a>
           <ul class="nav__dropdown-menu"><li><div class="nav__dropdown-menu-inner"><ul>
+            <li><a href="harvested-imagery.html">Harvested Imagery</a></li>
             <li><a href="ai-training.html">AI Training</a></li>
             <li><a href="facial-recognition.html">Facial Recognition</a></li>
             <li><a href="deepfakes.html">Deepfakes</a></li>
@@ -86,7 +85,8 @@
             <li><a href="why-it-matters.html">Objections</a></li>
           </ul></div></li></ul>
         </li>
-        <li><a href="for-government.html">The Asks</a></li>
+        <li><a href="esafety-advisory.html">Conflicting Advice</a></li>
+        <li><a href="the-audit.html" class="active">The Audit</a></li>
         <li><a href="take-action.html">Take Action</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
@@ -100,12 +100,11 @@
   <div class="nav__mobile" id="mobile-nav">
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="esafety-advisory.html">The Advisory</a></li>
-      <li><a href="the-audit.html">The Audit</a></li>
       <li>
         <span class="nav__mobile-label">Evidence</span>
         <ul class="nav__mobile-sub">
           <li><a href="evidence.html">All evidence</a></li>
+          <li><a href="harvested-imagery.html">Harvested Imagery</a></li>
           <li><a href="ai-training.html">AI Training</a></li>
           <li><a href="facial-recognition.html">Facial Recognition</a></li>
           <li><a href="deepfakes.html">Deepfakes</a></li>
@@ -115,7 +114,8 @@
           <li><a href="why-it-matters.html">Objections</a></li>
         </ul>
       </li>
-      <li><a href="for-government.html">The Asks</a></li>
+      <li><a href="esafety-advisory.html">Conflicting Advice</a></li>
+      <li><a href="the-audit.html">The Audit</a></li>
       <li><a href="take-action.html">Take Action</a></li>
       <li><a href="about.html">About</a></li>
     </ul>
@@ -174,9 +174,9 @@
 
           <p>
             That form does not mention AI training. It does not mention facial recognition databases. It does
-            not mention deepfakes. It was written before any of those risks existed. It has not been updated
-            for a world where every public Facebook post is <a href="ai-training.html">scraped by Meta for
-            AI model training</a>, <a href="facial-recognition.html">harvested by Clearview AI for facial
+            not mention deepfakes. Somebody wrote it before any of those risks existed. Nobody has updated it
+            for a world where <a href="ai-training.html">Meta scrapes every public Facebook post to train
+            its AI models</a>, <a href="facial-recognition.html">harvested by Clearview AI for facial
             recognition</a>, and <a href="training-datasets.html">accessible to anyone building an AI
             training dataset</a>.
           </p>
@@ -195,8 +195,8 @@
           <p>
             This audit covers 2,160 of the 2,210 NSW government schools listed in the
             <a href="https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset" target="_blank" rel="noopener">NSW
-            Department of Education's public schools master dataset</a>. For each school, Google was searched
-            for <code>site:facebook.com "[School Name]"</code>. Every result was categorised by match quality.
+            Department of Education's public schools master dataset</a>. For each school we searched Google
+            for <code>site:facebook.com "[School Name]"</code>, then categorised every result by match quality.
           </p>
 
           <table class="comparison-table">
@@ -249,17 +249,17 @@
           </table>
 
           <p>
-            The <strong>conservative figure is reported here: 1,780 schools (82%)</strong>. This counts only
+            This page reports <strong>the conservative figure: 1,780 schools (82%)</strong>. It counts only
             school-managed Pages where the school name matches the Facebook page title. Including
             auto-generated pages (still publicly indexed, still accessible to scrapers) takes the total
             to 2,017 schools (93%). The primary stat understates rather than overstates the finding.
           </p>
 
           <div class="callout callout--info">
-            <div class="callout__title">P&amp;C pages are excluded from the headline stat</div>
+            <div class="callout__title">The headline stat leaves out P&amp;C pages</div>
             <p>
               91 schools matched only a P&amp;C or parent association page. P&amp;C pages do not typically
-              publish student photos. They are excluded from the 1,780 count and the 637,818 student figure.
+              publish student photos. The 1,780 count and the 637,818 student figure leave them out.
             </p>
           </div>
         </div>
@@ -375,7 +375,7 @@
           <p>
             The consistency is the point. When 82% of schools follow the same pattern regardless of where
             they are, the cause is not individual decisions. It is the system working as designed. NSW
-            Department of Education policy PD-2011-0418 governs school social media use. It was written
+            Department of Education policy PD-2011-0418 governs school social media use. The department wrote it
             in 2011.
           </p>
 
@@ -449,7 +449,7 @@
           <div class="evidence-block__label">By state electorate</div>
           <h2>All 93 NSW state electorates. Not one is unaffected.</h2>
           <p>
-            The audit was joined to current NSW state electorates, in force since the 2023
+            We joined the audit to current NSW state electorates, in force since the 2023
             redistribution, using the electorate recorded for each school in the NSW Public Schools
             Master Dataset. All 1,780 of the 1,780 schools joined.
           </p>
@@ -496,7 +496,7 @@
               <a href="take-action.html">Enter a postcode on the Take Action page</a> to get the
               school count, student count and sitting member for that electorate, along with a
               letter you can send. 89 of the 531 postcodes containing a government school span more
-              than one electorate, so where yours does you will be asked to choose.
+              than one electorate, so where yours does you pick from a short list.
             </p>
           </div>
         </div>
@@ -508,7 +508,7 @@
 
           <p>
             A public Facebook Page is not just visible to parents. It is visible to everyone on the internet.
-            It is indexed by search engines. And it is accessible to automated systems that collect data at scale.
+            Search engines index it. Automated systems that collect data at scale can reach it.
           </p>
 
           <p>
@@ -516,10 +516,10 @@
           </p>
 
           <ul>
-            <li><strong><a href="ai-training.html">Meta AI training</a>.</strong> Meta confirmed under oath to the Australian Senate that it scrapes every public post since 2007. Children's photos on school Pages are included. Australians have no opt-out.</li>
+            <li><strong><a href="ai-training.html">Meta AI training</a>.</strong> Meta confirmed under oath to the Australian Senate that it scrapes every public post since 2007. That includes children's photos on school Pages. Australians get no opt-out.</li>
             <li><strong><a href="facial-recognition.html">Facial recognition</a>.</strong> Clearview AI scraped 50 billion+ photos from Facebook for facial recognition. The Australian Information Commissioner found it breached the Privacy Act. The database grew after the deletion order.</li>
             <li><strong><a href="training-datasets.html">Training datasets</a>.</strong> Human Rights Watch found 362 identifiable Australian children in a single AI training dataset, from less than 0.0001% of the data. Some photos came from school uploads.</li>
-            <li><strong><a href="deepfakes.html">Deepfakes</a>.</strong> AI-generated explicit images of 50+ schoolgirls at a Melbourne school were created from publicly accessible photos. Deepfake reports to the eSafety Commissioner are doubling year on year.</li>
+            <li><strong><a href="deepfakes.html">Deepfakes</a>.</strong> Students generated explicit AI images of 50+ schoolgirls at a Melbourne school from publicly accessible photos. Deepfake reports to the eSafety Commissioner are doubling year on year.</li>
           </ul>
 
           <p>
@@ -532,7 +532,7 @@
         <!-- The System -->
         <div class="evidence-block" id="the-system">
           <div class="evidence-block__label">The system</div>
-          <h2>Schools are not at fault. The framework hasn't been updated for AI.</h2>
+          <h2>Schools are not at fault. Nobody has updated the framework for AI.</h2>
 
           <p>
             NSW Department of Education policy PD-2011-0418 governs how schools use social media. The policy
@@ -541,10 +541,10 @@
           </p>
 
           <p>
-            The policy was written in 2011. Before Meta confirmed it uses public posts for AI training (2024).
+            The department wrote the policy in 2011. Before Meta confirmed it uses public posts for AI training (2024).
             Before Clearview AI built a 50 billion photo facial recognition database from Facebook. Before
             362 Australian children were found in an AI training dataset (2024). Before AI-generated explicit
-            images of schoolgirls were created from their publicly accessible photos (2024).
+            students created images of schoolgirls from their publicly accessible photos (2024).
           </p>
 
           <p>
@@ -555,13 +555,13 @@
           <div class="callout callout--danger">
             <div class="callout__title">One administrative update protects every public school child in NSW</div>
             <p>
-              PD-2011-0418 is a departmental policy, not legislation. It can be updated by the NSW Department
+              PD-2011-0418 is a departmental policy, not legislation. The NSW Department can update it
               of Education without an act of parliament. Update the policy to allow or require private settings.
               Update the Permission to Publish form to disclose AI risks and offer granular consent. Issue
               guidance to schools on the current threat landscape.
             </p>
             <p>
-              <a href="for-government.html">Read the full policy recommendations &rarr;</a>
+              <a href="take-action.html#asks">Read the full policy recommendations &rarr;</a>
             </p>
           </div>
         </div>
@@ -614,8 +614,8 @@
 
           <h4>Search method</h4>
           <p>
-            For each school, Google was searched for <code>site:facebook.com "[School Name]"</code> using the
-            Apify Google Search Results Scraper. Schools were processed in 44 batches of 50. Top 5 Google
+            For each school we searched Google for <code>site:facebook.com "[School Name]"</code> using the
+            Apify Google Search Results Scraper, in 44 batches of 50 schools. Top 5 Google
             results returned per query. Facebook page URLs extracted from results and classified as Page or Group.
           </p>
 
@@ -649,8 +649,8 @@
           <h2>What this audit did not do</h2>
 
           <ul>
-            <li>No content from any Facebook page was accessed, viewed, downloaded, or scraped.</li>
-            <li>No photos of children were viewed or downloaded.</li>
+            <li>We accessed, viewed, downloaded and scraped no content from any Facebook page.</li>
+            <li>We viewed and downloaded no photos of children.</li>
             <li>All data comes from Google's public search index.</li>
             <li>The search query <code>site:facebook.com</code> returns only pages that are publicly indexed, confirming public accessibility by definition.</li>
           </ul>
@@ -670,7 +670,7 @@
           <p>
             The school dataset is publicly available from
             <a href="https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset" target="_blank" rel="noopener">Data.NSW</a>.
-            The audit methodology is described in full above. Anyone can run the same Google searches and
+            The methodology above sets out every step. Anyone can run the same Google searches and
             verify the results.
           </p>
 
@@ -713,15 +713,15 @@
   <!-- CTA -->
   <section class="section section--accent">
     <div class="container text-center">
-      <h2>The data is clear. The policy can be updated. One department can do it.</h2>
+      <h2>The data is clear. One department wrote the policy, and one department can rewrite it.</h2>
       <p class="text-lg mt-lg" style="color: rgba(255,255,255,0.65); max-width: 600px; margin-left: auto; margin-right: auto;">
-        The pattern is uniform because one clause produces it. That clause can be amended
+        The pattern is uniform because one clause produces it. One department can amend that clause
         administratively, it needs no legislation, and the eSafety Commissioner has now put the
         case for changing it in writing.
       </p>
       <div class="btn-group btn-group--center mt-2xl">
         <a href="take-action.html" class="btn btn--primary">Write to your MP</a>
-        <a href="for-government.html" class="btn btn--outline">Read the three asks</a>
+        <a href="take-action.html#asks" class="btn btn--outline">Read the three asks</a>
       </div>
     </div>
   </section>
@@ -756,7 +756,7 @@
         <div class="footer__col">
           <div class="footer__col-title">The case</div>
           <ul class="footer__links footer__links--vertical">
-            <li><a href="esafety-advisory.html">The Advisory</a></li>
+            <li><a href="esafety-advisory.html">Conflicting Advice</a></li>
             <li><a href="the-audit.html">The Audit</a></li>
             <li><a href="the-system.html">The System</a></li>
             <li><a href="why-it-matters.html">Objections</a></li>
@@ -765,6 +765,7 @@
         <div class="footer__col">
           <div class="footer__col-title">Evidence</div>
           <ul class="footer__links footer__links--vertical">
+            <li><a href="harvested-imagery.html">Harvested Imagery</a></li>
             <li><a href="ai-training.html">AI Training</a></li>
             <li><a href="facial-recognition.html">Facial Recognition</a></li>
             <li><a href="deepfakes.html">Deepfakes</a></li>
@@ -776,7 +777,7 @@
           <div class="footer__col-title">Act</div>
           <ul class="footer__links footer__links--vertical">
             <li><a href="take-action.html">Take Action</a></li>
-            <li><a href="for-government.html">The Asks</a></li>
+            <li><a href="take-action.html#asks">The Three Asks</a></li>
             <li><a href="media.html">For Media</a></li>
           </ul>
         </div>

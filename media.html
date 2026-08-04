@@ -48,11 +48,10 @@
       <a href="index.html" class="nav__brand">algorithms<span>.</span>technology</a>
       <ul class="nav__links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="esafety-advisory.html">The Advisory</a></li>
-        <li><a href="the-audit.html">The Audit</a></li>
         <li class="nav__dropdown">
           <a href="evidence.html" class="nav__dropdown-toggle">Evidence<svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></a>
           <ul class="nav__dropdown-menu"><li><div class="nav__dropdown-menu-inner"><ul>
+            <li><a href="harvested-imagery.html">Harvested Imagery</a></li>
             <li><a href="ai-training.html">AI Training</a></li>
             <li><a href="facial-recognition.html">Facial Recognition</a></li>
             <li><a href="deepfakes.html">Deepfakes</a></li>
@@ -63,7 +62,8 @@
             <li><a href="why-it-matters.html">Objections</a></li>
           </ul></div></li></ul>
         </li>
-        <li><a href="for-government.html">The Asks</a></li>
+        <li><a href="esafety-advisory.html">Conflicting Advice</a></li>
+        <li><a href="the-audit.html">The Audit</a></li>
         <li><a href="take-action.html">Take Action</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
@@ -77,12 +77,11 @@
   <div class="nav__mobile" id="mobile-nav">
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="esafety-advisory.html">The Advisory</a></li>
-      <li><a href="the-audit.html">The Audit</a></li>
       <li>
         <span class="nav__mobile-label">Evidence</span>
         <ul class="nav__mobile-sub">
           <li><a href="evidence.html">All evidence</a></li>
+          <li><a href="harvested-imagery.html">Harvested Imagery</a></li>
           <li><a href="ai-training.html">AI Training</a></li>
           <li><a href="facial-recognition.html">Facial Recognition</a></li>
           <li><a href="deepfakes.html">Deepfakes</a></li>
@@ -92,7 +91,8 @@
           <li><a href="why-it-matters.html">Objections</a></li>
         </ul>
       </li>
-      <li><a href="for-government.html">The Asks</a></li>
+      <li><a href="esafety-advisory.html">Conflicting Advice</a></li>
+      <li><a href="the-audit.html">The Audit</a></li>
       <li><a href="take-action.html">Take Action</a></li>
       <li><a href="about.html">About</a></li>
     </ul>
@@ -164,8 +164,8 @@
 
       <p>
         The fix is administrative and sits with one department.
-        <a href="for-government.html">The three asks are here</a>, and
-        <a href="esafety-advisory.html">both source documents are quoted side by side here</a>.
+        <a href="take-action.html#asks">The three asks are here</a>, and
+        <a href="esafety-advisory.html">this page quotes both source documents side by side here</a>.
       </p>
 
       <h2>Key statistics</h2>
@@ -192,7 +192,7 @@
           <tr>
             <td>NSW state electorates affected, of 93</td>
             <td><strong>93</strong></td>
-            <td><a href="for-government.html">Electorate breakdown</a></td>
+            <td><a href="take-action.html#asks">Electorate breakdown</a></td>
           </tr>
           <tr>
             <td>Reports to eSafety, Jan to Mar 2026, about anonymous accounts targeting schools and staff</td>
@@ -237,8 +237,8 @@
       <p>
         The audit covered 2,160 of 2,210 NSW government schools listed in the
         <a href="https://data.nsw.gov.au/data/dataset/nsw-education-nsw-public-schools-master-dataset" target="_blank" rel="noopener">Department of Education's public schools master dataset</a>.
-        For each school, Google was searched for <code>site:facebook.com "[School Name]"</code>.
-        Results were categorised by match quality. Every result was programmatically QA'd for name overlap,
+        For each school we searched Google for <code>site:facebook.com "[School Name]"</code>.
+        We categorised results by match quality, and a script QA'd every result for name overlap,
         P&amp;C detection, alumni detection, and URL pattern analysis. A stratified random sample of 30 results
         was manually verified against Google search results: 90% confirmed correct matches.
       </p>
@@ -250,7 +250,7 @@
       </p>
 
       <p>
-        <strong>No children's photos were accessed, viewed, downloaded, or scraped at any point.</strong>
+        <strong>At no point did we access, view, download or scrape a child's photo.</strong>
         All data comes from Google's public search index and the NSW government's published school dataset.
         The audit is fully reproducible.
       </p>
@@ -268,7 +268,7 @@
       </p>
 
       <p>
-        <strong>Per-electorate figures.</strong> The audit is joined to current NSW state electorates,
+        <strong>Per-electorate figures.</strong> We joined the audit to current NSW state electorates,
         so the school count and student count for any of the 93 seats is available, along with the
         sitting member. Useful for a local angle.
         <a href="take-action.html">The postcode lookup on Take Action</a> returns the same figures for
@@ -298,8 +298,8 @@
         <div class="callout__title">What this site does not claim</div>
         <p>
           The audit shows that these Pages are publicly accessible. It does not claim any particular
-          school's photos have been scraped, or that any particular child appears in any dataset. No
-          Facebook page was accessed and no photograph of a child was viewed or downloaded. Schools
+          school's photos have been scraped, or that any particular child appears in any dataset. We
+          accessed no Facebook page and viewed no photograph of a child. Schools
           and principals are following departmental policy, and the site does not attribute fault to
           them.
         </p>
@@ -313,14 +313,14 @@
       <h2>Key pages</h2>
 
       <ul>
-        <li><a href="esafety-advisory.html"><strong>The Advisory</strong></a>: The eSafety advisory of 28 July 2026 and PD-2011-0418-01, quoted side by side</li>
+        <li><a href="esafety-advisory.html"><strong>Conflicting Advice</strong></a>: the eSafety advisory of 28 July 2026 and PD-2011-0418-01, quoted side by side</li>
         <li><a href="the-audit.html"><strong>The Audit</strong></a>: Full findings, data tables, geographic breakdown, methodology</li>
         <li><a href="the-system.html"><strong>The System</strong></a>: Legal framework, PD-2011-0418, protection levels</li>
         <li><a href="ai-training.html"><strong>AI Training</strong></a>: Meta's Senate testimony on scraping public posts</li>
         <li><a href="facial-recognition.html"><strong>Facial Recognition</strong></a>: Clearview AI, 50B+ photos, OAIC breach finding</li>
         <li><a href="deepfakes.html"><strong>Deepfakes</strong></a>: Australian school incidents</li>
         <li><a href="training-datasets.html"><strong>Training Datasets</strong></a>: HRW/LAION-5B, 362 Australian children</li>
-        <li><a href="for-government.html"><strong>The Asks</strong></a>: The three administrative changes, plus the top 10 state electorates by student count</li>
+        <li><a href="take-action.html#asks"><strong>The Asks</strong></a>: The three administrative changes, plus the top 10 state electorates by student count</li>
         <li><a href="take-action.html"><strong>Take Action</strong></a>: Postcode lookup returning per-electorate figures and the sitting member</li>
         <li><a href="about.html"><strong>About</strong></a>: Who I am, principles, independence, corrections policy</li>
       </ul>
@@ -352,7 +352,7 @@
         <div class="footer__col">
           <div class="footer__col-title">The case</div>
           <ul class="footer__links footer__links--vertical">
-            <li><a href="esafety-advisory.html">The Advisory</a></li>
+            <li><a href="esafety-advisory.html">Conflicting Advice</a></li>
             <li><a href="the-audit.html">The Audit</a></li>
             <li><a href="the-system.html">The System</a></li>
             <li><a href="why-it-matters.html">Objections</a></li>
@@ -361,6 +361,7 @@
         <div class="footer__col">
           <div class="footer__col-title">Evidence</div>
           <ul class="footer__links footer__links--vertical">
+            <li><a href="harvested-imagery.html">Harvested Imagery</a></li>
             <li><a href="ai-training.html">AI Training</a></li>
             <li><a href="facial-recognition.html">Facial Recognition</a></li>
             <li><a href="deepfakes.html">Deepfakes</a></li>
@@ -372,7 +373,7 @@
           <div class="footer__col-title">Act</div>
           <ul class="footer__links footer__links--vertical">
             <li><a href="take-action.html">Take Action</a></li>
-            <li><a href="for-government.html">The Asks</a></li>
+            <li><a href="take-action.html#asks">The Three Asks</a></li>
             <li><a href="media.html">For Media</a></li>
           </ul>
         </div>
