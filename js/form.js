@@ -1,7 +1,21 @@
-// Newsletter form handler — calls Supabase edge function
+// Newsletter form handler — calls the newsletter-signup edge function.
+//
+// NOT LOADED BY ANY PAGE as at 04/08/2026. The signup form came off the site
+// while the backend was down, so no page includes this script and privacy.html
+// states that the site collects nothing. To bring the form back: restore the
+// newsletter section markup, add <script src="js/form.js"></script> to each
+// page, and confirm public.newsletter_signups exists in the fitz-brain project.
+//
+// Backend moved off the standalone algorithms.technology Supabase project, which
+// is paused, so every signup during the pause failed. Signups now land in the
+// fitz-brain project, table public.newsletter_signups.
+//
+// SITE_TOKEN is public by design. It is not a credential: the function holds no
+// read access, only inserts, and the token exists so a bot has to read this file
+// rather than POST at the endpoint blind.
 (function () {
-  var ENDPOINT = 'https://wgfptqqdumhhldsitoaj.supabase.co/functions/v1/contact-welcome';
-  var ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndnZnB0cXFkdW1oaGxkc2l0b2FqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ2OTE3NjIsImV4cCI6MjA5MDI2Nzc2Mn0.tGgLTc0yPlahCjoRQ4EaSze9NLtEPZ4YR7jPLJeWLl8';
+  var ENDPOINT = 'https://upddzgdnopjrulgfxcgd.supabase.co/functions/v1/newsletter-signup';
+  var SITE_TOKEN = 'dab2bd01083870119e311e7ec485c28b2a47234a34b0dc91731b2f70e3e5a586';
 
   var forms = document.querySelectorAll('#newsletter-form');
   forms.forEach(function (form) {
@@ -41,8 +55,7 @@
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer ' + ANON_KEY,
-          'apikey': ANON_KEY
+          'x-site-token': SITE_TOKEN
         },
         body: JSON.stringify(data)
       })
