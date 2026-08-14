@@ -2,19 +2,19 @@
  "_provenance": {
   "generated_by": "scripts/build_electorates.py",
   "audit": "research/nsw-audit/audit_results_qa.json",
-  "audit_category": "official_claimed",
+  "audit_filter": "phase-2 verified only: page owner name from phase2_raw_results.jsonl matches the school name (token overlap >= 0.5, as phase2_classify.py)",
   "master_dataset": "NSW Public Schools Master Dataset, Data.NSW, dated 15 April 2026",
   "electorate_column": "electorate_from_2023",
   "members": "data/nsw-mps.json",
   "note": "Students are a fractional FTE sum rounded once at the end. Per-electorate figures are rounded independently, so they may not add exactly to the statewide total."
  },
  "totals": {
-  "schools": 1780,
-  "students": 637818,
+  "schools": 1713,
+  "students": 596069,
   "electorates": 93,
-  "postcodes": 531,
-  "multi_electorate_postcodes": 89,
-  "schools_without_enrolment_data": 37
+  "postcodes": 532,
+  "multi_electorate_postcodes": 82,
+  "schools_without_enrolment_data": 32
  },
  "electorates": {
   "Albury": {
@@ -23,7 +23,7 @@
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2238&ref=1845",
    "email": "albury@parliament.nsw.gov.au",
    "schools": 33,
-   "students": 6044,
+   "students": 6944,
    "lgas": [
     "Albury",
     "Federation",
@@ -36,8 +36,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=42&ref=1845",
    "email": "auburn@parliament.nsw.gov.au",
-   "schools": 12,
-   "students": 7122,
+   "schools": 10,
+   "students": 5421,
    "lgas": [
     "Canterbury-Bankstown",
     "Cumberland"
@@ -48,8 +48,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=57&ref=1845",
    "email": "badgeryscreek@parliament.nsw.gov.au",
-   "schools": 13,
-   "students": 8436,
+   "schools": 16,
+   "students": 10365,
    "lgas": [
     "Camden",
     "Fairfield",
@@ -61,8 +61,8 @@
    "party": "The Greens",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=119&ref=1845",
    "email": "ballina@parliament.nsw.gov.au",
-   "schools": 21,
-   "students": 5461,
+   "schools": 15,
+   "students": 4657,
    "lgas": [
     "Ballina",
     "Byron"
@@ -73,8 +73,8 @@
    "party": "The Greens",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2270&ref=1845",
    "email": "balmain@parliament.nsw.gov.au",
-   "schools": 11,
-   "students": 5169,
+   "schools": 9,
+   "students": 3806,
    "lgas": [
     "Inner West",
     "Sydney"
@@ -85,8 +85,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=110&ref=1845",
    "email": "bankstown@parliament.nsw.gov.au",
-   "schools": 16,
-   "students": 6707,
+   "schools": 15,
+   "students": 6311,
    "lgas": [
     "Canterbury-Bankstown"
    ]
@@ -96,8 +96,8 @@
    "party": "Independent",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2239&ref=1845",
    "email": "barwon@parliament.nsw.gov.au",
-   "schools": 56,
-   "students": 7563,
+   "schools": 62,
+   "students": 8207,
    "lgas": [
     "Bogan",
     "Bourke",
@@ -109,6 +109,7 @@
     "Gilgandra",
     "Lachlan",
     "Narrabri",
+    "Unincorporated NSW",
     "Walgett",
     "Warren",
     "Warrumbungle"
@@ -120,7 +121,7 @@
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=62&ref=1845",
    "email": "bathurst@parliament.nsw.gov.au",
    "schools": 33,
-   "students": 7284,
+   "students": 6851,
    "lgas": [
     "Bathurst",
     "Blayney",
@@ -134,8 +135,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2264&ref=1845",
    "email": "bega@parliament.nsw.gov.au",
-   "schools": 25,
-   "students": 5493,
+   "schools": 22,
+   "students": 5259,
    "lgas": [
     "Bega Valley",
     "Eurobodalla"
@@ -146,8 +147,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2233&ref=1845",
    "email": "blacktown@parliament.nsw.gov.au",
-   "schools": 13,
-   "students": 7276,
+   "schools": 12,
+   "students": 6712,
    "lgas": [
     "Blacktown"
    ]
@@ -157,8 +158,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=123&ref=1845",
    "email": "bluemountains@parliament.nsw.gov.au",
-   "schools": 15,
-   "students": 5638,
+   "schools": 13,
+   "students": 5425,
    "lgas": [
     "Blue Mountains"
    ]
@@ -179,8 +180,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2284&ref=1845",
    "email": "camden@parliament.nsw.gov.au",
-   "schools": 17,
-   "students": 11383,
+   "schools": 19,
+   "students": 11887,
    "lgas": [
     "Camden"
    ]
@@ -190,8 +191,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=127&ref=1845",
    "email": "campbelltown@parliament.nsw.gov.au",
-   "schools": 21,
-   "students": 8270,
+   "schools": 25,
+   "students": 9830,
    "lgas": [
     "Campbelltown (NSW)",
     "Wollondilly"
@@ -202,8 +203,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=53&ref=1845",
    "email": "canterbury@parliament.nsw.gov.au",
-   "schools": 14,
-   "students": 6602,
+   "schools": 12,
+   "students": 6198,
    "lgas": [
     "Canterbury-Bankstown"
    ]
@@ -213,10 +214,9 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2280&ref=1845",
    "email": "castlehill@parliament.nsw.gov.au",
-   "schools": 8,
-   "students": 6398,
+   "schools": 6,
+   "students": 4619,
    "lgas": [
-    "Hornsby",
     "The Hills"
    ]
   },
@@ -225,8 +225,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=60&ref=1845",
    "email": "cessnock@parliament.nsw.gov.au",
-   "schools": 23,
-   "students": 6437,
+   "schools": 22,
+   "students": 6572,
    "lgas": [
     "Cessnock",
     "Lake Macquarie"
@@ -237,8 +237,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=102&ref=1845",
    "email": "charlestown@parliament.nsw.gov.au",
-   "schools": 26,
-   "students": 10131,
+   "schools": 22,
+   "students": 8537,
    "lgas": [
     "Lake Macquarie",
     "Newcastle"
@@ -249,8 +249,8 @@
    "party": "The Nationals",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2292&ref=1845",
    "email": "clarence@parliament.nsw.gov.au",
-   "schools": 22,
-   "students": 5459,
+   "schools": 31,
+   "students": 6295,
    "lgas": [
     "Clarence Valley",
     "Richmond Valley"
@@ -261,8 +261,8 @@
    "party": "The Nationals",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2244&ref=1845",
    "email": "coffsharbour@parliament.nsw.gov.au",
-   "schools": 16,
-   "students": 5539,
+   "schools": 21,
+   "students": 6497,
    "lgas": [
     "Coffs Harbour"
    ]
@@ -272,8 +272,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2246&ref=1845",
    "email": "coogee@parliament.nsw.gov.au",
-   "schools": 10,
-   "students": 3511,
+   "schools": 9,
+   "students": 4655,
    "lgas": [
     "Randwick",
     "Waverley"
@@ -285,7 +285,7 @@
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2235&ref=1845",
    "email": "cootamundra@parliament.nsw.gov.au",
    "schools": 49,
-   "students": 6730,
+   "students": 6516,
    "lgas": [
     "Bland",
     "Coolamon",
@@ -304,7 +304,7 @@
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=63&ref=1845",
    "email": "cronulla@parliament.nsw.gov.au",
    "schools": 15,
-   "students": 8267,
+   "students": 7293,
    "lgas": [
     "Sutherland"
    ]
@@ -314,8 +314,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2275&ref=1845",
    "email": "davidson@parliament.nsw.gov.au",
-   "schools": 17,
-   "students": 9061,
+   "schools": 11,
+   "students": 6730,
    "lgas": [
     "Ku-ring-gai",
     "Northern Beaches"
@@ -326,8 +326,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2277&ref=1845",
    "email": "drummoyne@parliament.nsw.gov.au",
-   "schools": 10,
-   "students": 3930,
+   "schools": 8,
+   "students": 3851,
    "lgas": [
     "Canada Bay"
    ]
@@ -337,8 +337,8 @@
    "party": "The Nationals",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2242&ref=1845",
    "email": "dubbo@parliament.nsw.gov.au",
-   "schools": 26,
-   "students": 7969,
+   "schools": 27,
+   "students": 6262,
    "lgas": [
     "Dubbo",
     "Mid-Western",
@@ -350,8 +350,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2291&ref=1845",
    "email": "easthills@parliament.nsw.gov.au",
-   "schools": 19,
-   "students": 7877,
+   "schools": 20,
+   "students": 8636,
    "lgas": [
     "Canterbury-Bankstown"
    ]
@@ -361,8 +361,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2307&ref=1845",
    "email": "epping@parliament.nsw.gov.au",
-   "schools": 13,
-   "students": 9716,
+   "schools": 10,
+   "students": 7112,
    "lgas": [
     "Hornsby",
     "Parramatta"
@@ -373,8 +373,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2287&ref=1845",
    "email": "fairfield@parliament.nsw.gov.au",
-   "schools": 19,
-   "students": 10596,
+   "schools": 12,
+   "students": 8313,
    "lgas": [
     "Canterbury-Bankstown",
     "Fairfield"
@@ -386,7 +386,7 @@
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2228&ref=1845",
    "email": "gosford@parliament.nsw.gov.au",
    "schools": 17,
-   "students": 6806,
+   "students": 7135,
    "lgas": [
     "Central Coast (NSW)"
    ]
@@ -396,8 +396,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2240&ref=1845",
    "email": "goulburn@parliament.nsw.gov.au",
-   "schools": 38,
-   "students": 7150,
+   "schools": 34,
+   "students": 6937,
    "lgas": [
     "Goulburn Mulwaree",
     "Upper Lachlan",
@@ -411,7 +411,7 @@
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=126&ref=1845",
    "email": "granville@parliament.nsw.gov.au",
    "schools": 11,
-   "students": 6534,
+   "students": 6562,
    "lgas": [
     "Cumberland"
    ]
@@ -421,8 +421,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2249&ref=1845",
    "email": "hawkesbury@parliament.nsw.gov.au",
-   "schools": 29,
-   "students": 6418,
+   "schools": 32,
+   "students": 6772,
    "lgas": [
     "Hawkesbury",
     "The Hills"
@@ -433,8 +433,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2289&ref=1845",
    "email": "heathcote@parliament.nsw.gov.au",
-   "schools": 22,
-   "students": 6463,
+   "schools": 23,
+   "students": 6119,
    "lgas": [
     "Sutherland",
     "Wollongong"
@@ -445,8 +445,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=97&ref=1845",
    "email": "heffron@parliament.nsw.gov.au",
-   "schools": 9,
-   "students": 3781,
+   "schools": 8,
+   "students": 3752,
    "lgas": [
     "Bayside (NSW)",
     "Inner West",
@@ -458,8 +458,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2273&ref=1845",
    "email": "holsworthy@parliament.nsw.gov.au",
-   "schools": 16,
-   "students": 7739,
+   "schools": 15,
+   "students": 7371,
    "lgas": [
     "Liverpool",
     "Sutherland"
@@ -470,8 +470,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2308&ref=1845",
    "email": "hornsby@parliament.nsw.gov.au",
-   "schools": 18,
-   "students": 8284,
+   "schools": 17,
+   "students": 5979,
    "lgas": [
     "Hornsby"
    ]
@@ -481,8 +481,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=58&ref=1845",
    "email": "keira@parliament.nsw.gov.au",
-   "schools": 16,
-   "students": 5406,
+   "schools": 17,
+   "students": 6464,
    "lgas": [
     "Wollongong"
    ]
@@ -492,8 +492,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=39&ref=1845",
    "email": "kellyville@parliament.nsw.gov.au",
-   "schools": 10,
-   "students": 8818,
+   "schools": 8,
+   "students": 6846,
    "lgas": [
     "The Hills"
    ]
@@ -503,8 +503,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2311&ref=1845",
    "email": "kiama@parliament.nsw.gov.au",
-   "schools": 18,
-   "students": 6651,
+   "schools": 17,
+   "students": 6686,
    "lgas": [
     "Kiama",
     "Shellharbour",
@@ -516,8 +516,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=108&ref=1845",
    "email": null,
-   "schools": 15,
-   "students": 7792,
+   "schools": 14,
+   "students": 8259,
    "lgas": [
     "Bayside (NSW)",
     "Georges River"
@@ -528,8 +528,8 @@
    "party": "Independent",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=41&ref=1845",
    "email": "lakemacquarie@parliament.nsw.gov.au",
-   "schools": 19,
-   "students": 5069,
+   "schools": 23,
+   "students": 5842,
    "lgas": [
     "Lake Macquarie"
    ]
@@ -539,11 +539,10 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=20&ref=1845",
    "email": "lanecove@parliament.nsw.gov.au",
-   "schools": 12,
-   "students": 5572,
+   "schools": 6,
+   "students": 2520,
    "lgas": [
     "Hunters Hill",
-    "Lane Cove",
     "Ryde"
    ]
   },
@@ -552,8 +551,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2278&ref=1845",
    "email": "leppington@parliament.nsw.gov.au",
-   "schools": 14,
-   "students": 7789,
+   "schools": 12,
+   "students": 6352,
    "lgas": [
     "Camden",
     "Campbelltown (NSW)",
@@ -565,8 +564,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2085&ref=1845",
    "email": "lismore@parliament.nsw.gov.au",
-   "schools": 48,
-   "students": 5666,
+   "schools": 52,
+   "students": 5573,
    "lgas": [
     "Byron",
     "Kyogle",
@@ -580,10 +579,9 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2281&ref=1845",
    "email": "liverpool@parliament.nsw.gov.au",
-   "schools": 23,
-   "students": 10878,
+   "schools": 20,
+   "students": 9913,
    "lgas": [
-    "Fairfield",
     "Liverpool"
    ]
   },
@@ -592,8 +590,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=105&ref=1845",
    "email": "londonderry@parliament.nsw.gov.au",
-   "schools": 13,
-   "students": 9431,
+   "schools": 14,
+   "students": 9000,
    "lgas": [
     "Blacktown",
     "Penrith"
@@ -604,8 +602,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=117&ref=1845",
    "email": "macquariefields@parliament.nsw.gov.au",
-   "schools": 22,
-   "students": 11708,
+   "schools": 19,
+   "students": 10761,
    "lgas": [
     "Campbelltown (NSW)",
     "Liverpool"
@@ -616,8 +614,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=120&ref=1845",
    "email": "maitland@parliament.nsw.gov.au",
-   "schools": 14,
-   "students": 7460,
+   "schools": 13,
+   "students": 7622,
    "lgas": [
     "Maitland"
    ]
@@ -627,8 +625,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2229&ref=1845",
    "email": "manly@parliament.nsw.gov.au",
-   "schools": 11,
-   "students": 5868,
+   "schools": 6,
+   "students": 2580,
    "lgas": [
     "Northern Beaches"
    ]
@@ -638,8 +636,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=27&ref=1845",
    "email": "maroubra@parliament.nsw.gov.au",
-   "schools": 10,
-   "students": 2435,
+   "schools": 11,
+   "students": 2761,
    "lgas": [
     "Bayside (NSW)",
     "Randwick"
@@ -650,8 +648,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=109&ref=1845",
    "email": "miranda@parliament.nsw.gov.au",
-   "schools": 20,
-   "students": 8505,
+   "schools": 23,
+   "students": 9680,
    "lgas": [
     "Sutherland"
    ]
@@ -661,8 +659,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2176&ref=1845",
    "email": "monaro@parliament.nsw.gov.au",
-   "schools": 24,
-   "students": 6230,
+   "schools": 25,
+   "students": 6159,
    "lgas": [
     "Queanbeyan-Palerang",
     "Snowy Monaro"
@@ -673,8 +671,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=104&ref=1845",
    "email": "mountdruitt@parliament.nsw.gov.au",
-   "schools": 23,
-   "students": 9932,
+   "schools": 18,
+   "students": 8384,
    "lgas": [
     "Blacktown"
    ]
@@ -684,8 +682,8 @@
    "party": "Independent",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2245&ref=1845",
    "email": "murray@parliament.nsw.gov.au",
-   "schools": 52,
-   "students": 7664,
+   "schools": 54,
+   "students": 8335,
    "lgas": [
     "Balranald",
     "Berrigan",
@@ -704,8 +702,8 @@
    "party": "The Nationals",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2290&ref=1845",
    "email": "myalllakes@parliament.nsw.gov.au",
-   "schools": 23,
-   "students": 5784,
+   "schools": 20,
+   "students": 5902,
    "lgas": [
     "Mid-Coast"
    ]
@@ -715,8 +713,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=103&ref=1845",
    "email": "newcastle@parliament.nsw.gov.au",
-   "schools": 16,
-   "students": 6586,
+   "schools": 14,
+   "students": 6026,
    "lgas": [
     "Newcastle",
     "Port Stephens"
@@ -727,8 +725,8 @@
    "party": "The Greens",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=107&ref=1845",
    "email": "newtown@parliament.nsw.gov.au",
-   "schools": 13,
-   "students": 4271,
+   "schools": 11,
+   "students": 3657,
    "lgas": [
     "Inner West",
     "Sydney"
@@ -739,8 +737,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2230&ref=1845",
    "email": "northshore@parliament.nsw.gov.au",
-   "schools": 7,
-   "students": 5219,
+   "schools": 5,
+   "students": 3776,
    "lgas": [
     "Mosman",
     "North Sydney"
@@ -751,8 +749,8 @@
    "party": "The Nationals",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2306&ref=1845",
    "email": "northerntablelands@parliament.nsw.gov.au",
-   "schools": 49,
-   "students": 7420,
+   "schools": 44,
+   "students": 6775,
    "lgas": [
     "Armidale",
     "Glen Innes Severn",
@@ -768,8 +766,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=83&ref=1845",
    "email": "oatley@parliament.nsw.gov.au",
-   "schools": 20,
-   "students": 7663,
+   "schools": 15,
+   "students": 6206,
    "lgas": [
     "Canterbury-Bankstown",
     "Georges River"
@@ -780,8 +778,8 @@
    "party": "Independent",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2226&ref=1845",
    "email": "orange@parliament.nsw.gov.au",
-   "schools": 30,
-   "students": 7006,
+   "schools": 31,
+   "students": 6610,
    "lgas": [
     "Cabonne",
     "Forbes",
@@ -794,8 +792,8 @@
    "party": "The Nationals",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2282&ref=1845",
    "email": "oxley@parliament.nsw.gov.au",
-   "schools": 36,
-   "students": 6448,
+   "schools": 39,
+   "students": 7232,
    "lgas": [
     "Bellingen",
     "Kempsey",
@@ -808,8 +806,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2276&ref=1845",
    "email": "parramatta@parliament.nsw.gov.au",
-   "schools": 17,
-   "students": 7546,
+   "schools": 16,
+   "students": 6556,
    "lgas": [
     "Parramatta"
    ]
@@ -819,8 +817,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2285&ref=1845",
    "email": "penrith@parliament.nsw.gov.au",
-   "schools": 15,
-   "students": 7660,
+   "schools": 16,
+   "students": 8372,
    "lgas": [
     "Penrith"
    ]
@@ -830,8 +828,8 @@
    "party": "Independent",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2309&ref=1845",
    "email": "pittwater@parliament.nsw.gov.au",
-   "schools": 9,
-   "students": 5265,
+   "schools": 8,
+   "students": 4685,
    "lgas": [
     "Northern Beaches"
    ]
@@ -842,11 +840,10 @@
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2310&ref=1845",
    "email": "portmacquarie@parliament.nsw.gov.au",
    "schools": 13,
-   "students": 3955,
+   "students": 4111,
    "lgas": [
     "Mid-Coast",
-    "Port Macquarie-Hastings",
-    "Unincorporated NSW"
+    "Port Macquarie-Hastings"
    ]
   },
   "Port Stephens": {
@@ -854,8 +851,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=106&ref=1845",
    "email": "portstephens@parliament.nsw.gov.au",
-   "schools": 14,
-   "students": 4822,
+   "schools": 13,
+   "students": 4070,
    "lgas": [
     "Mid-Coast",
     "Port Stephens"
@@ -866,8 +863,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=129&ref=1845",
    "email": "prospect@parliament.nsw.gov.au",
-   "schools": 14,
-   "students": 7888,
+   "schools": 11,
+   "students": 6395,
    "lgas": [
     "Blacktown",
     "Cumberland",
@@ -879,8 +876,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2293&ref=1845",
    "email": "riverstone@parliament.nsw.gov.au",
-   "schools": 15,
-   "students": 11006,
+   "schools": 14,
+   "students": 10631,
    "lgas": [
     "Blacktown"
    ]
@@ -890,8 +887,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=124&ref=1845",
    "email": "rockdale@parliament.nsw.gov.au",
-   "schools": 13,
-   "students": 3076,
+   "schools": 11,
+   "students": 2629,
    "lgas": [
     "Bayside (NSW)",
     "Georges River"
@@ -902,8 +899,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2283&ref=1845",
    "email": "ryde@parliament.nsw.gov.au",
-   "schools": 10,
-   "students": 6900,
+   "schools": 8,
+   "students": 5854,
    "lgas": [
     "Parramatta",
     "Ryde"
@@ -914,8 +911,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=72&ref=1845",
    "email": "shellharbour@parliament.nsw.gov.au",
-   "schools": 18,
-   "students": 7524,
+   "schools": 14,
+   "students": 6091,
    "lgas": [
     "Shellharbour",
     "Wollongong"
@@ -926,8 +923,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2274&ref=1845",
    "email": "southcoast@parliament.nsw.gov.au",
-   "schools": 15,
-   "students": 7342,
+   "schools": 17,
+   "students": 7615,
    "lgas": [
     "Shoalhaven"
    ]
@@ -937,8 +934,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2263&ref=1845",
    "email": "strathfield@parliament.nsw.gov.au",
-   "schools": 14,
-   "students": 7249,
+   "schools": 8,
+   "students": 3742,
    "lgas": [
     "Burwood",
     "Canterbury-Bankstown",
@@ -950,8 +947,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=111&ref=1845",
    "email": "summerhill@parliament.nsw.gov.au",
-   "schools": 6,
-   "students": 2216,
+   "schools": 8,
+   "students": 2923,
    "lgas": [
     "Inner West"
    ]
@@ -962,7 +959,7 @@
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=128&ref=1845",
    "email": "swansea@parliament.nsw.gov.au",
    "schools": 19,
-   "students": 7271,
+   "students": 7033,
    "lgas": [
     "Central Coast (NSW)",
     "Lake Macquarie"
@@ -973,8 +970,8 @@
    "party": "Independent",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=98&ref=1845",
    "email": "sydney@parliament.nsw.gov.au",
-   "schools": 10,
-   "students": 4728,
+   "schools": 11,
+   "students": 4719,
    "lgas": [
     "Sydney",
     "Woollahra"
@@ -986,7 +983,7 @@
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=81&ref=1845",
    "email": "tamworth@parliament.nsw.gov.au",
    "schools": 36,
-   "students": 8586,
+   "students": 7100,
    "lgas": [
     "Gunnedah",
     "Liverpool Plains",
@@ -999,7 +996,7 @@
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=112&ref=1845",
    "email": "terrigal@parliament.nsw.gov.au",
    "schools": 12,
-   "students": 5968,
+   "students": 5667,
    "lgas": [
     "Central Coast (NSW)"
    ]
@@ -1009,8 +1006,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=113&ref=1845",
    "email": "TheEntrance@parliament.nsw.gov.au",
-   "schools": 13,
-   "students": 5864,
+   "schools": 10,
+   "students": 4340,
    "lgas": [
     "Central Coast (NSW)"
    ]
@@ -1020,8 +1017,8 @@
    "party": "The Nationals",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=36&ref=1845",
    "email": "tweed@parliament.nsw.gov.au",
-   "schools": 15,
-   "students": 4994,
+   "schools": 17,
+   "students": 5064,
    "lgas": [
     "Tweed"
    ]
@@ -1031,8 +1028,8 @@
    "party": "The Nationals",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2261&ref=1845",
    "email": "upperhunter@parliament.nsw.gov.au",
-   "schools": 36,
-   "students": 7283,
+   "schools": 38,
+   "students": 7884,
    "lgas": [
     "Cessnock",
     "Dungog",
@@ -1048,8 +1045,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2288&ref=1845",
    "email": "vaucluse@parliament.nsw.gov.au",
-   "schools": 7,
-   "students": 3469,
+   "schools": 5,
+   "students": 2454,
    "lgas": [
     "Waverley",
     "Woollahra"
@@ -1060,8 +1057,8 @@
    "party": "Independent",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2237&ref=1845",
    "email": "waggawagga@parliament.nsw.gov.au",
-   "schools": 30,
-   "students": 6708,
+   "schools": 31,
+   "students": 7156,
    "lgas": [
     "Lockhart",
     "Snowy Valleys",
@@ -1073,8 +1070,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=118&ref=1845",
    "email": "wahroonga@parliament.nsw.gov.au",
-   "schools": 11,
-   "students": 6498,
+   "schools": 6,
+   "students": 4806,
    "lgas": [
     "Hornsby",
     "Ku-ring-gai"
@@ -1085,8 +1082,8 @@
    "party": "Independent",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2286&ref=1845",
    "email": "wakehurst@parliament.nsw.gov.au",
-   "schools": 13,
-   "students": 5764,
+   "schools": 12,
+   "students": 5525,
    "lgas": [
     "Northern Beaches"
    ]
@@ -1096,8 +1093,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=33&ref=1845",
    "email": "wallsend@parliament.nsw.gov.au",
-   "schools": 22,
-   "students": 7717,
+   "schools": 23,
+   "students": 6896,
    "lgas": [
     "Lake Macquarie",
     "Newcastle"
@@ -1108,8 +1105,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2265&ref=1845",
    "email": "willoughby@parliament.nsw.gov.au",
-   "schools": 9,
-   "students": 7417,
+   "schools": 7,
+   "students": 5640,
    "lgas": [
     "North Sydney",
     "Willoughby"
@@ -1120,8 +1117,8 @@
    "party": "Liberal Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=116&ref=1845",
    "email": "winstonhills@parliament.nsw.gov.au",
-   "schools": 13,
-   "students": 6274,
+   "schools": 12,
+   "students": 6078,
    "lgas": [
     "Blacktown",
     "Parramatta"
@@ -1132,8 +1129,8 @@
    "party": "Independent",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2279&ref=1845",
    "email": "wollondilly@parliament.nsw.gov.au",
-   "schools": 17,
-   "students": 4693,
+   "schools": 18,
+   "students": 5243,
    "lgas": [
     "Wingecarribee",
     "Wollondilly"
@@ -1144,8 +1141,8 @@
    "party": "Australian Labor Party",
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2225&ref=1845",
    "email": "wollongong@parliament.nsw.gov.au",
-   "schools": 18,
-   "students": 5333,
+   "schools": 17,
+   "students": 6133,
    "lgas": [
     "Wollongong"
    ]
@@ -1156,7 +1153,7 @@
    "url": "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=31&ref=1845",
    "email": "wyong@parliament.nsw.gov.au",
    "schools": 16,
-   "students": 7461,
+   "students": 7519,
    "lgas": [
     "Central Coast (NSW)"
    ]
@@ -1199,9 +1196,6 @@
   ],
   "2024": [
    "Coogee"
-  ],
-  "2025": [
-   "Vaucluse"
   ],
   "2026": [
    "Vaucluse"
@@ -1278,16 +1272,8 @@
   "2063": [
    "Willoughby"
   ],
-  "2064": [
-   "Willoughby"
-  ],
   "2065": [
-   "Lane Cove",
    "North Shore",
-   "Willoughby"
-  ],
-  "2066": [
-   "Lane Cove",
    "Willoughby"
   ],
   "2067": [
@@ -1296,20 +1282,11 @@
   "2068": [
    "Willoughby"
   ],
-  "2069": [
-   "Davidson"
-  ],
   "2070": [
    "Davidson"
   ],
   "2071": [
    "Davidson"
-  ],
-  "2072": [
-   "Davidson"
-  ],
-  "2073": [
-   "Wahroonga"
   ],
   "2074": [
    "Davidson",
@@ -1335,6 +1312,9 @@
   "2081": [
    "Hornsby"
   ],
+  "2082": [
+   "Hornsby"
+  ],
   "2083": [
    "Hornsby"
   ],
@@ -1345,8 +1325,7 @@
    "Davidson"
   ],
   "2086": [
-   "Davidson",
-   "Wakehurst"
+   "Davidson"
   ],
   "2087": [
    "Wakehurst"
@@ -1354,8 +1333,8 @@
   "2088": [
    "North Shore"
   ],
-  "2092": [
-   "Manly"
+  "2089": [
+   "North Shore"
   ],
   "2093": [
    "Manly"
@@ -1370,7 +1349,6 @@
    "Wakehurst"
   ],
   "2099": [
-   "Manly",
    "Wakehurst"
   ],
   "2100": [
@@ -1440,13 +1418,7 @@
   "2131": [
    "Summer Hill"
   ],
-  "2132": [
-   "Strathfield"
-  ],
   "2133": [
-   "Strathfield"
-  ],
-  "2134": [
    "Strathfield"
   ],
   "2135": [
@@ -1473,9 +1445,6 @@
   "2143": [
    "Auburn"
   ],
-  "2144": [
-   "Auburn"
-  ],
   "2145": [
    "Parramatta",
    "Prospect",
@@ -1496,7 +1465,6 @@
    "Parramatta"
   ],
   "2151": [
-   "Epping",
    "Parramatta"
   ],
   "2152": [
@@ -1522,7 +1490,8 @@
    "Hornsby"
   ],
   "2158": [
-   "Castle Hill"
+   "Castle Hill",
+   "Hornsby"
   ],
   "2159": [
    "Hornsby"
@@ -1531,7 +1500,6 @@
    "Granville"
   ],
   "2161": [
-   "Fairfield",
    "Granville"
   ],
   "2162": [
@@ -1560,7 +1528,6 @@
   "2170": [
    "Cabramatta",
    "Holsworthy",
-   "Leppington",
    "Liverpool",
    "Macquarie Fields"
   ],
@@ -1582,8 +1549,7 @@
    "Fairfield"
   ],
   "2177": [
-   "Cabramatta",
-   "Liverpool"
+   "Cabramatta"
   ],
   "2178": [
    "Leppington"
@@ -1598,7 +1564,8 @@
    "Canterbury"
   ],
   "2193": [
-   "Canterbury"
+   "Canterbury",
+   "Summer Hill"
   ],
   "2194": [
    "Canterbury",
@@ -1670,12 +1637,14 @@
    "Kogarah",
    "Rockdale"
   ],
+  "2218": [
+   "Kogarah"
+  ],
   "2219": [
    "Rockdale"
   ],
   "2220": [
-   "Kogarah",
-   "Oatley"
+   "Kogarah"
   ],
   "2221": [
    "Kogarah",
@@ -1738,7 +1707,8 @@
    "Gosford"
   ],
   "2257": [
-   "Gosford"
+   "Gosford",
+   "Terrigal"
   ],
   "2258": [
    "The Entrance"
@@ -1765,6 +1735,9 @@
    "Wyong"
   ],
   "2264": [
+   "Lake Macquarie"
+  ],
+  "2265": [
    "Lake Macquarie"
   ],
   "2267": [
@@ -1816,9 +1789,6 @@
   "2292": [
    "Newcastle"
   ],
-  "2294": [
-   "Newcastle"
-  ],
   "2295": [
    "Newcastle"
   ],
@@ -1854,6 +1824,9 @@
   "2307": [
    "Wallsend"
   ],
+  "2311": [
+   "Upper Hunter"
+  ],
   "2312": [
    "Myall Lakes"
   ],
@@ -1871,7 +1844,6 @@
    "Upper Hunter"
   ],
   "2321": [
-   "Maitland",
    "Port Stephens",
    "Upper Hunter"
   ],
@@ -1881,17 +1853,12 @@
    "Wallsend"
   ],
   "2323": [
-   "Cessnock",
    "Maitland"
   ],
   "2324": [
-   "Maitland",
    "Port Stephens"
   ],
   "2325": [
-   "Cessnock"
-  ],
-  "2326": [
    "Cessnock"
   ],
   "2327": [
@@ -1909,10 +1876,10 @@
   "2333": [
    "Upper Hunter"
   ],
-  "2334": [
-   "Cessnock"
-  ],
   "2335": [
+   "Upper Hunter"
+  ],
+  "2336": [
    "Upper Hunter"
   ],
   "2337": [
@@ -1920,6 +1887,9 @@
   ],
   "2338": [
    "Upper Hunter"
+  ],
+  "2339": [
+   "Tamworth"
   ],
   "2340": [
    "Tamworth"
@@ -1936,7 +1906,13 @@
   "2344": [
    "Tamworth"
   ],
+  "2345": [
+   "Tamworth"
+  ],
   "2346": [
+   "Tamworth"
+  ],
+  "2347": [
    "Tamworth"
   ],
   "2350": [
@@ -1949,11 +1925,7 @@
    "Tamworth"
   ],
   "2354": [
-   "Northern Tablelands",
-   "Tamworth"
-  ],
-  "2355": [
-   "Tamworth"
+   "Northern Tablelands"
   ],
   "2356": [
    "Barwon"
@@ -1974,6 +1946,9 @@
    "Northern Tablelands"
   ],
   "2365": [
+   "Northern Tablelands"
+  ],
+  "2369": [
    "Northern Tablelands"
   ],
   "2370": [
@@ -1997,7 +1972,7 @@
   "2382": [
    "Barwon"
   ],
-  "2386": [
+  "2387": [
    "Barwon"
   ],
   "2388": [
@@ -2012,6 +1987,9 @@
   "2396": [
    "Barwon"
   ],
+  "2399": [
+   "Northern Tablelands"
+  ],
   "2400": [
    "Northern Tablelands"
   ],
@@ -2021,9 +1999,6 @@
   "2402": [
    "Northern Tablelands"
   ],
-  "2403": [
-   "Northern Tablelands"
-  ],
   "2404": [
    "Northern Tablelands"
   ],
@@ -2031,9 +2006,6 @@
    "Northern Tablelands"
   ],
   "2406": [
-   "Northern Tablelands"
-  ],
-  "2408": [
    "Northern Tablelands"
   ],
   "2409": [
@@ -2066,6 +2038,9 @@
   "2425": [
    "Upper Hunter"
   ],
+  "2426": [
+   "Port Macquarie"
+  ],
   "2427": [
    "Port Macquarie"
   ],
@@ -2073,10 +2048,14 @@
    "Myall Lakes"
   ],
   "2429": [
-   "Myall Lakes"
+   "Myall Lakes",
+   "Oxley"
   ],
   "2430": [
    "Myall Lakes"
+  ],
+  "2431": [
+   "Oxley"
   ],
   "2439": [
    "Port Macquarie"
@@ -2091,9 +2070,6 @@
    "Port Macquarie"
   ],
   "2444": [
-   "Port Macquarie"
-  ],
-  "2445": [
    "Port Macquarie"
   ],
   "2446": [
@@ -2141,6 +2117,9 @@
   "2464": [
    "Clarence"
   ],
+  "2465": [
+   "Clarence"
+  ],
   "2466": [
    "Clarence"
   ],
@@ -2151,6 +2130,9 @@
   "2470": [
    "Clarence"
   ],
+  "2471": [
+   "Clarence"
+  ],
   "2472": [
    "Clarence"
   ],
@@ -2158,9 +2140,6 @@
    "Clarence"
   ],
   "2474": [
-   "Lismore"
-  ],
-  "2475": [
    "Lismore"
   ],
   "2476": [
@@ -2216,6 +2195,9 @@
    "Wollongong"
   ],
   "2505": [
+   "Wollongong"
+  ],
+  "2506": [
    "Wollongong"
   ],
   "2508": [
@@ -2286,9 +2268,6 @@
    "Kiama",
    "South Coast"
   ],
-  "2545": [
-   "Bega"
-  ],
   "2546": [
    "Bega"
   ],
@@ -2331,9 +2310,6 @@
   "2567": [
    "Camden"
   ],
-  "2568": [
-   "Wollondilly"
-  ],
   "2569": [
    "Wollondilly"
   ],
@@ -2358,12 +2334,10 @@
    "Wollondilly"
   ],
   "2576": [
-   "Goulburn",
    "Wollondilly"
   ],
   "2577": [
-   "Goulburn",
-   "Kiama"
+   "Goulburn"
   ],
   "2578": [
    "Goulburn"
@@ -2381,9 +2355,6 @@
    "Goulburn"
   ],
   "2583": [
-   "Goulburn"
-  ],
-  "2584": [
    "Goulburn"
   ],
   "2586": [
@@ -2445,7 +2416,8 @@
    "Albury"
   ],
   "2642": [
-   "Albury"
+   "Albury",
+   "Wagga Wagga"
   ],
   "2643": [
    "Albury"
@@ -2474,7 +2446,6 @@
   "2652": [
    "Albury",
    "Cootamundra",
-   "Murray",
    "Wagga Wagga"
   ],
   "2653": [
@@ -2489,6 +2460,9 @@
   "2658": [
    "Albury",
    "Wagga Wagga"
+  ],
+  "2659": [
+   "Albury"
   ],
   "2660": [
    "Albury"
@@ -2505,13 +2479,13 @@
   "2666": [
    "Cootamundra"
   ],
+  "2668": [
+   "Cootamundra"
+  ],
   "2669": [
    "Barwon",
    "Cootamundra",
    "Murray"
-  ],
-  "2671": [
-   "Cootamundra"
   ],
   "2672": [
    "Barwon"
@@ -2541,6 +2515,9 @@
    "Murray"
   ],
   "2705": [
+   "Murray"
+  ],
+  "2706": [
    "Murray"
   ],
   "2707": [
@@ -2573,9 +2550,6 @@
   "2720": [
    "Wagga Wagga"
   ],
-  "2721": [
-   "Cootamundra"
-  ],
   "2722": [
    "Cootamundra",
    "Wagga Wagga"
@@ -2586,8 +2560,8 @@
   "2726": [
    "Cootamundra"
   ],
-  "2729": [
-   "Wagga Wagga"
+  "2727": [
+   "Cootamundra"
   ],
   "2730": [
    "Wagga Wagga"
@@ -2601,7 +2575,13 @@
   "2733": [
    "Murray"
   ],
+  "2736": [
+   "Murray"
+  ],
   "2737": [
+   "Murray"
+  ],
+  "2738": [
    "Murray"
   ],
   "2739": [
@@ -2619,9 +2599,6 @@
   ],
   "2750": [
    "Penrith"
-  ],
-  "2752": [
-   "Wollondilly"
   ],
   "2753": [
    "Hawkesbury"
@@ -2704,9 +2681,6 @@
   "2790": [
    "Bathurst"
   ],
-  "2791": [
-   "Bathurst"
-  ],
   "2793": [
    "Cootamundra"
   ],
@@ -2714,6 +2688,9 @@
    "Cootamundra"
   ],
   "2795": [
+   "Bathurst"
+  ],
+  "2797": [
    "Bathurst"
   ],
   "2798": [
@@ -2759,7 +2736,13 @@
   "2824": [
    "Barwon"
   ],
+  "2825": [
+   "Barwon"
+  ],
   "2827": [
+   "Barwon"
+  ],
+  "2828": [
    "Barwon"
   ],
   "2829": [
@@ -2796,19 +2779,22 @@
   "2840": [
    "Barwon"
   ],
-  "2842": [
-   "Barwon"
-  ],
   "2843": [
    "Barwon"
   ],
   "2844": [
    "Barwon"
   ],
+  "2845": [
+   "Bathurst"
+  ],
   "2847": [
    "Bathurst"
   ],
   "2848": [
+   "Bathurst"
+  ],
+  "2849": [
    "Bathurst"
   ],
   "2850": [
@@ -2827,7 +2813,7 @@
   "2866": [
    "Orange"
   ],
-  "2867": [
+  "2868": [
    "Orange"
   ],
   "2869": [
@@ -2839,10 +2825,16 @@
   "2871": [
    "Orange"
   ],
+  "2873": [
+   "Barwon"
+  ],
   "2874": [
    "Orange"
   ],
   "2875": [
+   "Orange"
+  ],
+  "2876": [
    "Orange"
   ],
   "2877": [
@@ -2856,9 +2848,6 @@
   ],
   "2880": [
    "Barwon"
-  ],
-  "2898": [
-   "Port Macquarie"
   ],
   "3644": [
    "Murray"

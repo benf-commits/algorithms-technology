@@ -83,7 +83,7 @@
       '',
       'In ' + name + ', ' + schools + ' government ' + plural + ' serving ' + students +
         ' students operate public Facebook Pages under that policy. Across NSW the figure is ' +
-        '1,780 schools and 637,818 students, in every one of the 93 state electorates.',
+        '1,713 schools and 596,069 students, in every one of the 93 state electorates.',
       '',
       'This is not a theoretical risk. eSafety reports that between January and March 2026 it ' +
         'received more than 100 reports about anonymous accounts targeting schools and school ' +
@@ -110,7 +110,7 @@
       'None of these three changes requires legislation. The first requires nothing more than a ' +
         'memo. School Facebook accounts are already created by the department\'s social media ' +
         'team and centrally linked to the department\'s Business Manager, so the department can ' +
-        'change the standard once rather than leaving 1,780 principals to work it out alone. ' +
+        'change the standard once rather than leaving 1,713 principals to work it out alone. ' +
         'eSafety itself says that "schools or school sectors can set common expectations and ' +
         'share practical guidance, reducing the need for each school to build its response from ' +
         'scratch."',
@@ -272,7 +272,7 @@
         result.innerHTML =
           '<div class="callout callout--info">' +
           '<div class="callout__title">No NSW government school in postcode ' + postcode + '</div>' +
-          '<p>The audit covers NSW government schools only, and 531 postcodes contain one. ' +
+          '<p>The audit covers NSW government schools only, and 532 postcodes contain one. ' +
           'This postcode is not among them, which usually means it is outside NSW, or it has ' +
           'no government school, or its schools are all non-government.</p>' +
           '<p>You can still write to your local member. ' +
